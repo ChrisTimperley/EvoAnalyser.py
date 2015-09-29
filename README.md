@@ -10,6 +10,10 @@ log files.
 * Initialisation
 * Search
 
+### Environment Section
+
+OS, random seed, framework, date/time.
+
 ### Algorithm Section
 
 Provides a description of the genetic algorithm being used to solve the
@@ -22,3 +26,7 @@ of the rest of the file.
 This section identifies the type of problem being solved, and provides its
 relevant details (based on the type of the problem and the search method in
 use).
+
+### Search Section
+
+This final section contains a detailed log of the search process.
