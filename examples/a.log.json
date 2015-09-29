@@ -1,8 +1,32 @@
 {
-  "log_format": "evo-0.0.0",
+  "meta": {
+    "version": "0.0.0"
+  },
   "environment" : {
     "os": "ubuntu-13.04.3-x64",
     "framework": "genprog-3.1.0",
     "seed": 8672141
+  },
+  "search": {
+
+    "generations": [
+      "offspring": [
+        {
+          "parents": [21, 0],
+          "genome": "i(3,2) d(7) r(2,1)",
+          "fitness": {
+            "score": 0.0,
+            "objectives": {
+              "p1": 0,
+              "p2": 0,
+              "p3": 0,
+              "p4": 0,
+              "p5": 0,
+              "n1": 0
+            }
+          }
+        }
+      ]
+    ]
   }
 }
