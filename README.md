@@ -3,8 +3,9 @@
 Performs platform-independent visualisation and analysis of genetic algorithm
 log files.
 
-### Log Format
+## Log Format
 
+* Environment
 * Algorithm
 * Problem
 * Initialisation
@@ -12,7 +13,9 @@ log files.
 
 ### Environment Section
 
-OS, random seed, framework, date/time.
+Gives details of the machine used to carry out the search, including its
+operating system. Also specifies the name of the framework, the random
+seed used, and the date and time that the run started.
 
 ### Algorithm Section
 
