@@ -5,9 +5,17 @@ log files.
 
 ### Log Format
 
+* Algorithm
 * Problem
 * Initialisation
 * Search
+
+### Algorithm Section
+
+Provides a description of the genetic algorithm being used to solve the
+problem, along with its components and relevant parameter values. The
+information in this section of the file is used to guide the interpretation
+of the rest of the file.
 
 ### Problem Section
 
