@@ -1,9 +1,13 @@
 # EvoAnalyser.py
 
-Performs platform-independent visualisation and analysis of genetic algorithm
+Performs framework-independent visualisation and analysis of genetic algorithm
 log files.
 
 ## Log Format
+
+The framework-independent log for a given run is stored as a
+flexibly-structured JSON file, consisting of the following sections, each given
+by a top level property in the file:
 
 * Environment
 * Algorithm
