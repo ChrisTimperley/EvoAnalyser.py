@@ -7,9 +7,16 @@
     "framework": "genprog-3.1.0",
     "seed": 8672141
   },
+  "algorithm": {
+    "type": "genetic"
+  },
   "search": {
     "initialisation": {
-      "population": []
+      "population": [
+        {
+          "genome": "i(19, 1)"
+        }
+      ]
     },
     "generations": [
       {
