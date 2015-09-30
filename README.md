@@ -13,7 +13,7 @@ by a top level property in the file:
 * Environment
 * Algorithm
 * Problem
-* Search
+* Data
 
 ### Environment Section
 
@@ -39,6 +39,21 @@ This section identifies the type of problem being solved, and provides its
 relevant details (based on the type of the problem and the search method in
 use).
 
-### Search Section
+### Data Section
 
-This final section contains a detailed log of the search process.
+The data section is composed of a sequence of "points" from the search. The
+meaning and structure of these points depends on the type of algorithm used by
+the run.
+
+For an evolutionary algorithm, each of these points is used to represent an
+individual at a given position with the population (and possibly a given deme
+within that population) at a given generation. Each point would contain the
+following information (where fields marked with an asterix are optional):
+
+* `uid`
+* `position`
+* `generation`
+* `*deme`
+* `*parents`
+* `genome`
+* `fitness`
