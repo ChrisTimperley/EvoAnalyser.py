@@ -5,9 +5,8 @@ log files.
 
 ## Log Format
 
-The framework-independent log for a given run is stored as a
-flexibly-structured JSON file, consisting of the following sections, each given
-by a top level property in the file:
+The framework-independent log for a given run is stored as a sequence of
+flexibly-structured JSON file, consisting of the following sections:
 
 * Meta
 * Environment
