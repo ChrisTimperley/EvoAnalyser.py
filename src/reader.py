@@ -1,3 +1,5 @@
+import json
+
 # Splits the contents of a log file into each of its sections.
 def split_log_into_sections(s):
     i_meta = s.find('[meta]')
@@ -14,15 +16,15 @@ def split_log_into_sections(s):
 
 # Parses the contents of the meta section of a log file.
 def parse_meta(s):
-    pass
+    return json.loads("{" + s + "}")
 
 # Parses the contents of the environment section of a log file.
 def parse_environment(s):
-    pass
+    return json.loads("{" + s + "}")
 
 # Parses the contents of the problem section of a log file.
 def parse_problem(s):
-    pass
+    return json.loads("{" + s + "}")
 
 # Parses the contents of the search section of a log file.
 def parse_search(s):
