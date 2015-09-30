@@ -1,5 +1,4 @@
 import matplotlib.pyplot as plt
-
 from visualisation import Visualisation
 
 # Fitness boxplot.
@@ -11,7 +10,6 @@ class FitnessBoxPlot(Visualisation):
 
     # Requires that there is a fitness property and that it is, or can be
     # mapped to a scalar value.
-
     def prepare(self, data):
         return map(lambda p: p.fitness, data)
 
