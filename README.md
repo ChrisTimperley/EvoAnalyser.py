@@ -9,10 +9,10 @@ The framework-independent log for a given run is stored as a
 flexibly-structured JSON file, consisting of the following sections, each given
 by a top level property in the file:
 
+* Meta
 * Environment
 * Algorithm
 * Problem
-* Initialisation
 * Search
 
 ### Environment Section
@@ -20,6 +20,11 @@ by a top level property in the file:
 Gives details of the machine used to carry out the search, including its
 operating system. Also specifies the name of the framework, the random
 seed used, and the date and time that the run started.
+
+* `os`
+* `seed`
+* `datetime`
+* `framework`
 
 ### Algorithm Section
 
