@@ -1,5 +1,7 @@
 import json
 
+from genetic_data_point import GeneticDataPoint
+
 # LogFile objects are used to store the contents of a log file in a common
 # format.
 class LogFile:
@@ -26,7 +28,11 @@ class LogFile:
     @staticmethod
     def __parse_search(s):
         print "- parsing search section."
-        return map(json.loads, s[9:].split('\n'))
+
+        # For now, treat the search section as if it were a GA for automated
+        # repair, using the patch representation.
+        return map(lambda p: GeneticDataPoint(json.loads(p)),
+                   s[9:].split('\n'))
 
     # Splits the contents of a log file into each of its sections.
     @staticmethod
@@ -63,8 +69,8 @@ class LogFile:
 
     # Constructs a new log file from the parsed contents of each of its
     # sections.
-    def __init__(self, meta, environment, problem, search):
+    def __init__(self, meta, environment, problem, data):
         self.meta = meta
         self.environment = environment
         self.problem = problem
-        self.search = search
+        self.data = data
