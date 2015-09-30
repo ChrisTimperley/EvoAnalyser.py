@@ -1,11 +1,11 @@
 from pprint import pprint
 from log_file import *
 from genetic_algorithm_log import *
-from graph import *
+import visualisation
 
 log = LogFile.read("test.log")
 
-vis = FitnessBoxPlot()
+vis = visualisation.FitnessBoxPlot()
 
 pprint(vis.prepare(log.data))
 
