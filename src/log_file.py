@@ -5,26 +5,31 @@ import json
 class LogFile:
 
     # Parses the meta section of a log file.
+    @staticmethod
     def __parse_meta(s):
         print "- parsing meta section."
         return json.loads(s[7:])
 
     # Parses the environment section of a log file.
+    @staticmethod
     def __parse_environment(s):
         print "- parsing environment section."
         return json.loads(s[14:])
 
     # Parses the problem section of a log file.
+    @staticmethod
     def __parse_problem(s):
         print "- parsing problem section."
         return json.loads(s[10:])
 
     # Parses the search section of a log file.
+    @staticmethod
     def __parse_search(s):
         print "- parsing search section."
         return map(json.loads, s[9:].split('\n'))
 
     # Splits the contents of a log file into each of its sections.
+    @staticmethod
     def __split_into_sections(s):
         i_meta = s.find('[meta]')
         i_environment = s.find('[environment]', i_meta)
@@ -47,14 +52,14 @@ class LogFile:
         # Open the log file and read each of its sections to separate strings.
         with open(fn, "r") as f:
             print "Opened log file: %s" % (fn)
-            meta, environment, problem, search = __split_into_sections(f.read())
+            meta, environment, problem, search = LogFile.__split_into_sections(f.read())
             print "Split log file into sections."
 
         # Parse each of the sections of the file and merge them into an object.
-        return LogFile(__parse_meta(meta),
-                       __parse_environment(environment),
-                       __parse_problem(problem),
-                       __parse_seach(search))
+        return LogFile(LogFile.__parse_meta(meta),
+                       LogFile.__parse_environment(environment),
+                       LogFile.__parse_problem(problem),
+                       LogFile.__parse_search(search))
 
     # Constructs a new log file from the parsed contents of each of its
     # sections.

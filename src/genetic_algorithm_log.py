@@ -26,7 +26,6 @@ class GeneticAlgorithmLog:
 
         return generations
 
-
     @staticmethod
     def __parse_setup():
         pass
@@ -37,3 +36,13 @@ class GeneticAlgorithmLog:
 
     def __init__(self, generations):
         self.generations = generations
+
+    # Returns the number of individuals encountered during this run, where
+    # revisits are counted equally.
+    def num_visited():
+        return reduce(lambda sm, g: sm + len(g), self.generations)
+
+    # Returns the number of generations (including initialisation) performed
+    # during this run.
+    def num_generations():
+        return len(self.generations)
