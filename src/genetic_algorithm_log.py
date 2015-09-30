@@ -2,7 +2,7 @@ class GeneticAlgorithmLog:
 
     @staticmethod
     def process(log):
-        generations = __parse_generations(log.search)
+        generations = GeneticAlgorithmLog.__parse_generations(log.search)
         return GeneticAlgorithmLog(generations)
 
     @staticmethod
