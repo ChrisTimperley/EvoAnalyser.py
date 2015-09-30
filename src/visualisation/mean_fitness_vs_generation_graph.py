@@ -14,7 +14,7 @@ class MeanFitnessVsGeneration(Visualisation):
         .project("fitness")
 
         # Reduce each sequence of fitness values to their mean.
-        .reduce_to("mean")
+        .reduce_to("mean") # view("group[generation]; reduce[project[fitness]; mean]")
 
     def visualise(self, data):
         plt.figure()
