@@ -20,3 +20,12 @@ glog = GeneticAlgorithmLog.process(log)
 # - grouped by deme and generation
 # - any view you like
 # - cache these views
+
+# Different analyses on a data set:
+# - computed using certain views.
+# - cached, perhaps serialisable
+# - they can specify which properties they require (check they exist in the
+#   data set).
+# - check that data-sets are homogeneous with respect to the analysis.
+
+# Pure functional analysis and pure data?
