@@ -1,5 +1,7 @@
 import json
 
+from data_point import DataPoint
+
 # Represents a single point within the search process of a genetic algorithm.
 class GeneticDataPoint(DataPoint):
 
@@ -8,7 +10,7 @@ class GeneticDataPoint(DataPoint):
     def __init__(self, data):
         self.position = data['position']
         self.generation = data['generation']
-        self.parents = data['parents'] # optional
+        self.parents = data.get('parents', None)
 
         # Parse the genome according to the genotype used by the algorithm.
         self.genome = data['genome']

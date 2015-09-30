@@ -24,15 +24,15 @@ class LogFile:
         print "- parsing problem section."
         return json.loads(s[10:])
 
-    # Parses the search section of a log file.
+    # Parses the data section of a log file.
     @staticmethod
-    def __parse_search(s):
-        print "- parsing search section."
+    def __parse_data(s):
+        print "- parsing data section."
 
         # For now, treat the search section as if it were a GA for automated
         # repair, using the patch representation.
         return map(lambda p: GeneticDataPoint(json.loads(p)),
-                   s[9:].split('\n'))
+                   s[7:].split('\n'))
 
     # Splits the contents of a log file into each of its sections.
     @staticmethod
@@ -40,14 +40,14 @@ class LogFile:
         i_meta = s.find('[meta]')
         i_environment = s.find('[environment]', i_meta)
         i_problem = s.find('[problem]', i_environment)
-        i_search = s.find('[search]', i_problem)
+        i_data = s.find('[data]', i_problem)
 
         s_meta = s[i_meta:i_environment].strip()
         s_environment = s[i_environment:i_problem].strip()
-        s_problem = s[i_problem:i_search].strip()
-        s_search = s[i_search:].strip()
+        s_problem = s[i_problem:i_data].strip()
+        s_data = s[i_data:].strip()
 
-        return s_meta, s_environment, s_problem, s_search
+        return s_meta, s_environment, s_problem, s_data
 
     # Reads a log file at a given location and returns it, formatted as LogFile
     # object.
@@ -58,14 +58,14 @@ class LogFile:
         # Open the log file and read each of its sections to separate strings.
         with open(fn, "r") as f:
             print "Opened log file: %s" % (fn)
-            meta, environment, problem, search = LogFile.__split_into_sections(f.read())
+            meta, environment, problem, data = LogFile.__split_into_sections(f.read())
             print "Split log file into sections."
 
         # Parse each of the sections of the file and merge them into an object.
         return LogFile(LogFile.__parse_meta(meta),
                        LogFile.__parse_environment(environment),
                        LogFile.__parse_problem(problem),
-                       LogFile.__parse_search(search))
+                       LogFile.__parse_data(data))
 
     # Constructs a new log file from the parsed contents of each of its
     # sections.
