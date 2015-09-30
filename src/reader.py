@@ -8,29 +8,3 @@ log = LogFile.read("test.log")
 fitnesses = map(lambda p: p.fitness, log.data)
 
 pprint(fitnesses)
-
-# Process each point within the search according to the problem type and
-# algorithm.
-
-# individual (evolutionary algorithm)
-# .generation
-# .position
-# .deme
-# .genome (process according to problem type?)
-# .fitness (process according to fitness scheme)
-
-# Create different views on the same data:
-# - grouped by deme
-# - grouped by generation
-# - grouped by deme and generation
-# - any view you like
-# - cache these views
-
-# Different analyses on a data set:
-# - computed using certain views.
-# - cached, perhaps serialisable
-# - they can specify which properties they require (check they exist in the
-#   data set).
-# - check that data-sets are homogeneous with respect to the analysis.
-
-# Pure functional analysis and pure data?
