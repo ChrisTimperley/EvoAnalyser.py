@@ -49,33 +49,6 @@ def plot_success_rate_vs_generation(runs, **kwds):
 
     plt.show()
 
-def plot_mean_fitness_vs_generation(runs, **kwds):
-
-    # Coerce to list.
-    if isinstance(runs, Benchmark):
-        runs = runs.runs
-    elif not isinstance(runs, list):
-        runs = [runs]
-
-    # Get the state of the population at each generation.
-    generations = range(len(runs[0].states()))
-    mean_fitnesses = map(lambda r: map(numpy.mean, map(lambda s: s.fitnesses(), r.states())),
-                           runs)
-
-    # Try to plot each median fitness.
-    for fitnesses in mean_fitnesses:
-        plt.plot(generations, fitnesses)
-
-    # Add a title to the plot, if one has been provided.
-    if kwds.has_key('title'):
-        plt.title(kwds['title'])
-
-    plt.xlabel('Generation')
-    plt.ylabel('Mean Fitness')
-    #plt.axis([0, generations[-1]])
-    plt.grid(True)
-    plt.show()
-
 def plot_relative_normalised_distance_vs_generation(runs, **kwds):
     kwds['normalised'] = True
     plot_relative_distance_vs_generation(runs, **kwds)
