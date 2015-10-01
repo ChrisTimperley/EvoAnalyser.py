@@ -3,6 +3,7 @@ from data_set import DataSet
 from grouped_data_sets import GroupedDataSets
 from visualise import visualise
 
+import problem
 import visualisation
 import representation
 
