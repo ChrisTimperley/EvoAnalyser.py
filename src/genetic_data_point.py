@@ -1,4 +1,5 @@
 import json
+import representation
 
 from data_point import DataPoint
 
@@ -13,7 +14,7 @@ class GeneticDataPoint(DataPoint):
         self.parents = data.get('parents', None)
 
         # Parse the genome according to the genotype used by the algorithm.
-        self.genome = data['genome']
+        self.genome = representation.Patch.load(data['genome'])
 
         # Parse the fitness according to the fitness scheme used by the
         # algorithm.

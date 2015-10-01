@@ -12,7 +12,7 @@ class Patch(Representation):
         if definition == "original":
             return Patch([])
         else:
-            return Patch(map(Fix.from_string, definition.split(" ")))
+            return Patch(map(Fix.load, definition.split(" ")))
 
     # Constructs a new patch from a sequence of edits.
     def __init__(self, edits):
