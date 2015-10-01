@@ -1,7 +1,7 @@
+from representation import Representation
+from _patch.fix import Fix
+from _patch.intermediate import Intermediate
 import storage
-
-from fix import Fix
-from intermediate import Intermediate
 
 # Used to represent a candidate patch for a given program.
 class Patch(Representation):

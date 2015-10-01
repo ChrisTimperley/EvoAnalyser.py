@@ -3,7 +3,7 @@ __representations = {}
 
 # Registers a provided representation using a given name.
 def register(name, cls):
-    print "- registering visualisation: %s" % (name)
+    print "- registering representation: %s" % (name)
     if __representations.has_key(name):
         raise Exception("Failed to register representation: key already defined (%s)" % (name))
     __representations[name] = cls

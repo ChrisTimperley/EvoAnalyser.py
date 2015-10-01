@@ -1,9 +1,10 @@
 from log_file import *
-from genetic_algorithm_log import *
 from data_set import DataSet
 from grouped_data_sets import GroupedDataSets
 from visualise import visualise
+
 import visualisation
+import representation
 
 log = LogFile.read("test.log")
 

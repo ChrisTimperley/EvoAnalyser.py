@@ -1,0 +1,2 @@
+class Representation(object):
+    pass
