@@ -10,7 +10,7 @@ class GroupedDataSets(object):
 
     # Performs an identical projection on the data set of each groups.
     def project(self, property_name):
-        gs = map(lambda g: g.project(property_name), self.__groups)
+        gs = {k: g.project(property_name) for k, g in self.__groups.iteritems() }
         return GroupedDataSets(gs)
 
     # Returns the groups, along with their values, in the form of a dictionary.

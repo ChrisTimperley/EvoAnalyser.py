@@ -26,4 +26,5 @@ class DataSet(object):
                 groups[v].append(point)
             else:
                 groups[v] = [point]
+        groups = { k: DataSet(g) for k, g in groups.iteritems() }
         return GroupedDataSets(groups)
