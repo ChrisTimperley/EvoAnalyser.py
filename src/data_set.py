@@ -4,6 +4,9 @@ class DataSet(object):
 
     # Could cache views?
 
+    # virtual columns
+    # (name -> column)
+
     # Constructs a new data set.
     def __init__(self, contents):
         self.__contents = contents

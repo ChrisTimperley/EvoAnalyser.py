@@ -24,7 +24,6 @@ visualise(ds, "mean_fitness_vs_generation")
 # .with_as("canonical", "canonical")
 # .with("distance_to_origin")
 
-
 # virtual_property("canonical") ->
 # - requires_representation_is("patch")
 # - requires_property("genome")
