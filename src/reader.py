@@ -8,7 +8,7 @@ import visualisation
 log = LogFile.read("test.log")
 ds = DataSet(log.data)
 
-visualise(ds, "mean_fitness_vs_generation", {
+visualise(ds, "median_fitness_vs_generation", {
     'axis': [0, 10, 0.0, 10.0]
 })
 
