@@ -1,0 +1,2 @@
+class Problem(object):
+    pass
