@@ -1,3 +1,5 @@
+from grouped_data_sets import GroupedDataSets
+
 class DataSet(object):
 
     # Could cache views?
@@ -10,7 +12,7 @@ class DataSet(object):
     def contents(self):
         return self.__contents
 
-    #
+    # Return DataSetColumn?
     def project(self, property_name):
         m = map(lambda p: getattr(p, property_name), self.__contents)
         return DataSet(m) # need to update the "type" of the dataset.
@@ -24,4 +26,4 @@ class DataSet(object):
                 groups[v].append(point)
             else:
                 groups[v] = [point]
-        return None
+        return GroupedDataSets(groups)

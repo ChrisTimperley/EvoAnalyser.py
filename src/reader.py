@@ -11,6 +11,11 @@ ds = DataSet(log.data)
 
 pprint(ds.project("fitness").contents())
 
+# Let's try and find all the fitness values from the 1st generation.
+print "\nGrouping:"
+
+pprint(ds.group_by("generation").groups())
+
 # Analysis name
 # - algorithm type
 # - problem type
