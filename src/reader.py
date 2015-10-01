@@ -11,7 +11,7 @@ log = LogFile.read("test.log")
 ds = DataSet(log.data)
 
 graph = visualisation.MeanFitnessVsGeneration(ds)
-graph.draw()
+graph.draw({'axis': [0, 10, 0.0, 10.0]})
 
 # Analysis name
 # - algorithm type

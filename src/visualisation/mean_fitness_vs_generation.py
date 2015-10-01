@@ -16,5 +16,11 @@ class MeanFitnessVsGeneration(LineGraph):
         options['title'] = options.get('title', 'Mean Fitness vs. Generation')
         options['x'] = options.get('x', 'Generation')
         options['y'] = options.get('y', 'Mean Fitness')
+        
+        # Generate the axis for the graph.
+        #gens = len(self.line[0])
+
+        # Ideally we could do with knowing the problem that this data set
+        # belongs to.
 
         super(MeanFitnessVsGeneration, self).draw(options)

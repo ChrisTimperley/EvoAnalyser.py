@@ -15,6 +15,7 @@ class LineGraph(Visualisation):
         plt.grid(True)
 
         # And optionally, some axis.
-        #plt.axis([0, num_generations, 0.0, 1.0])
+        if options.has_key('axis'):
+            plt.axis(options['axis'])
 
         plt.show()
