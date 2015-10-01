@@ -11,11 +11,17 @@ class DataSet(object):
     # Returns the contents of this data set.
     def contents(self):
         return self.__contents
+    items = contents
 
     # Return DataSetColumn?
     def project(self, property_name):
         m = map(lambda p: getattr(p, property_name), self.__contents)
         return DataSet(m) # need to update the "type" of the dataset.
+
+    # Applies a given transformation function to this data set, possibly
+    # converting it into something which isn't a data set.
+    def transform(self, transformation):
+        return transformation(self)
 
     # How can we safely achieve this?
     def group_by(self, property_name):
