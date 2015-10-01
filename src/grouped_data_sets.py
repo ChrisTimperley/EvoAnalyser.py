@@ -17,6 +17,9 @@ class GroupedDataSets(object):
     def groups(self):
         return self.__groups
 
+    def pairs(self):
+        return self.__groups.iteritems()
+
     # Performs an identical transformation on each of the groups within this
     # data set.
     #

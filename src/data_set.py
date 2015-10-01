@@ -22,7 +22,7 @@ class DataSet(object):
     # Applies a given transformation function to this data set, possibly
     # converting it into something which isn't a data set.
     def transform(self, transformation):
-        return transformation(self)
+        return transformation(self.__contents)
 
     # How can we safely achieve this?
     def group_by(self, property_name):

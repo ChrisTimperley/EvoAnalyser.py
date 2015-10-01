@@ -10,12 +10,8 @@ import visualisation
 log = LogFile.read("test.log")
 ds = DataSet(log.data)
 
-pprint(ds.project("fitness").contents())
-
-# Let's try and find all the fitness values from the 1st generation.
-fitness_gen = ds.group_by("generation").project("fitness")
-
-mean_fitness_gen = fitness_gen.transform(lambda d: np.mean(d.items()))
+graph = visualisation.MeanFitnessVsGeneration(ds)
+graph.draw()
 
 # Analysis name
 # - algorithm type
