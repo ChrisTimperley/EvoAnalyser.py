@@ -12,6 +12,7 @@ class DataSet(object):
     def contents(self):
         return self.__contents
     items = contents
+    elements = contents
 
     # Return DataSetColumn?
     def project(self, property_name):
