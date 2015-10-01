@@ -1,12 +1,8 @@
 import matplotlib.pyplot as plt
+import storage
 from visualisation import Visualisation
 
-# Fitness boxplot.
-# (view: fitness)
-# (type: boxplot)
-
 class FitnessBoxPlot(Visualisation):
-    name = "fitness_box_plot"
 
     # Requires that there is a fitness property and that it is, or can be
     # mapped to a scalar value.
@@ -19,3 +15,6 @@ class FitnessBoxPlot(Visualisation):
         plt.ylabel('Fitness Score')
         plt.title('Distribution of fitness values for a single run.')
         plt.show()
+
+# Register this visualisation.
+storage.register("fitness_boxplot", FitnessBoxPlot)

@@ -1,11 +1,11 @@
 import numpy as np
+import storage
 from line_graph import LineGraph
 
 # MultiLineGraph
 # BoxPlot
 
 class MeanFitnessVsGeneration(LineGraph):
-    name = "mean_fitness_vs_generation"
 
     def prepare(self, data):
         ds = data.group_by('generation').project("fitness")\
@@ -24,3 +24,6 @@ class MeanFitnessVsGeneration(LineGraph):
         # belongs to.
 
         super(MeanFitnessVsGeneration, self).draw(options)
+
+# Register this visualisation.
+storage.register("mean_fitness_vs_generation", MeanFitnessVsGeneration)
