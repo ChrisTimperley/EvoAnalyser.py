@@ -7,14 +7,9 @@ class MeanFitnessVsGeneration(Visualisation):
     def prepare(self, data):
 
         # Need to group data by generation (category vs. number).
-        data.group_by("generation") # view("group[generation]")
-
-        # Transform each generation into a sequence of fitness values.
-        # view("project[fitness]") -> view("group[generation]; project[fitness]")
-        .project("fitness")
-
-        # Reduce each sequence of fitness values to their mean.
-        .reduce_to("mean") # view("group[generation]; reduce[project[fitness]; mean]")
+        return data.group_by('generation').project("fitness")
+            map(lambda g: g.project("fitness").reduce("mean")).\
+            items()
 
     def visualise(self, data):
         plt.figure()
