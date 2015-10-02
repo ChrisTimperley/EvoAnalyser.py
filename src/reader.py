@@ -5,6 +5,7 @@ from grouped_data_sets import GroupedDataSets
 from visualise import visualise
 
 import pprint as pp
+from tabulate import tabulate
 
 import problem
 import visualisation
@@ -16,7 +17,7 @@ log = LogFile.read("test.log")
 #ds = DataSet(log.data)
 df = DataFrame.build(log.data)
 
-pp.pprint(df.table(True))
+print df.tabulate(True)
 
 #visualise(ds, "median_fitness_vs_generation", {
 #    'axis': [0, 10, 0.0, 10.0]
