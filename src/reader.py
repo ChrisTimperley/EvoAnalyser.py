@@ -16,8 +16,13 @@ log = LogFile.read("test.log")
 # associated meta-data.
 #ds = DataSet(log.data)
 df = DataFrame.build(log.data)
+dv = df.identity()
 
-print df.tabulate(True)
+di = dv.__iter__()
+
+print di.next()
+print di.i
+print di.next()
 
 #visualise(ds, "median_fitness_vs_generation", {
 #    'axis': [0, 10, 0.0, 10.0]

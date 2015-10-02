@@ -6,26 +6,28 @@ class DataFrameViewIterator(object):
     Constructs a new iterator for a given data frame view.
     """
     def __init__(self, view):
-        self.__view = view
-        self.__i = 0
-        self.__limit = view.size()
+        self.view = view
+        self.i = 0
+        self.limit = view.size()
+
+    def __iter__(self):
+        return self
 
     """
     Returns the next record from the attached data frame view.
     """
     def next(self):
-        if self.__i >= self.__limit:
-            raise StopIteration
+        if self.i >= self.limit:
+            raise StopIteration()
         else:
-            f, j = self.__view.__members[self.__i]
-            f = self.__view.__frames[f]
-            record = {k: f.__columns[k][j] for k in self.__view.__source_columns}
+            f, j = self.view.member(self.i)
+            f = self.view.frames()[f]
+            record = {k: f.cell(k, j) for k in self.view.source_columns()}
+            self.i += 1
             yield record
+    __next__ = next
 
 class DataFrameView(object):
-
-    # DataFrames: [a, b, c]
-    # Rows: [(df, i), ...]
 
     """
     Constructs a new data frame view.
@@ -53,6 +55,24 @@ class DataFrameView(object):
         return self.__size
 
     """
+    Returns the (frame id, inner id) tuple for the nth member of this view.
+    """
+    def member(self, n):
+        return self.__members[n]
+
+    """
+    Returns a list of the column sources for this view.
+    """
+    def source_columns(self):
+        return self.__source_columns
+
+    """
+    Returns a list of the data frame sources for this view.
+    """
+    def frames(self):
+        return self.__frames
+
+    """
     Constructs and returns a new iterator for this view.
     """
     def __iter__(self):
@@ -61,3 +81,5 @@ class DataFrameView(object):
     """
     Constructs a tabular form of this view and returns it as a string.
     """
+    def tabulate(self, show_uid=False):
+        return tabulate(self, self.__source_columns)

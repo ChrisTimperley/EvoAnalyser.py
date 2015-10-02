@@ -20,6 +20,12 @@ class DataFrame(object):
         self.__columns = {'_uid': []}
         self.__column_names = []
 
+    """
+    Returns the contents of a given cell within this data frame.
+    """
+    def cell(self, column, row):
+        return self.__columns[column][row]  
+
     # Inserts a given (parsed) JSON record into this data frame.
     def __append(self, record):
        
@@ -57,6 +63,11 @@ class DataFrame(object):
     def column(self, name):
         contents = [(0, i) for i in range(self.__size)]
         return DataFrameView([self], contents, [name])
+
+    # TESTING
+    def identity(self):
+        contents = [(0, i) for i in range(self.__size)]
+        return DataFrameView([self], contents, self.__column_names)
 
     # Returns a view of this data-set, 
     def attach(self, name):
