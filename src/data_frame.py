@@ -1,7 +1,11 @@
 import copy
+
+from data_frame_view import DataFrameView
 from tabulate import tabulate
 
 class DataFrame(object):
+
+    # Each DataFrame needs a unique ID.
 
     @staticmethod
     def build(records):
@@ -51,7 +55,8 @@ class DataFrame(object):
 
     # Retrieves a column with a given name from this data frame.
     def column(self, name):
-        pass
+        contents = [(0, i) for i in range(self.__size)]
+        return DataFrameView([self], contents, [name])
 
     # Returns a view of this data-set, 
     def attach(self, name):
