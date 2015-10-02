@@ -7,31 +7,13 @@ class Meta(object):
     # algorithm
     # environment
 
-# Challenge, how do we combine data-sets with different meta-information?
-class Problem(object):
-
     @staticmethod
     def load(definition):
-        # Forward to appropriate load method.
-        pass
 
-# - Repair
-class Repair(Problem):
+        # Find the type of problem.
+        problem = 
 
-    @staticmethod
-    def load(definition):
-       return Repair(definition['enclosure'])
+        return Meta(problem)
 
-    # Constructs a repair problem.
-    def __init__(self, enclosure):
-        self.enclosure = enclosure
-        self.sids = self.enclosure.keys()
-        self.max_sid = self.sids[-1]
-        self.size = len(self.sids)
-
-        # Generate the lines for the problem.
-        self.lines = reduce(lambda lines, sid: lines + self.lines_within(sid),
-                            self.top_level_statements(),
-                            [])
-
-
+    def __init__(self, problem):
+        self.problem = problem

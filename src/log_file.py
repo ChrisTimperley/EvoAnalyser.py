@@ -31,8 +31,9 @@ class LogFile:
 
         # For now, treat the search section as if it were a GA for automated
         # repair, using the patch representation.
-        return map(lambda p: GeneticDataPoint(json.loads(p)),
-                   s[7:].split('\n'))
+        #return map(lambda p: GeneticDataPoint(json.loads(p)),
+        #           s[7:].split('\n'))
+        return map(lambda p: json.loads(p), s[7:].split('\n'))
 
     # Splits the contents of a log file into each of its sections.
     @staticmethod
