@@ -2,6 +2,18 @@ import copy
 
 class DataFrame(object):
 
+    # This static variable is used to hold the unique ID to be used by the
+    # next record that is inserted into any data frame. Used to maintain
+    # natural ordering.
+    __next_uid = 0
+
+    # Returns the next unique identifier.
+    @staticmethod
+    def __uid():
+        n = DataFrame.__next_uid
+        DataFrame.__next_uid += 1
+        return n
+
     @staticmethod
     def build(records):
         df = DataFrame()
@@ -12,13 +24,14 @@ class DataFrame(object):
     # Constructs a new data frame.
     def __init__(self):
         self.__size = 0
-        self.__columns = {}
+        self.__columns = {'_uid': []}
         self.__column_names = []
 
     # Inserts a given (parsed) JSON record into this data frame.
     def __append(self, record):
-        
-        # Create a unique ID for this record.
+       
+        # Record the UID of this record.
+        self.__columns['_uid'].append(DataFrame.__uid())
 
         # Insert each column from the record into the data frame.
         # If the column doesn't exist, a new (partial) column is created.
@@ -49,6 +62,8 @@ class DataFrame(object):
 
     # Returns the contents of this data frame as an array of rows, including
     # its headers.
-    def table(self):
-        return [copy.copy(self.__column_names)] + \
-            [[self.__columns[cn][i] for cn in self.__column_names] for i in range(self.__size)]
+    def table(self, show_uid = False):
+        cols = copy.copy(self.__column_names)
+        cols = ['_uid'] + cols if show_uid else cols
+        return [cols] + \
+            [[self.__columns[cn][i] for cn in cols] for i in range(self.__size)]

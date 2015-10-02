@@ -16,7 +16,7 @@ log = LogFile.read("test.log")
 #ds = DataSet(log.data)
 df = DataFrame.build(log.data)
 
-pp.pprint(df.table())
+pp.pprint(df.table(True))
 
 #visualise(ds, "median_fitness_vs_generation", {
 #    'axis': [0, 10, 0.0, 10.0]
