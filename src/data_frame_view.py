@@ -10,9 +10,6 @@ class DataFrameViewIterator(object):
         self.i = 0
         self.limit = view.size()
 
-    def __iter__(self):
-        return self
-
     """
     Returns the next record from the attached data frame view.
     """
@@ -24,7 +21,7 @@ class DataFrameViewIterator(object):
             f = self.view.frames()[f]
             record = {k: f.cell(k, j) for k in self.view.source_columns()}
             self.i += 1
-            yield record
+            return record
     __next__ = next
 
 class DataFrameView(object):

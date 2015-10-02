@@ -20,9 +20,13 @@ dv = df.identity()
 
 di = dv.__iter__()
 
+print di
 print di.next()
 print di.i
 print di.next()
+print di.i
+print di.next()
+print di.i
 
 #visualise(ds, "median_fitness_vs_generation", {
 #    'axis': [0, 10, 0.0, 10.0]
