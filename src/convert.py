@@ -82,10 +82,9 @@ def convert(fn, target, problem_name):
     # Build the file contents.
     meta = "[meta]\n" + json.dumps(meta) + "\n\n"
     data = "[data]\n" + '\n'.join(map(json.dumps, data))
-    contents = meta + env + problem + data
 
     # Write to the target file.
     with open(target, 'w') as f:
-        f.write(contents)
+        f.write(meta + data)
 
 convert(sys.argv[1], sys.argv[2], sys.argv[3])

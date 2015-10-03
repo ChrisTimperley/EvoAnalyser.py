@@ -1,3 +1,4 @@
+import pandas as pd
 import json
 
 # LogFile objects are used to store the contents of a log file in a common
@@ -22,7 +23,7 @@ class LogFile:
             row['seed'] = meta['seed']
             row['problem'] = meta['problem']['name']
 
-        return rows
+        return pd.DataFrame(rows)
 
     # Splits the contents of a log file into its two sections.
     @staticmethod

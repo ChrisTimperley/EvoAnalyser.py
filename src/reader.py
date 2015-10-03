@@ -11,17 +11,15 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read the log file for each run.
-#logs = map(LogFile.read, glob('../examples/gcd/*.log'))
-#logs = map(lambda l: l.data, logs)
-#logs = map(pd.DataFrame, logs)
-#logs = pd.concat(logs)
-
-logs = LogFile.read("test.log")
-logs = logs.data
-logs = pd.DataFrame(logs)
-
-print logs
+logs = map(LogFile.read, glob('../examples/gcd/*.log'))
+logs = map(lambda l: l.data, logs)
+logs = pd.concat(logs)
 
 # Mean fitness vs. Generation (many runs)
-logs.groupby('generation').aggregate(np.mean)['fitness'].plot(kind='line')
+gens = logs.groupby('generation')
+gs = gens.apply(lambda g: g.groupby('seed').aggregate(np.mean)['fitness'])
+plot = gs.plot(kind='line', legend=False)
+plot.set_ylabel('Fitness')
+plot.set_xlabel('Generation')
+plot.set_title('Mean Fitness vs. Generation (GCD)')
 plt.show()
