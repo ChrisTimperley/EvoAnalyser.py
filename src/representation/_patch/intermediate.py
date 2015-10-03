@@ -4,7 +4,7 @@ class Intermediate(object):
     # Generates the null intermediate representation for the given problem.
     @staticmethod
     def from_problem(problem):
-        states = dict([(sid, [sid]) for sid in problem.statements()])
+        states = dict([(sid, [sid]) for sid in problem.sids])
         return Intermediate(states)
 
     # Generates an intermediate representation from a given patch.
@@ -84,7 +84,7 @@ class Intermediate(object):
         lines = []
 
         # Find all the top-level statements.
-        q = filter(problem.is_top_level, problem.statements())[::-1]
+        q = problem.top_level_statements()[::-1]
         while q:
             nxt = q.pop()
 

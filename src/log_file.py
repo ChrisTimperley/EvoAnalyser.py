@@ -1,5 +1,7 @@
 import pandas as pd
 import json
+import problem
+import representation
 
 # LogFile objects are used to store the contents of a log file in a common
 # format.
@@ -8,7 +10,9 @@ class LogFile:
     # Parses the meta section of a log file.
     @staticmethod
     def __parse_meta(s):
-        return json.loads(s[7:])
+        meta = json.loads(s[7:])
+        meta['problem'] = problem.Repair(meta['problem'])
+        return meta
 
     # Parses the data section of a log file.
     @staticmethod
@@ -19,9 +23,11 @@ class LogFile:
         # We could store LogFile UIDs, then compute these columns
         # on the fly?
         for row in rows:
+            row['genome'] = representation.Patch(row['genome'])
+            #row['canonical'] = row['genome'].normalise(meta['problem'])
             row['program'] = meta['program']
             row['seed'] = meta['seed']
-            row['problem'] = meta['problem']['name']
+            row['problem'] = meta['problem'].name()
 
         return pd.DataFrame(rows)
 

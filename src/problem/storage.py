@@ -2,7 +2,8 @@
 __problems = {}
 
 # Registers a provided problem class under a given name.
-def register(name, cls):
+def register(cls):
+    name = cls.class_name()
     print "- registering problem class: %s" % (name)
     if __problems.has_key(name):
         raise Exception("Failed to register problem class: key already defined (%s)" % (name))

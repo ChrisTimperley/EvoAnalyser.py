@@ -4,13 +4,21 @@ from problem import Problem
 # - Repair
 class Repair(Problem):
 
+    """
+    Returns the name of this problem class.
+    """
+    @staticmethod
+    def class_name():
+        return "repair"
+
     @staticmethod
     def load(definition):
        return Repair(definition['enclosure'])
 
     # Constructs a repair problem.
-    def __init__(self, enclosure):
-        self.enclosure = enclosure
+    def __init__(self, definition):
+        super(Repair, self).__init__(definition['name'])
+        self.enclosure = definition['enclosure']
         self.sids = self.enclosure.keys()
         self.max_sid = self.sids[-1]
         self.size = len(self.sids)
@@ -50,7 +58,7 @@ class Repair(Problem):
   
     # Returns a list of the immediate children of a statement at a given SID.
     def immediate_children(self, sid):
-        return filter(lambda pid: self.enclosure[pid] == sid, self.statements)
+        return filter(lambda pid: self.enclosure[pid] == sid, self.sids)
 
     # Returns a list of all the children of a statement at a given SID,
     # recursively.
@@ -59,4 +67,4 @@ class Repair(Problem):
         return reduce(lambda c, sid: c + self.children(sid), c, c) 
 
 # Register this problem class.
-storage.register("repair", Repair)
+storage.register(Repair)
