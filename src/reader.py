@@ -9,12 +9,17 @@ import representation
 
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 
 log = LogFile.read("test.log")
 
 frame = pd.DataFrame(log.data)
+plt.figure()
 
-print frame.head()
+print frame.groupby('generation').aggregate(np.mean)
+
+frame['fitness'].plot(kind='box')
+plt.show()
 
 # associated meta-data.
 #ds = DataSet(log.data)
