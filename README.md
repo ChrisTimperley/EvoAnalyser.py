@@ -5,14 +5,13 @@ log files.
 
 ## Log Format
 
-The framework-independent log for a given run is stored as a sequence of
-flexibly-structured JSON file, consisting of the following sections:
+The framework-independent log for a given run is split into two sections:
 
-* Meta
-* Environment
-* Algorithm
-* Problem
-* Data
+* `[meta]`, describes the environment in which the run was performed, the
+  problem it covered, and other meta-level details about the run.
+* `[data]`, contains a number of observations, or data points, describing
+  (part of) the state of the search at given moments in time. These
+  observations are given as a sequence of flexibly-structured JSON documents.
 
 ### Environment Section
 
