@@ -43,12 +43,24 @@ As a minimum, this sub-section must contain the following properties:
 * `label`, a user-provided label, giving a short description of the algorithm
     setup. This property is used when comparing different algorithms, or
     algorithm setups.
+* `representation`, a description of the representation used to model candidate
+    solutions to the problem being solved. This property should be given as a
+    JSON document, containing any representation-specific properties, in
+    addition to the property given below:
+    * `type`, a short description of the type of representation in use. This
+        information will be used to guide when parsing genomes.
 
 ### `problem` sub-section
 
 This section identifies the type of problem being solved, and provides its
-relevant details (based on the type of the problem and the search method in
-use).
+relevant details.
+
+In addition to any necessary problem-specific details, this sub-section must
+contain the following properties:
+
+* `type`, a short description of the type of problem being solved. This will
+    be used to decide how the rest of the log file should be parsed.
+* ``
 
 ### Data Section
 
