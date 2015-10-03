@@ -64,21 +64,36 @@ sub-section must contain the following properties:
     given as a string. This information will be used to perform
     cross-problem-instance comparisons.
 
-### Data Section
+### [data] section
 
-The data section is composed of a sequence of "points" from the search. The
-meaning and structure of these points depends on the type of algorithm used by
-the run.
+The data section is composed of a sequence of *observations* or *points* from
+the search. The meaning and structure of these points depends on the type of
+algorithm used by the run.
 
 For an evolutionary algorithm, each of these points is used to represent an
-individual at a given position with the population (and possibly a given deme
+individual at a certain position with the population (and possibly a given deme
 within that population) at a given generation. Each point would contain the
 following information (where fields marked with an asterix are optional):
 
-* `uid`
-* `position`
-* `generation`
-* `*deme`
-* `*parents`
-* `genome`
-* `fitness`
+* `*uid`, gives a unique identifier to this individual, allowing its survival
+    to be accurately traced through the generations.
+* `position`, describes the position of the individual within the population.
+    This position should be zero-indexed.
+* `generation`, gives the number of the generation that this individual belongs
+    to. The individuals created by initialisation are said to belong to
+    generation zero, by convention.
+* `*deme`, the identifier for the deme that this individual belongs to. If
+    multiple demes are not in use, this property may be omitted.
+* `*parents`, the positions of the parents of this individual within the
+    population of the previous generation, given as a list. The individuals
+    within the initial population should have no parents. Individuals subject
+    only to mutation, and not crossover, should give the original individual
+    as their sole parent.
+* `genome`, describes the genome of this individual. This property is parsed
+    according to the `algorithm.representation` property within the `[meta]`
+    section of the log file.
+* `fitness`, describes the fitness of this individual. For now this fitness
+    value is simply given as a floating point, but in the future, this property
+    will accept arbitrary values, which will be decoded according to the
+    `algorithm.fitness` property; this will allow multiple objective runs to
+    be logged and analysed.
