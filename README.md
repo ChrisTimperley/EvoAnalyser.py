@@ -50,17 +50,17 @@ As a minimum, this sub-section must contain the following properties:
     * `type`, a short description of the type of representation in use. This
         information will be used to guide when parsing genomes.
 
-### `problem` sub-section
+#### `problem` sub-section
 
 This section identifies the type of problem being solved, and provides its
-relevant details.
-
-In addition to any necessary problem-specific details, this sub-section must
-contain the following properties:
+relevant details. In addition to any necessary problem-specific details, this
+sub-section must contain the following properties:
 
 * `type`, a short description of the type of problem being solved. This will
     be used to decide how the rest of the log file should be parsed.
-* ``
+* `name`, a short description of the actual problem instance being solved,
+    given as a string. This information will be used to perform
+    cross-problem-instance comparisons.
 
 ### Data Section
 
