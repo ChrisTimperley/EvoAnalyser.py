@@ -16,14 +16,9 @@ log = LogFile.read("test.log")
 frame = pd.DataFrame(log.data)
 plt.figure()
 
-print frame.groupby('generation').aggregate(np.mean)
-
-frame['fitness'].plot(kind='box')
+# Mean fitness vs. Generation
+frame.groupby('generation').aggregate(max)['fitness'].plot(kind='line')
 plt.show()
-
-# associated meta-data.
-#ds = DataSet(log.data)
-
 
 #visualise(ds, "median_fitness_vs_generation", {
 #    'axis': [0, 10, 0.0, 10.0]
