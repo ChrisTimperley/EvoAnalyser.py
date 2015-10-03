@@ -9,31 +9,30 @@ class LogFile:
     # Parses the meta section of a log file.
     @staticmethod
     def __parse_meta(s):
-        print "- parsing meta section."
         return json.loads(s[7:])
 
     # Parses the environment section of a log file.
     @staticmethod
     def __parse_environment(s):
-        print "- parsing environment section."
         return json.loads(s[14:])
 
     # Parses the problem section of a log file.
     @staticmethod
     def __parse_problem(s):
-        print "- parsing problem section."
         return json.loads(s[10:])
 
     # Parses the data section of a log file.
     @staticmethod
-    def __parse_data(s):
-        print "- parsing data section."
-
+    def __parse_data(env, s):
         # For now, treat the search section as if it were a GA for automated
         # repair, using the patch representation.
         #return map(lambda p: GeneticDataPoint(json.loads(p)),
         #           s[7:].split('\n'))
-        return map(lambda p: json.loads(p), s[7:].split('\n'))
+
+        row = map(lambda p: json.loads(p), s[7:].split('\n'))
+        row['seed'] = env['seed']
+        row['problem'] = meta['problem']['name']
+        return row
 
     # Splits the contents of a log file into each of its sections.
     @staticmethod

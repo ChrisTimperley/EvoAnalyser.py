@@ -12,7 +12,12 @@ import matplotlib.pyplot as plt
 
 # Read the log file for each run.
 logs = map(LogFile.read, glob('../examples/gcd/*.log'))
+logs = map(lambda l: l.data, logs)
+logs = map(pd.DataFrame, logs)
+logs = pd.concat(logs)
+
+print logs
 
 # Mean fitness vs. Generation (many runs)
-#frame.groupby('generation').aggregate(max)['fitness'].plot(kind='line')
-#plt.show()
+logs.groupby('generation').aggregate(np.mean)['fitness'].plot(kind='line')
+plt.show()
