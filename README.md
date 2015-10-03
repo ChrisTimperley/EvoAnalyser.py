@@ -64,7 +64,7 @@ sub-section must contain the following properties:
     given as a string. This information will be used to perform
     cross-problem-instance comparisons.
 
-### [data] section
+### `[data]` section
 
 The data section is composed of a sequence of *observations* or *points* from
 the search. The meaning and structure of these points depends on the type of
