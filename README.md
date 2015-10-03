@@ -24,15 +24,27 @@ the properties below:
 * `seed`, the random seed used during the run.
 * `datetime`, the date and time that the run was started.
 * `program`, the program, or framework, that was used to perform the run.
+* `algorithm`, describes the algorithm used to perform the run. More details are
+    given below.
+* `problem`, describes the problem being solved during the run. More details are
+    given below.
 
-### Algorithm Section
+#### `algorithm` sub-section
 
-Provides a description of the genetic algorithm being used to solve the
-problem, along with its components and relevant parameter values. The
-information in this section of the file is used to guide the interpretation
-of the rest of the file.
+Provides a description of the search algorithm being used to solve the
+problem, in the form of a JSON document, along with its components and relevant
+parameter values. The information in this section of the file is used to guide
+the interpretation of the rest of the file.
 
-### Problem Section
+As a minimum, this sub-section must contain the following properties:
+
+* `type`, a short description of the type of search algorithm used. This will
+    be used to decide how the rest of the log file should be parsed.
+* `label`, a user-provided label, giving a short description of the algorithm
+    setup. This property is used when comparing different algorithms, or
+    algorithm setups.
+
+### `problem` sub-section
 
 This section identifies the type of problem being solved, and provides its
 relevant details (based on the type of the problem and the search method in
