@@ -1,32 +1,24 @@
 from log_file import *
-from data_set import DataSet
-from data_frame import DataFrame
-from grouped_data_sets import GroupedDataSets
 from visualise import visualise
 
 import pprint as pp
-from tabulate import tabulate
 
 import problem
 import visualisation
 import representation
 
+import numpy as np
+import pandas as pd
+
 log = LogFile.read("test.log")
+
+frame = pd.DataFrame(log.data)
+
+print frame.head()
 
 # associated meta-data.
 #ds = DataSet(log.data)
-df = DataFrame.build(log.data)
-dv = df.identity()
 
-di = dv.__iter__()
-
-print di
-print di.next()
-print di.i
-print di.next()
-print di.i
-print di.next()
-print di.i
 
 #visualise(ds, "median_fitness_vs_generation", {
 #    'axis': [0, 10, 0.0, 10.0]
@@ -40,7 +32,7 @@ print di.i
 # .with("distance_to_origin")
 
 # .with_as("canonical", "canonical")
-# .with("distance_to_origin")
+# .assign("distance_to_origin")
 
 # virtual_property("canonical") ->
 # - requires_representation_is("patch")

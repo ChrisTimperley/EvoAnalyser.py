@@ -79,4 +79,4 @@ class DataFrameView(object):
     Constructs a tabular form of this view and returns it as a string.
     """
     def tabulate(self, show_uid=False):
-        return tabulate(self, self.__source_columns)
+        return tabulate(self)
