@@ -1,7 +1,6 @@
 from log_file import *
 from visualise import visualise
-
-import pprint as pp
+from glob import glob
 
 import problem
 import visualisation
@@ -11,42 +10,9 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
-log = LogFile.read("test.log")
+# Read the log file for each run.
+logs = map(LogFile.read, glob('../examples/gcd/*.log'))
 
-frame = pd.DataFrame(log.data)
-plt.figure()
-
-# Mean fitness vs. Generation
-frame.groupby('generation').aggregate(max)['fitness'].plot(kind='line')
-plt.show()
-
-#visualise(ds, "median_fitness_vs_generation", {
-#    'axis': [0, 10, 0.0, 10.0]
-#})
-
-#visualise(ds, "mean_fitness_vs_generation")
-
-# .analyse("diversity", { "measure": "normalised_levenshtein" })
-
-# .with("canonical", lambda p: normalise(p.genome))
-# .with("distance_to_origin")
-
-# .with_as("canonical", "canonical")
-# .assign("distance_to_origin")
-
-# virtual_property("canonical") ->
-# - requires_representation_is("patch")
-# - requires_property("genome")
-# - requires_meta_property("problem")
-
-# .transform("relative_distance_matrix")
-# .transform("mean")
-# .transform("median")
-# .transform("max")
-# .transform("min")
-
-# Analysis name
-# - algorithm type
-# - problem type
-# - genome requirements
-# - fitness requirements
+# Mean fitness vs. Generation (many runs)
+#frame.groupby('generation').aggregate(max)['fitness'].plot(kind='line')
+#plt.show()
