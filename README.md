@@ -5,7 +5,7 @@ log files.
 
 ## Log Format
 
-The framework-independent log for a given run is split into two sections:
+The framework-independent log file for a given run is split into two sections:
 
 * `[meta]`, describes the environment in which the run was performed, the
   problem it covered, and other meta-level details about the run.
@@ -13,16 +13,17 @@ The framework-independent log for a given run is split into two sections:
   (part of) the state of the search at given moments in time. These
   observations are given as a sequence of flexibly-structured JSON documents.
 
-### Environment Section
+### `[meta]` section
 
-Gives details of the machine used to carry out the search, including its
-operating system. Also specifies the name of the framework, the random
-seed used, and the date and time that the run started.
+The information provided in this section guides the analyser on how to parse
+the observations in the `[data]` section of the file. This contents of this
+section are specified by a JSON file, which should contain (at least some of)
+the properties below:
 
-* `os`
-* `seed`
-* `datetime`
-* `framework`
+* `os`, a short description of the operating system used during the run.
+* `seed`, the random seed used during the run.
+* `datetime`, the date and time that the run was started.
+* `program`, the program, or framework, that was used to perform the run.
 
 ### Algorithm Section
 
