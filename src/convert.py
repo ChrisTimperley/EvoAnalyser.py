@@ -54,11 +54,12 @@ def convert(fn, target):
                      'parents': []})
 
     for g, (sel, crs, mut, evl) in enumerate(gens):
-        data.append({'generation': g + 1,
-                     'position': evl[0],
-                     'fitness': evl[1],
-                     'genome': mut[1],
-                     'parents': crs[2]})
+        for (i, f) in evl:
+            data.append({'generation': g + 1,
+                         'position': i,
+                         'fitness': f,
+                         'genome': mut[i][1],
+                         'parents': crs[i][2]})
 
     # Build the meta information.
     # Get the seed from the file name.
