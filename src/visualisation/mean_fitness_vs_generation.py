@@ -1,29 +1,22 @@
 import numpy as np
 import storage
-from line_graph import LineGraph
+from visualisation import Visualisation
 
-# MultiLineGraph
-# BoxPlot
+class MeanFitnessVsGeneration(Visualisation):
 
-class MeanFitnessVsGeneration(LineGraph):
-
-    def prepare(self, data):
-        ds = data.group_by('generation').project("fitness")\
-                .transform(lambda d: np.mean(d))
-        return zip(*ds.pairs())
-
-    def draw(self, options = {}):
-        options['title'] = options.get('title', 'Mean Fitness vs. Generation')
-        options['x'] = options.get('x', 'Generation')
-        options['y'] = options.get('y', 'Mean Fitness')
+    def draw(self, data, options = {}):
         
-        # Generate the axis for the graph.
-        #gens = len(self.line[0])
+        # Generate the data frame for this graph.
+        data = data.groupby('generation')
+        data = data.apply(lambda g: g.groupby('seed').aggregate(np.mean)['fitness'])
+        
+        # Plot this graph. 
+        plot = data.plot(kind='line', legend=False)
+        plot.set_ylabel(options.get('y', 'Mean Fitness'))
+        plot.set_xlabel(options.get('x', 'Generation'))
+        plot.set_title(options.get('title', 'Mean Fitness vs. Generation'))
 
-        # Ideally we could do with knowing the problem that this data set
-        # belongs to.
-
-        super(MeanFitnessVsGeneration, self).draw(options)
+        return plot
 
 # Register this visualisation.
 storage.register("mean_fitness_vs_generation", MeanFitnessVsGeneration)
