@@ -3,7 +3,7 @@ import sys
 import os.path
 
 # Converts log files from the old file format into the new format.
-def convert(fn, target):
+def convert(fn, target, problem_name):
     with open(fn, 'r') as f:
         sections = f.read().split('=' * 80)[1:]
 
@@ -63,14 +63,24 @@ def convert(fn, target):
 
     # Build the meta information.
     # Get the seed from the file name.
-    meta = {'version': '0.0.1'}
-    env = {'seed': int(os.path.basename(fn)[:-4])}
-    problem = {'type': 'repair', 'enclosure': enclosure}
+    meta = {
+        'version': '0.0.2',
+        'program': 'genprog-3.0',
+        'seed': int(os.path.basename(fn)[:-4]),
+        'algorithm': {
+            'type': 'genetic',
+            'name': 'ALGORITHM-NAME',
+            'representation': 'patch'
+        },
+        'problem': {
+            'type': 'repair',
+            'name': problem_name,
+            'enclosure': enclosure
+        }
+    }
 
     # Build the file contents.
     meta = "[meta]\n" + json.dumps(meta) + "\n\n"
-    env = "[environment]\n" + json.dumps(env) + "\n\n"
-    problem = "[problem]\n" + json.dumps(problem) + "\n\n"
     data = "[data]\n" + '\n'.join(map(json.dumps, data))
     contents = meta + env + problem + data
 
@@ -78,4 +88,4 @@ def convert(fn, target):
     with open(target, 'w') as f:
         f.write(contents)
 
-convert(sys.argv[1], sys.argv[2])
+convert(sys.argv[1], sys.argv[2], sys.argv[3])
