@@ -15,6 +15,13 @@ logs = map(LogFile.read, glob('../examples/gcd/*.log'))
 logs = map(lambda l: l.data, logs)
 logs = pd.concat(logs)
 
+# How many unique patches are there?
+num = len(logs)
+unique = len(pd.unique(logs['canonical'].values.ravel()))
+
+ratio = float(unique) / num
+print ratio
+
 # Let's try some visualisations :-)
-visualise("mean_fitness_vs_generation", logs)
+visualise("mean_distance_to_origin_vs_generation", logs)
 plt.show()

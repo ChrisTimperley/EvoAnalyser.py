@@ -2,6 +2,7 @@ import pandas as pd
 import json
 import problem
 import representation
+import distance
 
 # LogFile objects are used to store the contents of a log file in a common
 # format.
@@ -25,6 +26,8 @@ class LogFile:
         for row in rows:
             row['genome'] = representation.Patch.load(row['genome'])
             row['canonical'] = row['genome'].normalise(meta['problem'])
+            row['lines'] = row['canonical'].to_lines(meta['problem'])
+            row['distance_to_origin'] = distance.levenshtein(row['lines'], meta['problem'].lines)
             row['program'] = meta['program']
             row['seed'] = meta['seed']
             row['problem'] = meta['problem'].name()
