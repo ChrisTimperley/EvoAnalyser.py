@@ -3,6 +3,8 @@
 Performs framework-independent visualisation and analysis of genetic algorithm
 log files.
 
+-------------------------------------------------------------------------------
+
 ## Log Format
 
 The framework-independent log file for a given run is split into two sections:
