@@ -2,7 +2,7 @@
 {
   "version": "0.0.1",
   "program": "genprog-3.0",
-  "algorithm": "",
+  "algorithm": "genetic",
   "seed": 0,
   "problem": {
     "type": "repair",
@@ -23,6 +23,7 @@
       "14": 12,
       "15": 0,
       "16": 0
+    }
   }
 }
 
