@@ -31,7 +31,7 @@ class Patch(Representation):
         fixes = []
 
         # Generate the fixes from left to right.
-        for sid in problem.statements():
+        for sid in problem.sids:
             if inter.altered(sid):
 
                 # Check if this statement was destroyed by an edit at this SID,

@@ -10,7 +10,7 @@ class Intermediate(object):
     # Generates an intermediate representation from a given patch.
     @staticmethod
     def from_patch(problem, patch):
-        rep = Intermediate.from_problem(problem)        
+        rep = Intermediate.from_problem(problem)
         for fix in patch.fixes:
             rep.apply_fix(problem, fix)
         return rep
@@ -42,7 +42,6 @@ class Intermediate(object):
                 self.states[fix.location] = [fix.surrogate]
             else:
                 self.states[fix.location].append(fix.surrogate)
-
         elif fix.typ == "replace":
             self.states[fix.location] = [fix.surrogate]
             for loc in problem.children(fix.location):

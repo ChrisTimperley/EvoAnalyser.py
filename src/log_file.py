@@ -23,8 +23,8 @@ class LogFile:
         # We could store LogFile UIDs, then compute these columns
         # on the fly?
         for row in rows:
-            row['genome'] = representation.Patch(row['genome'])
-            #row['canonical'] = row['genome'].normalise(meta['problem'])
+            row['genome'] = representation.Patch.load(row['genome'])
+            row['canonical'] = row['genome'].normalise(meta['problem'])
             row['program'] = meta['program']
             row['seed'] = meta['seed']
             row['problem'] = meta['problem'].name()

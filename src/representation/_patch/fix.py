@@ -78,5 +78,3 @@ class Fix(object):
         # according to their operator precedence.
         else:
             return cmp(self.operator_precedence(), other.operator_precedence())
-
-
