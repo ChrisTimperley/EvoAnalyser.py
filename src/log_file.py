@@ -26,8 +26,8 @@ class LogFile:
         for row in rows:
             row['genome'] = representation.Patch.load(row['genome'])
             row['canonical'] = row['genome'].normalise(meta['problem'])
-            row['lines'] = row['canonical'].to_lines(meta['problem'])
-            row['distance_to_origin'] = distance.levenshtein(row['lines'], meta['problem'].lines)
+            #row['lines'] = row['canonical'].to_lines(meta['problem'])
+            #row['distance_to_origin'] = distance.levenshtein(row['lines'], meta['problem'].lines)
             # RELATIVE DISTANCE TO ORIGIN
             # IDEAL
             row['program'] = meta['program']
