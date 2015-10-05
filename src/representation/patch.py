@@ -20,7 +20,7 @@ class Patch(Representation):
 
     # Converts this patch to a human-readable string.
     def to_s(self):
-        pass
+        return self.to_string()
 
     # Converts a given intermediate representation to its minimal canonical
     # patch.

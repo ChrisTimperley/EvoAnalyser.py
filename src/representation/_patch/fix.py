@@ -62,6 +62,18 @@ class Fix(object):
         # Put everything together into a string definition.
         return "%s(%s)" % (typ_short, args)
 
+    # Checks whether this fix is a replacement operation.
+    def is_replacement(self):
+        return self.typ == "replace"
+
+    # Checks whether this fix is a deletion operation.
+    def is_deletion(self):
+        return self.typ == "delete"
+
+    # Checks whether this fix is an insertion operation.
+    def is_insertion(self):
+        return self.typ == "insert"
+
     # Calculates the precedence of the operator used by this fix. 
     def operator_precedence(self):
         return Fix.op_precedence(self.typ)
