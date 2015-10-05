@@ -42,593 +42,593 @@
 {"generation": 0, "position": 37, "parents": [], "genome": "r(158,152)", "fitness": 0.0}
 {"generation": 0, "position": 38, "parents": [], "genome": "r(246,274)", "fitness": 0.0}
 {"generation": 0, "position": 39, "parents": [], "genome": "original", "fitness": 5.0}
-{"generation": 1, "position": 0, "parents": "r(251,292)", "genome": "r(251,292) a(223,221)", "fitness": 5.0}
-{"generation": 1, "position": 1, "parents": "r(417,390)", "genome": "r(417,390) a(182,171)", "fitness": 0.0}
-{"generation": 1, "position": 2, "parents": "d(357)", "genome": "d(357) a(231,273)", "fitness": 0.0}
-{"generation": 1, "position": 3, "parents": "d(439)", "genome": "d(439) r(465,20)", "fitness": 0.0}
-{"generation": 1, "position": 4, "parents": "d(357)", "genome": "d(357) a(328,351)", "fitness": 0.0}
-{"generation": 1, "position": 5, "parents": "d(439)", "genome": "d(439) a(210,475)", "fitness": 0.0}
-{"generation": 1, "position": 6, "parents": "a(212,425)", "genome": "a(212,425) a(333,343)", "fitness": 5.0}
-{"generation": 1, "position": 7, "parents": "d(213)", "genome": "d(213) d(214)", "fitness": 5.0}
-{"generation": 1, "position": 8, "parents": "r(246,274)", "genome": "r(246,274) d(440)", "fitness": 0.0}
-{"generation": 1, "position": 9, "parents": "d(213)", "genome": "d(213) d(453)", "fitness": 5.0}
-{"generation": 1, "position": 10, "parents": "r(287,413)", "genome": "r(287,413) d(417)", "fitness": 0.0}
-{"generation": 1, "position": 11, "parents": "r(158,152)", "genome": "r(158,152) d(173)", "fitness": 0.0}
-{"generation": 1, "position": 12, "parents": "d(168)", "genome": "d(168) r(323,338)", "fitness": 0.0}
-{"generation": 1, "position": 13, "parents": "d(168)", "genome": "d(168) d(255)", "fitness": 0.0}
-{"generation": 1, "position": 14, "parents": "d(168)", "genome": "d(168) d(409)", "fitness": 0.0}
-{"generation": 1, "position": 15, "parents": "d(168)", "genome": "d(168) a(22,233)", "fitness": 0.0}
-{"generation": 1, "position": 16, "parents": "r(158,152)", "genome": "r(158,152) d(188)", "fitness": 0.0}
-{"generation": 1, "position": 17, "parents": "d(403)", "genome": "d(403) d(121)", "fitness": 0.0}
-{"generation": 1, "position": 18, "parents": "r(243,256)", "genome": "r(243,256) d(405)", "fitness": 0.0}
-{"generation": 1, "position": 19, "parents": "r(396,423)", "genome": "r(396,423) a(162,413)", "fitness": 0.0}
-{"generation": 1, "position": 20, "parents": "d(161)", "genome": "d(161) a(117,214)", "fitness": 0.0}
-{"generation": 1, "position": 21, "parents": "d(455)", "genome": "d(455) a(202,425)", "fitness": 5.0}
-{"generation": 1, "position": 22, "parents": "r(180,113)", "genome": "r(180,113) d(215)", "fitness": 0.0}
-{"generation": 1, "position": 23, "parents": "r(246,274)", "genome": "r(246,274) a(227,20)", "fitness": 0.0}
-{"generation": 1, "position": 24, "parents": "r(417,390)", "genome": "r(417,390) r(294,277)", "fitness": 0.0}
-{"generation": 1, "position": 25, "parents": "r(180,113)", "genome": "r(180,113) r(451,139)", "fitness": 0.0}
-{"generation": 1, "position": 26, "parents": "r(246,274)", "genome": "r(246,274) r(368,379)", "fitness": 0.0}
-{"generation": 1, "position": 27, "parents": "a(452,2)", "genome": "a(452,2) r(3,14)", "fitness": 5.0}
-{"generation": 1, "position": 28, "parents": "d(376)", "genome": "d(376) a(450,228)", "fitness": 0.0}
-{"generation": 1, "position": 29, "parents": "r(243,256)", "genome": "r(243,256) d(239)", "fitness": 0.0}
-{"generation": 1, "position": 30, "parents": "d(376)", "genome": "d(376) a(473,192)", "fitness": 0.0}
-{"generation": 1, "position": 31, "parents": "r(243,256)", "genome": "r(243,256) a(237,381)", "fitness": 0.0}
-{"generation": 1, "position": 32, "parents": "d(455)", "genome": "d(455) r(146,1)", "fitness": 0.0}
-{"generation": 1, "position": 33, "parents": "r(158,152)", "genome": "r(158,152) r(467,420)", "fitness": 0.0}
-{"generation": 1, "position": 34, "parents": "d(455)", "genome": "d(455) d(214)", "fitness": 5.0}
-{"generation": 1, "position": 35, "parents": "r(158,152)", "genome": "r(158,152) a(256,362)", "fitness": 0.0}
-{"generation": 1, "position": 36, "parents": "d(168)", "genome": "d(168) a(189,120)", "fitness": 0.0}
-{"generation": 1, "position": 37, "parents": "d(439)", "genome": "d(439) a(411,399)", "fitness": 0.0}
-{"generation": 1, "position": 38, "parents": "d(168)", "genome": "d(168) a(401,139)", "fitness": 0.0}
-{"generation": 1, "position": 39, "parents": "d(439)", "genome": "d(439) a(139,28)", "fitness": 0.0}
-{"generation": 1, "position": 40, "parents": "a(212,381)", "genome": "a(212,381) a(213,41)", "fitness": 5.0}
-{"generation": 1, "position": 41, "parents": "d(417)", "genome": "d(417) r(325,355)", "fitness": 0.0}
-{"generation": 1, "position": 42, "parents": "d(403)", "genome": "d(403) d(212)", "fitness": 5.0}
-{"generation": 1, "position": 43, "parents": "d(11)", "genome": "d(11) a(218,447)", "fitness": 5.0}
-{"generation": 1, "position": 44, "parents": "d(403)", "genome": "d(403) d(387)", "fitness": 0.0}
-{"generation": 1, "position": 45, "parents": "d(11)", "genome": "d(11) d(338)", "fitness": 5.0}
-{"generation": 1, "position": 46, "parents": "r(417,390)", "genome": "r(417,390) r(160,176)", "fitness": 0.0}
-{"generation": 1, "position": 47, "parents": "d(11)", "genome": "d(11) d(150)", "fitness": 2.0}
-{"generation": 1, "position": 48, "parents": "r(287,413)", "genome": "r(287,413) r(174,384)", "fitness": 0.0}
-{"generation": 1, "position": 49, "parents": "r(396,423)", "genome": "r(396,423) d(216)", "fitness": 0.0}
-{"generation": 1, "position": 50, "parents": "d(117)", "genome": "d(117) a(362,240)", "fitness": 0.0}
-{"generation": 1, "position": 51, "parents": "r(287,413)", "genome": "r(287,413) d(121)", "fitness": 0.0}
-{"generation": 1, "position": 52, "parents": "d(117)", "genome": "d(117) d(132)", "fitness": 0.0}
-{"generation": 2, "position": 0, "parents": "d(168) d(255)", "genome": "d(168) d(255) a(355,346)", "fitness": 0.0}
-{"generation": 2, "position": 1, "parents": "r(158,152) d(173)", "genome": "r(158,152) d(173) r(224,20)", "fitness": 0.0}
-{"generation": 2, "position": 2, "parents": "d(168) a(189,120) d(239)", "genome": "d(168) a(189,120) d(239) d(182)", "fitness": 0.0}
-{"generation": 2, "position": 3, "parents": "r(243,256)", "genome": "r(243,256) d(213)", "fitness": 5.0}
-{"generation": 2, "position": 4, "parents": "d(168) a(189,120)", "genome": "d(168) a(189,120) a(415,471)", "fitness": 0.0}
-{"generation": 2, "position": 5, "parents": "r(243,256) d(239)", "genome": "r(243,256) d(239) r(194,157)", "fitness": 0.0}
-{"generation": 2, "position": 6, "parents": "r(287,413) r(174,384) a(117,214)", "genome": "r(287,413) r(174,384) a(117,214) r(213,113)", "fitness": 0.0}
-{"generation": 2, "position": 7, "parents": "d(161)", "genome": "d(161) r(212,160)", "fitness": 0.0}
-{"generation": 2, "position": 8, "parents": "r(287,413) r(174,384)", "genome": "r(287,413) r(174,384) a(181,467)", "fitness": 0.0}
-{"generation": 2, "position": 9, "parents": "d(161) a(117,214)", "genome": "d(161) a(117,214) d(299)", "fitness": 0.0}
-{"generation": 2, "position": 10, "parents": "d(403) d(387)", "genome": "d(403) d(387) r(141,214)", "fitness": 10.0}
-{"generation": 2, "position": 11, "parents": "d(455) r(146,1)", "genome": "d(455) r(146,1) d(213)", "fitness": 0.0}
-{"generation": 2, "position": 12, "parents": "r(243,256) d(405)", "genome": "r(243,256) d(405) a(434,436)", "fitness": 0.0}
-{"generation": 2, "position": 13, "parents": "d(168) d(409)", "genome": "d(168) d(409) r(461,20)", "fitness": 0.0}
-{"generation": 2, "position": 14, "parents": "d(168) a(189,120) d(132)", "genome": "d(168) a(189,120) d(132) r(412,402)", "fitness": 0.0}
-{"generation": 2, "position": 15, "parents": "d(117)", "genome": "d(117) r(240,297)", "fitness": 0.0}
-{"generation": 2, "position": 16, "parents": "d(168) a(189,120)", "genome": "d(168) a(189,120) r(339,251)", "fitness": 0.0}
-{"generation": 2, "position": 17, "parents": "d(117) d(132)", "genome": "d(117) d(132) d(145)", "fitness": 0.0}
-{"generation": 2, "position": 18, "parents": "d(168) a(22,233) d(121)", "genome": "d(168) a(22,233) d(121) r(177,233)", "fitness": 0.0}
-{"generation": 2, "position": 19, "parents": "r(287,413)", "genome": "r(287,413) a(214,171)", "fitness": 0.0}
-{"generation": 2, "position": 20, "parents": "d(168) a(22,233)", "genome": "d(168) a(22,233) r(362,241)", "fitness": 0.0}
-{"generation": 2, "position": 21, "parents": "r(287,413) d(121)", "genome": "r(287,413) d(121) r(213,2)", "fitness": 0.0}
-{"generation": 2, "position": 22, "parents": "d(357) a(328,351)", "genome": "d(357) a(328,351) r(9,171)", "fitness": 0.0}
-{"generation": 2, "position": 23, "parents": "r(396,423) a(162,413)", "genome": "r(396,423) a(162,413) a(327,475)", "fitness": 0.0}
-{"generation": 2, "position": 24, "parents": "a(452,2) r(3,14)", "genome": "a(452,2) r(3,14) r(359,300)", "fitness": 0.0}
-{"generation": 2, "position": 25, "parents": "d(403) d(387)", "genome": "d(403) d(387) r(172,439)", "fitness": 0.0}
-{"generation": 2, "position": 26, "parents": "a(452,2) r(3,14)", "genome": "a(452,2) r(3,14) r(213,147)", "fitness": 5.0}
-{"generation": 2, "position": 27, "parents": "d(403) d(387)", "genome": "d(403) d(387) d(460)", "fitness": 0.0}
-{"generation": 2, "position": 28, "parents": "d(455) a(182,171)", "genome": "d(455) a(182,171) a(279,400)", "fitness": 5.0}
-{"generation": 2, "position": 29, "parents": "r(417,390) r(146,1)", "genome": "r(417,390) r(146,1) a(353,325)", "fitness": 0.0}
-{"generation": 2, "position": 30, "parents": "d(455) r(146,1)", "genome": "d(455) r(146,1) r(215,173)", "fitness": 0.0}
-{"generation": 2, "position": 31, "parents": "r(417,390) a(182,171)", "genome": "r(417,390) a(182,171) d(214)", "fitness": 0.0}
-{"generation": 2, "position": 32, "parents": "d(417) r(325,355)", "genome": "d(417) r(325,355) a(23,34)", "fitness": 0.0}
-{"generation": 2, "position": 33, "parents": "r(243,256) d(405)", "genome": "r(243,256) d(405) r(453,362)", "fitness": 0.0}
-{"generation": 2, "position": 34, "parents": "d(161) a(189,120)", "genome": "d(161) a(189,120) r(181,374)", "fitness": 0.0}
-{"generation": 2, "position": 35, "parents": "d(168) a(117,214)", "genome": "d(168) a(117,214) r(210,160)", "fitness": 0.0}
-{"generation": 2, "position": 36, "parents": "d(161) a(117,214)", "genome": "d(161) a(117,214) a(208,174)", "fitness": 0.0}
-{"generation": 2, "position": 37, "parents": "d(168) a(189,120)", "genome": "d(168) a(189,120) r(197,212)", "fitness": 0.0}
-{"generation": 2, "position": 38, "parents": "d(357) a(231,273) d(239)", "genome": "d(357) a(231,273) d(239) d(280)", "fitness": 0.0}
-{"generation": 2, "position": 39, "parents": "r(243,256)", "genome": "r(243,256) d(411)", "fitness": 0.0}
-{"generation": 2, "position": 40, "parents": "d(357) a(231,273)", "genome": "d(357) a(231,273) r(210,181)", "fitness": 0.0}
-{"generation": 2, "position": 41, "parents": "r(243,256) d(239)", "genome": "r(243,256) d(239) d(109)", "fitness": 0.0}
-{"generation": 2, "position": 42, "parents": "r(417,390)", "genome": "r(417,390) d(227)", "fitness": 0.0}
-{"generation": 2, "position": 43, "parents": "a(452,2) r(3,14) r(294,277)", "genome": "a(452,2) r(3,14) r(294,277) a(128,228)", "fitness": 0.0}
-{"generation": 2, "position": 44, "parents": "r(417,390) r(294,277)", "genome": "r(417,390) r(294,277) a(323,274)", "fitness": 0.0}
-{"generation": 2, "position": 45, "parents": "a(452,2) r(3,14)", "genome": "a(452,2) r(3,14) a(384,37)", "fitness": 5.0}
-{"generation": 2, "position": 46, "parents": "d(213) d(214)", "genome": "d(213) d(214) d(468)", "fitness": 0.0}
-{"generation": 2, "position": 47, "parents": "d(417) r(325,355)", "genome": "d(417) r(325,355) a(167,1)", "fitness": 0.0}
-{"generation": 2, "position": 48, "parents": "d(455) r(146,1)", "genome": "d(455) r(146,1) a(340,330)", "fitness": 0.0}
-{"generation": 2, "position": 49, "parents": "d(357) a(328,351)", "genome": "d(357) a(328,351) a(256,400)", "fitness": 0.0}
-{"generation": 2, "position": 50, "parents": "d(168) a(22,233)", "genome": "d(168) a(22,233) d(221)", "fitness": 0.0}
-{"generation": 2, "position": 51, "parents": "d(357) a(231,273)", "genome": "d(357) a(231,273) d(136)", "fitness": 0.0}
-{"generation": 2, "position": 52, "parents": "d(168) a(22,233)", "genome": "d(168) a(22,233) r(157,145)", "fitness": 0.0}
-{"generation": 2, "position": 53, "parents": "d(357) a(231,273)", "genome": "d(357) a(231,273) a(202,175)", "fitness": 0.0}
-{"generation": 2, "position": 54, "parents": "d(357) a(328,351)", "genome": "d(357) a(328,351) a(210,198)", "fitness": 0.0}
-{"generation": 2, "position": 55, "parents": "d(168) d(255)", "genome": "d(168) d(255) d(432)", "fitness": 0.0}
-{"generation": 2, "position": 56, "parents": "d(455) a(401,139)", "genome": "d(455) a(401,139) r(227,214)", "fitness": 0.0}
-{"generation": 2, "position": 57, "parents": "d(168) r(146,1)", "genome": "d(168) r(146,1) a(464,451)", "fitness": 0.0}
-{"generation": 2, "position": 58, "parents": "d(455) r(146,1)", "genome": "d(455) r(146,1) r(210,164)", "fitness": 0.0}
-{"generation": 2, "position": 59, "parents": "d(168) a(401,139)", "genome": "d(168) a(401,139) a(450,462)", "fitness": 0.0}
-{"generation": 2, "position": 60, "parents": "r(246,274) d(440)", "genome": "r(246,274) d(440) d(182)", "fitness": 0.0}
-{"generation": 2, "position": 61, "parents": "d(161) a(117,214)", "genome": "d(161) a(117,214) d(185)", "fitness": 0.0}
-{"generation": 2, "position": 62, "parents": "r(246,274) d(440)", "genome": "r(246,274) d(440) r(454,466)", "fitness": 0.0}
-{"generation": 3, "position": 0, "parents": "d(357) a(340,330)", "genome": "d(357) a(340,330) a(135,471)", "fitness": 5.0}
-{"generation": 3, "position": 1, "parents": "d(455) r(146,1) a(328,351) a(256,400)", "genome": "d(455) r(146,1) a(328,351) a(256,400) r(370,154)", "fitness": 0.0}
-{"generation": 3, "position": 2, "parents": "d(357) a(328,351) a(256,400)", "genome": "d(357) a(328,351) a(256,400) r(214,113)", "fitness": 0.0}
-{"generation": 3, "position": 3, "parents": "d(455) r(146,1) a(340,330)", "genome": "d(455) r(146,1) a(340,330) d(441)", "fitness": 0.0}
-{"generation": 3, "position": 4, "parents": "d(117) a(128,228)", "genome": "d(117) a(128,228) r(213,357)", "fitness": 0.0}
-{"generation": 3, "position": 5, "parents": "a(452,2) r(3,14) r(294,277) r(240,297)", "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361)", "fitness": 0.0}
-{"generation": 3, "position": 6, "parents": "d(117) r(240,297)", "genome": "d(117) r(240,297) r(275,197)", "fitness": 0.0}
-{"generation": 3, "position": 7, "parents": "a(452,2) r(3,14) r(294,277) a(128,228)", "genome": "a(452,2) r(3,14) r(294,277) a(128,228) d(344)", "fitness": 0.0}
-{"generation": 3, "position": 8, "parents": "d(168) a(401,139) a(450,462)", "genome": "d(168) a(401,139) a(450,462) d(139)", "fitness": 0.0}
-{"generation": 3, "position": 9, "parents": "d(161) a(189,120) r(181,374)", "genome": "d(161) a(189,120) r(181,374) d(294)", "fitness": 0.0}
-{"generation": 3, "position": 10, "parents": "d(168) a(401,139) a(450,462)", "genome": "d(168) a(401,139) a(450,462) d(298)", "fitness": 0.0}
-{"generation": 3, "position": 11, "parents": "d(161) a(189,120) r(181,374)", "genome": "d(161) a(189,120) r(181,374) d(435)", "fitness": 0.0}
-{"generation": 3, "position": 12, "parents": "d(168) r(359,300)", "genome": "d(168) r(359,300) r(199,226)", "fitness": 0.0}
-{"generation": 3, "position": 13, "parents": "a(452,2) r(3,14) a(189,120) d(239) d(182)", "genome": "a(452,2) r(3,14) a(189,120) d(239) d(182) a(10,362)", "fitness": 0.0}
-{"generation": 3, "position": 14, "parents": "d(168) a(189,120) d(239) d(182)", "genome": "d(168) a(189,120) d(239) d(182) a(2,10)", "fitness": 0.0}
-{"generation": 3, "position": 15, "parents": "a(452,2) r(3,14) r(359,300)", "genome": "a(452,2) r(3,14) r(359,300) d(422)", "fitness": 0.0}
-{"generation": 3, "position": 16, "parents": "d(168) a(22,233) d(121) r(177,233)", "genome": "d(168) a(22,233) d(121) r(177,233) r(340,136)", "fitness": 0.0}
-{"generation": 3, "position": 17, "parents": "r(287,413) r(174,384) a(181,467)", "genome": "r(287,413) r(174,384) a(181,467) d(136)", "fitness": 0.0}
-{"generation": 3, "position": 18, "parents": "r(243,256) d(121) r(213,2)", "genome": "r(243,256) d(121) r(213,2) a(212,384)", "fitness": 0.0}
-{"generation": 3, "position": 19, "parents": "r(287,413) d(405) a(434,436)", "genome": "r(287,413) d(405) a(434,436) r(231,338)", "fitness": 0.0}
-{"generation": 3, "position": 20, "parents": "r(243,256) d(405) a(434,436)", "genome": "r(243,256) d(405) a(434,436) d(214)", "fitness": 0.0}
-{"generation": 3, "position": 21, "parents": "r(287,413) d(121) r(213,2)", "genome": "r(287,413) d(121) r(213,2) d(454)", "fitness": 0.0}
-{"generation": 3, "position": 22, "parents": "d(161) a(189,120) r(181,374)", "genome": "d(161) a(189,120) r(181,374) d(433)", "fitness": 0.0}
-{"generation": 3, "position": 23, "parents": "r(243,256) d(405) r(453,362)", "genome": "r(243,256) d(405) r(453,362) a(214,330)", "fitness": 0.0}
-{"generation": 3, "position": 24, "parents": "d(417) r(325,355)", "genome": "d(417) r(325,355) a(430,355)", "fitness": 0.0}
-{"generation": 3, "position": 25, "parents": "d(168) a(401,139) a(450,462) a(23,34)", "genome": "d(168) a(401,139) a(450,462) a(23,34) a(421,390)", "fitness": 0.0}
-{"generation": 3, "position": 26, "parents": "d(417) r(325,355) a(23,34)", "genome": "d(417) r(325,355) a(23,34) d(424)", "fitness": 0.0}
-{"generation": 3, "position": 27, "parents": "d(168) a(401,139) a(450,462)", "genome": "d(168) a(401,139) a(450,462) d(235)", "fitness": 0.0}
-{"generation": 3, "position": 28, "parents": "d(417) r(325,355) a(23,34) r(197,212)", "genome": "d(417) r(325,355) a(23,34) r(197,212) a(212,286)", "fitness": 0.0}
-{"generation": 3, "position": 29, "parents": "d(168) a(189,120)", "genome": "d(168) a(189,120) r(409,439)", "fitness": 0.0}
-{"generation": 3, "position": 30, "parents": "d(417) r(325,355) a(23,34)", "genome": "d(417) r(325,355) a(23,34) a(385,391)", "fitness": 0.0}
-{"generation": 3, "position": 31, "parents": "d(168) a(189,120) r(197,212)", "genome": "d(168) a(189,120) r(197,212) r(467,468)", "fitness": 0.0}
-{"generation": 3, "position": 32, "parents": "d(168) d(409)", "genome": "d(168) d(409) r(201,272)", "fitness": 0.0}
-{"generation": 3, "position": 33, "parents": "d(455) r(146,1) r(210,164) r(461,20)", "genome": "d(455) r(146,1) r(210,164) r(461,20) a(349,237)", "fitness": 0.0}
-{"generation": 3, "position": 34, "parents": "d(168) d(409) r(461,20)", "genome": "d(168) d(409) r(461,20) a(240,273)", "fitness": 0.0}
-{"generation": 3, "position": 35, "parents": "d(455) r(146,1) r(210,164)", "genome": "d(455) r(146,1) r(210,164) a(361,185)", "fitness": 0.0}
-{"generation": 3, "position": 36, "parents": "d(168) a(189,120) d(132) r(412,402) a(328,351) a(256,400)", "genome": "d(168) a(189,120) d(132) r(412,402) a(328,351) a(256,400) d(160)", "fitness": 0.0}
-{"generation": 3, "position": 37, "parents": "d(357)", "genome": "d(357) r(325,362)", "fitness": 0.0}
-{"generation": 3, "position": 38, "parents": "d(168) a(189,120) d(132) r(412,402)", "genome": "d(168) a(189,120) d(132) r(412,402) a(293,415)", "fitness": 0.0}
-{"generation": 3, "position": 39, "parents": "d(357) a(328,351) a(256,400)", "genome": "d(357) a(328,351) a(256,400) a(205,281)", "fitness": 0.0}
-{"generation": 3, "position": 40, "parents": "d(455) r(146,1) r(215,173)", "genome": "d(455) r(146,1) r(215,173) r(117,113)", "fitness": 0.0}
-{"generation": 3, "position": 41, "parents": "d(357) a(231,273) d(239) d(280)", "genome": "d(357) a(231,273) d(239) d(280) a(458,52)", "fitness": 0.0}
-{"generation": 3, "position": 42, "parents": "d(161) a(117,214)", "genome": "d(161) a(117,214) r(297,333)", "fitness": 0.0}
-{"generation": 3, "position": 43, "parents": "d(161) a(117,214) a(208,174) a(208,174)", "genome": "d(161) a(117,214) a(208,174) a(208,174) r(158,439)", "fitness": 0.0}
-{"generation": 3, "position": 44, "parents": "d(161) a(117,214) a(208,174)", "genome": "d(161) a(117,214) a(208,174) a(399,396)", "fitness": 0.0}
-{"generation": 3, "position": 45, "parents": "d(161) a(117,214) a(208,174)", "genome": "d(161) a(117,214) a(208,174) r(432,441)", "fitness": 0.0}
-{"generation": 3, "position": 46, "parents": "r(243,256) d(239) r(157,145)", "genome": "r(243,256) d(239) r(157,145) d(122)", "fitness": 0.0}
-{"generation": 3, "position": 47, "parents": "d(168) a(22,233) r(194,157)", "genome": "d(168) a(22,233) r(194,157) a(19,286)", "fitness": 0.0}
-{"generation": 3, "position": 48, "parents": "r(243,256) d(239) r(194,157)", "genome": "r(243,256) d(239) r(194,157) d(216)", "fitness": 0.0}
-{"generation": 3, "position": 49, "parents": "d(168) a(22,233) r(157,145)", "genome": "d(168) a(22,233) r(157,145) a(387,289)", "fitness": 0.0}
-{"generation": 3, "position": 50, "parents": "d(161) a(117,214) a(10,48)", "genome": "d(161) a(117,214) a(10,48) a(412,136)", "fitness": 0.0}
-{"generation": 3, "position": 51, "parents": "d(168) a(189,120) r(197,212)", "genome": "d(168) a(189,120) r(197,212) r(373,381)", "fitness": 0.0}
-{"generation": 3, "position": 52, "parents": "d(455) r(146,1) r(224,20)", "genome": "d(455) r(146,1) r(224,20) a(330,355)", "fitness": 0.0}
-{"generation": 3, "position": 53, "parents": "r(158,152) d(173) d(213)", "genome": "r(158,152) d(173) d(213) a(440,341)", "fitness": 0.0}
-{"generation": 3, "position": 54, "parents": "d(455) r(146,1) d(213)", "genome": "d(455) r(146,1) d(213) a(214,275)", "fitness": 0.0}
-{"generation": 3, "position": 55, "parents": "r(158,152) d(173) r(224,20)", "genome": "r(158,152) d(173) r(224,20) d(346)", "fitness": 0.0}
-{"generation": 3, "position": 56, "parents": "d(168) a(401,139) a(450,462)", "genome": "d(168) a(401,139) a(450,462) a(280,384)", "fitness": 0.0}
-{"generation": 3, "position": 57, "parents": "d(117) r(240,297)", "genome": "d(117) r(240,297) d(278)", "fitness": 0.0}
-{"generation": 3, "position": 58, "parents": "d(455) a(401,139) r(227,214)", "genome": "d(455) a(401,139) r(227,214) d(429)", "fitness": 0.0}
-{"generation": 3, "position": 59, "parents": "d(168) a(22,233) d(221)", "genome": "d(168) a(22,233) d(221) a(409,368)", "fitness": 0.0}
-{"generation": 3, "position": 60, "parents": "d(455) a(401,139) r(227,214)", "genome": "d(455) a(401,139) r(227,214) r(14,445)", "fitness": 0.0}
-{"generation": 3, "position": 61, "parents": "d(168) a(22,233) d(221)", "genome": "d(168) a(22,233) d(221) d(133)", "fitness": 0.0}
-{"generation": 3, "position": 62, "parents": "d(357) a(231,273) a(202,175)", "genome": "d(357) a(231,273) a(202,175) a(219,415)", "fitness": 0.0}
-{"generation": 3, "position": 63, "parents": "d(403) d(387) r(172,439)", "genome": "d(403) d(387) r(172,439) a(176,139)", "fitness": 0.0}
-{"generation": 3, "position": 64, "parents": "d(417) r(325,355) a(23,34)", "genome": "d(417) r(325,355) a(23,34) d(248)", "fitness": 0.0}
-{"generation": 4, "position": 0, "parents": "d(455) r(146,1) r(210,164) a(361,185)", "genome": "d(455) r(146,1) r(210,164) a(361,185) a(436,432)", "fitness": 0.0}
-{"generation": 4, "position": 1, "parents": "d(168) a(22,233) r(157,145) a(387,289)", "genome": "d(168) a(22,233) r(157,145) a(387,289) r(332,420)", "fitness": 0.0}
-{"generation": 4, "position": 2, "parents": "d(455)", "genome": "d(455) a(347,325)", "fitness": 5.0}
-{"generation": 4, "position": 3, "parents": "r(287,413) d(405) a(434,436) r(231,338) r(146,1) r(224,20) a(330,355)", "genome": "r(287,413) d(405) a(434,436) r(231,338) r(146,1) r(224,20) a(330,355) d(210)", "fitness": 0.0}
-{"generation": 4, "position": 4, "parents": "d(455) r(146,1) r(224,20) a(330,355)", "genome": "d(455) r(146,1) r(224,20) a(330,355) d(229)", "fitness": 0.0}
-{"generation": 4, "position": 5, "parents": "r(287,413) d(405) a(434,436) r(231,338)", "genome": "r(287,413) d(405) a(434,436) r(231,338) r(460,374)", "fitness": 0.0}
-{"generation": 4, "position": 6, "parents": "d(168) a(22,233) d(221) a(409,368)", "genome": "d(168) a(22,233) d(221) a(409,368) d(353)", "fitness": 0.0}
-{"generation": 4, "position": 7, "parents": "d(357) a(328,351) a(256,400) r(214,113)", "genome": "d(357) a(328,351) a(256,400) r(214,113) r(141,471)", "fitness": 0.0}
-{"generation": 4, "position": 8, "parents": "a(452,2) r(3,14) r(359,300) a(19,286)", "genome": "a(452,2) r(3,14) r(359,300) a(19,286) r(373,434)", "fitness": 0.0}
-{"generation": 4, "position": 9, "parents": "d(168) a(22,233) r(194,157) d(422)", "genome": "d(168) a(22,233) r(194,157) d(422) d(225)", "fitness": 0.0}
-{"generation": 4, "position": 10, "parents": "a(452,2) r(3,14) r(359,300) d(422)", "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28)", "fitness": 0.0}
-{"generation": 4, "position": 11, "parents": "d(168) a(22,233) r(194,157) a(19,286)", "genome": "d(168) a(22,233) r(194,157) a(19,286) a(409,416)", "fitness": 0.0}
-{"generation": 4, "position": 12, "parents": "r(158,152) d(173) d(213) a(440,341)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1)", "fitness": 0.0}
-{"generation": 4, "position": 13, "parents": "r(287,413) r(174,384) a(181,467) d(136)", "genome": "r(287,413) r(174,384) a(181,467) d(136) r(212,475)", "fitness": 0.0}
-{"generation": 4, "position": 14, "parents": "d(417) r(325,355) a(23,34) r(197,212) a(212,286)", "genome": "d(417) r(325,355) a(23,34) r(197,212) a(212,286) r(220,31)", "fitness": 0.0}
-{"generation": 4, "position": 15, "parents": "r(158,152) d(173) d(213) a(440,341)", "genome": "r(158,152) d(173) d(213) a(440,341) r(379,41)", "fitness": 0.0}
-{"generation": 4, "position": 16, "parents": "d(161) a(189,120) r(181,374) d(433)", "genome": "d(161) a(189,120) r(181,374) d(433) a(215,400)", "fitness": 0.0}
-{"generation": 4, "position": 17, "parents": "d(161) a(117,214) a(10,48) a(412,136)", "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227)", "fitness": 0.0}
-{"generation": 4, "position": 18, "parents": "a(452,2) r(3,14) r(294,277) r(240,297)", "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(119,116)", "fitness": 0.0}
-{"generation": 4, "position": 19, "parents": "d(417) r(325,355) a(430,355) a(351,361)", "genome": "d(417) r(325,355) a(430,355) a(351,361) d(181)", "fitness": 0.0}
-{"generation": 4, "position": 20, "parents": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361)", "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132)", "fitness": 0.0}
-{"generation": 4, "position": 21, "parents": "d(417) r(325,355) a(430,355)", "genome": "d(417) r(325,355) a(430,355) d(463)", "fitness": 0.0}
-{"generation": 4, "position": 22, "parents": "d(455) r(146,1) a(340,330) d(441)", "genome": "d(455) r(146,1) a(340,330) d(441) a(357,278)", "fitness": 0.0}
-{"generation": 4, "position": 23, "parents": "d(168) r(359,300) r(199,226)", "genome": "d(168) r(359,300) r(199,226) d(286)", "fitness": 0.0}
-{"generation": 4, "position": 24, "parents": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390)", "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390) r(349,350)", "fitness": 0.0}
-{"generation": 4, "position": 25, "parents": "d(168)", "genome": "d(168) a(475,210)", "fitness": 0.0}
-{"generation": 4, "position": 26, "parents": "r(243,256) d(405) a(434,436) d(214)", "genome": "r(243,256) d(405) a(434,436) d(214) a(227,350)", "fitness": 0.0}
-{"generation": 4, "position": 27, "parents": "d(168) a(401,139) a(450,462) a(23,34) a(421,390)", "genome": "d(168) a(401,139) a(450,462) a(23,34) a(421,390) a(9,350)", "fitness": 0.0}
-{"generation": 4, "position": 28, "parents": "d(161) a(189,120) r(181,374) d(433)", "genome": "d(161) a(189,120) r(181,374) d(433) d(119)", "fitness": 0.0}
-{"generation": 4, "position": 29, "parents": "d(168) a(189,120) r(197,212) r(467,468)", "genome": "d(168) a(189,120) r(197,212) r(467,468) r(454,446)", "fitness": 10.0}
-{"generation": 4, "position": 30, "parents": "d(168) a(401,139) r(412,402) a(293,415)", "genome": "d(168) a(401,139) r(412,402) a(293,415) a(333,45)", "fitness": 0.0}
-{"generation": 4, "position": 31, "parents": "d(168) a(189,120) d(132) a(450,462) d(139)", "genome": "d(168) a(189,120) d(132) a(450,462) d(139) a(301,41)", "fitness": 0.0}
-{"generation": 4, "position": 32, "parents": "d(168) a(401,139) a(450,462) d(139)", "genome": "d(168) a(401,139) a(450,462) d(139) a(332,327)", "fitness": 0.0}
-{"generation": 4, "position": 33, "parents": "d(168) a(189,120) d(132) r(412,402) a(293,415)", "genome": "d(168) a(189,120) d(132) r(412,402) a(293,415) a(253,275)", "fitness": 0.0}
-{"generation": 4, "position": 34, "parents": "d(168) d(409) r(201,272)", "genome": "d(168) d(409) r(201,272) r(440,214)", "fitness": 0.0}
-{"generation": 4, "position": 35, "parents": "d(357) a(328,351) a(256,400) a(205,281)", "genome": "d(357) a(328,351) a(256,400) a(205,281) d(137)", "fitness": 0.0}
-{"generation": 4, "position": 36, "parents": "d(168) r(359,300) r(199,226)", "genome": "d(168) r(359,300) r(199,226) d(117)", "fitness": 0.0}
-{"generation": 4, "position": 37, "parents": "d(161) a(117,214) a(208,174) a(399,396)", "genome": "d(161) a(117,214) a(208,174) a(399,396) a(281,286)", "fitness": 0.0}
-{"generation": 4, "position": 38, "parents": "d(168) d(409) r(461,20) a(240,273)", "genome": "d(168) d(409) r(461,20) a(240,273) d(212)", "fitness": 0.0}
-{"generation": 4, "position": 39, "parents": "r(287,413) r(174,384) a(117,214) r(213,113) r(253,331)", "genome": "r(287,413) r(174,384) a(117,214) r(213,113) r(253,331) r(291,274)", "fitness": 10.0}
-{"generation": 4, "position": 40, "parents": "d(455) a(401,139) r(227,214) r(14,445)", "genome": "d(455) a(401,139) r(227,214) r(14,445) d(207)", "fitness": 0.0}
-{"generation": 4, "position": 41, "parents": "d(168) r(359,300) r(199,226)", "genome": "d(168) r(359,300) r(199,226) d(470)", "fitness": 0.0}
-{"generation": 4, "position": 42, "parents": "r(243,256) d(121) r(213,2) a(212,384) a(176,139)", "genome": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150)", "fitness": 0.0}
-{"generation": 4, "position": 43, "parents": "d(403) d(387) r(172,439)", "genome": "d(403) d(387) r(172,439) a(424,226)", "fitness": 0.0}
-{"generation": 4, "position": 44, "parents": "r(243,256) d(121) r(213,2) a(212,384)", "genome": "r(243,256) d(121) r(213,2) a(212,384) d(467)", "fitness": 0.0}
-{"generation": 4, "position": 45, "parents": "d(403) d(387) r(172,439) a(176,139)", "genome": "d(403) d(387) r(172,439) a(176,139) r(471,210)", "fitness": 0.0}
-{"generation": 4, "position": 46, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13)", "fitness": 0.0}
-{"generation": 4, "position": 47, "parents": "d(161) a(189,120) a(280,384)", "genome": "d(161) a(189,120) a(280,384) a(437,390)", "fitness": 0.0}
-{"generation": 4, "position": 48, "parents": "d(168) a(401,139) a(450,462) a(280,384)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212)", "fitness": 0.0}
-{"generation": 4, "position": 49, "parents": "d(161) a(189,120) r(181,374) d(433)", "genome": "d(161) a(189,120) r(181,374) d(433) a(14,154)", "fitness": 0.0}
-{"generation": 4, "position": 50, "parents": "d(417) r(325,355)", "genome": "d(417) r(325,355) a(15,274)", "fitness": 0.0}
-{"generation": 4, "position": 51, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385)", "fitness": 0.0}
-{"generation": 4, "position": 52, "parents": "d(417) r(325,355) a(23,34) d(248)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338)", "fitness": 0.0}
-{"generation": 4, "position": 53, "parents": "d(117) r(240,297) r(275,197)", "genome": "d(117) r(240,297) r(275,197) d(460)", "fitness": 0.0}
-{"generation": 4, "position": 54, "parents": "d(168) a(189,120) d(239) d(182) a(2,10)", "genome": "d(168) a(189,120) d(239) d(182) a(2,10) d(380)", "fitness": 0.0}
-{"generation": 4, "position": 55, "parents": "d(357) r(325,362)", "genome": "d(357) r(325,362) a(210,446)", "fitness": 10.0}
-{"generation": 4, "position": 56, "parents": "d(168) a(189,120) d(239) d(182) a(2,10)", "genome": "d(168) a(189,120) d(239) d(182) a(2,10) r(423,233)", "fitness": 0.0}
-{"generation": 5, "position": 0, "parents": "d(168) a(189,120) r(172,439) a(424,226)", "genome": "d(168) a(189,120) r(172,439) a(424,226) a(248,254)", "fitness": 0.0}
-{"generation": 5, "position": 1, "parents": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275)", "genome": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275) a(413,406)", "fitness": 0.0}
-{"generation": 5, "position": 2, "parents": "d(168) a(189,120) d(132) r(412,402) a(293,415) a(253,275)", "genome": "d(168) a(189,120) d(132) r(412,402) a(293,415) a(253,275) r(143,337)", "fitness": 0.0}
-{"generation": 5, "position": 3, "parents": "d(403) d(387) r(172,439) a(424,226)", "genome": "d(403) d(387) r(172,439) a(424,226) a(333,337)", "fitness": 0.0}
-{"generation": 5, "position": 4, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286)", "fitness": 0.0}
-{"generation": 5, "position": 5, "parents": "d(168) a(401,139) a(450,462) r(359,300) d(422) a(213,28)", "genome": "d(168) a(401,139) a(450,462) r(359,300) d(422) a(213,28) r(249,258)", "fitness": 0.0}
-{"generation": 5, "position": 6, "parents": "a(452,2) r(3,14) r(359,300) d(422) a(213,28)", "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) d(344)", "fitness": 0.0}
-{"generation": 5, "position": 7, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13) r(416,162)", "fitness": 0.0}
-{"generation": 5, "position": 8, "parents": "d(168) a(401,139) r(412,402) a(293,415) a(333,45) a(475,210)", "genome": "d(168) a(401,139) r(412,402) a(293,415) a(333,45) a(475,210) a(117,192)", "fitness": 0.0}
-{"generation": 5, "position": 9, "parents": "d(168)", "genome": "d(168) a(219,228)", "fitness": 0.0}
-{"generation": 5, "position": 10, "parents": "d(168) a(401,139) r(412,402) a(293,415) a(333,45)", "genome": "d(168) a(401,139) r(412,402) a(293,415) a(333,45) d(460)", "fitness": 0.0}
-{"generation": 5, "position": 11, "parents": "d(168) a(475,210)", "genome": "d(168) a(475,210) d(353)", "fitness": 0.0}
-{"generation": 5, "position": 12, "parents": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132)", "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(340,233)", "fitness": 0.0}
-{"generation": 5, "position": 13, "parents": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150)", "genome": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) d(462)", "fitness": 0.0}
-{"generation": 5, "position": 14, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292)", "fitness": 0.0}
-{"generation": 5, "position": 15, "parents": "d(117) r(240,297) r(275,197) d(460)", "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287)", "fitness": 0.0}
-{"generation": 5, "position": 16, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411)", "fitness": 0.0}
-{"generation": 5, "position": 17, "parents": "d(168) a(401,139) a(450,462) d(139) a(275,13)", "genome": "d(168) a(401,139) a(450,462) d(139) a(275,13) d(415)", "fitness": 0.0}
-{"generation": 5, "position": 18, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13) r(243,299)", "fitness": 0.0}
-{"generation": 5, "position": 19, "parents": "d(168) a(401,139) a(450,462) d(139) a(332,327)", "genome": "d(168) a(401,139) a(450,462) d(139) a(332,327) d(227)", "fitness": 0.0}
-{"generation": 5, "position": 20, "parents": "d(168) a(189,120) d(132) a(213,28)", "genome": "d(168) a(189,120) d(132) a(213,28) r(472,178)", "fitness": 0.0}
-{"generation": 5, "position": 21, "parents": "a(452,2) r(3,14) r(359,300) d(422) a(450,462) d(139) a(301,41)", "genome": "a(452,2) r(3,14) r(359,300) d(422) a(450,462) d(139) a(301,41) r(210,286)", "fitness": 0.0}
-{"generation": 5, "position": 22, "parents": "d(168) a(189,120) d(132) a(450,462) d(139) a(301,41)", "genome": "d(168) a(189,120) d(132) a(450,462) d(139) a(301,41) d(202)", "fitness": 0.0}
-{"generation": 5, "position": 23, "parents": "a(452,2) r(3,14) r(359,300) d(422) a(213,28)", "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) d(327)", "fitness": 0.0}
-{"generation": 5, "position": 24, "parents": "d(417) r(325,355) a(430,355) a(351,361) r(440,214)", "genome": "d(417) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19)", "fitness": 0.0}
-{"generation": 5, "position": 25, "parents": "d(168) d(409) r(201,272) d(181)", "genome": "d(168) d(409) r(201,272) d(181) r(405,475)", "fitness": 0.0}
-{"generation": 5, "position": 26, "parents": "d(417) r(325,355) a(430,355) a(351,361) d(181)", "genome": "d(417) r(325,355) a(430,355) a(351,361) d(181) d(210)", "fitness": 0.0}
-{"generation": 5, "position": 27, "parents": "d(168) d(409) r(201,272) r(440,214)", "genome": "d(168) d(409) r(201,272) r(440,214) r(465,136)", "fitness": 0.0}
-{"generation": 5, "position": 28, "parents": "d(168) d(409) r(201,272) r(440,214)", "genome": "d(168) d(409) r(201,272) r(440,214) d(435)", "fitness": 0.0}
-{"generation": 5, "position": 29, "parents": "d(161) a(189,120) r(181,374) d(433) a(215,400)", "genome": "d(161) a(189,120) r(181,374) d(433) a(215,400) a(334,360)", "fitness": 0.0}
-{"generation": 5, "position": 30, "parents": "d(417) r(325,355) a(340,330) d(441) a(357,278)", "genome": "d(417) r(325,355) a(340,330) d(441) a(357,278) a(233,120)", "fitness": 0.0}
-{"generation": 5, "position": 31, "parents": "d(455) r(146,1) a(23,34) r(197,212) a(212,286) r(220,31)", "genome": "d(455) r(146,1) a(23,34) r(197,212) a(212,286) r(220,31) a(404,136)", "fitness": 0.0}
-{"generation": 5, "position": 32, "parents": "d(417) r(325,355) a(23,34) r(197,212) a(212,286) r(220,31)", "genome": "d(417) r(325,355) a(23,34) r(197,212) a(212,286) r(220,31) d(459)", "fitness": 0.0}
-{"generation": 5, "position": 33, "parents": "d(455) r(146,1) a(340,330) d(441) a(357,278)", "genome": "d(455) r(146,1) a(340,330) d(441) a(357,278) d(394)", "fitness": 0.0}
-{"generation": 5, "position": 34, "parents": "d(455) r(146,1) a(340,330) d(441) a(357,278)", "genome": "d(455) r(146,1) a(340,330) d(441) a(357,278) r(303,230)", "fitness": 0.0}
-{"generation": 5, "position": 35, "parents": "d(117) r(240,297) r(275,197) d(460)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334)", "fitness": 0.0}
-{"generation": 5, "position": 36, "parents": "d(168) r(359,300) r(199,226) d(286) a(440,341) a(180,1)", "genome": "d(168) r(359,300) r(199,226) d(286) a(440,341) a(180,1) d(210)", "fitness": 0.0}
-{"generation": 5, "position": 37, "parents": "r(158,152) d(173) d(213)", "genome": "r(158,152) d(173) d(213) d(424)", "fitness": 0.0}
-{"generation": 5, "position": 38, "parents": "d(168) r(359,300) r(199,226) d(286)", "genome": "d(168) r(359,300) r(199,226) d(286) d(212)", "fitness": 0.0}
-{"generation": 5, "position": 39, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) r(402,303)", "fitness": 0.0}
-{"generation": 5, "position": 40, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158)", "fitness": 0.0}
-{"generation": 5, "position": 41, "parents": "d(168) a(401,139) a(450,462) a(280,384) d(212)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) a(294,272)", "fitness": 0.0}
-{"generation": 5, "position": 42, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415)", "fitness": 0.0}
-{"generation": 5, "position": 43, "parents": "d(168) a(401,139) a(450,462) a(280,384) d(212)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124)", "fitness": 0.0}
-{"generation": 5, "position": 44, "parents": "d(161) a(117,214) a(10,48) a(412,136) a(412,136) r(202,227)", "genome": "d(161) a(117,214) a(10,48) a(412,136) a(412,136) r(202,227) a(247,327)", "fitness": 0.0}
-{"generation": 5, "position": 45, "parents": "d(161) a(117,214) a(10,48) r(202,227)", "genome": "d(161) a(117,214) a(10,48) r(202,227) r(213,445)", "fitness": 0.0}
-{"generation": 5, "position": 46, "parents": "d(161) a(117,214) a(10,48) a(412,136) r(202,227)", "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(212,281)", "fitness": 0.0}
-{"generation": 5, "position": 47, "parents": "d(161) a(117,214) a(10,48) a(412,136) r(202,227)", "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357)", "fitness": 0.0}
-{"generation": 5, "position": 48, "parents": "d(417) r(325,355) a(430,355) a(351,361) d(181)", "genome": "d(417) r(325,355) a(430,355) a(351,361) d(181) r(438,276)", "fitness": 0.0}
-{"generation": 5, "position": 49, "parents": "a(452,2) r(3,14) r(359,300) d(422) a(213,28)", "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19)", "fitness": 0.0}
-{"generation": 5, "position": 50, "parents": "r(158,152) d(173) d(213) a(440,341) a(450,462) d(139) a(332,327)", "genome": "r(158,152) d(173) d(213) a(440,341) a(450,462) d(139) a(332,327) r(292,448)", "fitness": 0.0}
-{"generation": 5, "position": 51, "parents": "d(168) a(401,139) a(180,1)", "genome": "d(168) a(401,139) a(180,1) r(399,444)", "fitness": 0.0}
-{"generation": 5, "position": 52, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22)", "fitness": 0.0}
-{"generation": 5, "position": 53, "parents": "d(168) a(401,139) a(450,462) d(139) a(332,327)", "genome": "d(168) a(401,139) a(450,462) d(139) a(332,327) d(212)", "fitness": 0.0}
-{"generation": 5, "position": 54, "parents": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) d(117)", "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) d(117) d(182)", "fitness": 0.0}
-{"generation": 5, "position": 55, "parents": "d(168) r(359,300) r(199,226)", "genome": "d(168) r(359,300) r(199,226) a(214,136)", "fitness": 0.0}
-{"generation": 5, "position": 56, "parents": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132)", "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415)", "fitness": 0.0}
-{"generation": 5, "position": 57, "parents": "d(168) r(359,300) r(199,226) d(117)", "genome": "d(168) r(359,300) r(199,226) d(117) r(420,369)", "fitness": 0.0}
-{"generation": 5, "position": 58, "parents": "r(287,413) r(174,384) a(181,467) d(136) r(212,475)", "genome": "r(287,413) r(174,384) a(181,467) d(136) r(212,475) r(387,411)", "fitness": 0.0}
-{"generation": 5, "position": 59, "parents": "d(161) a(189,120) r(181,374) d(433) a(14,154)", "genome": "d(161) a(189,120) r(181,374) d(433) a(14,154) d(298)", "fitness": 0.0}
-{"generation": 5, "position": 60, "parents": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390) r(349,350) a(409,368) d(353)", "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390) r(349,350) a(409,368) d(353) d(277)", "fitness": 0.0}
-{"generation": 5, "position": 61, "parents": "d(168) a(22,233) d(221)", "genome": "d(168) a(22,233) d(221) d(213)", "fitness": 0.0}
-{"generation": 5, "position": 62, "parents": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390) r(349,350)", "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390) r(349,350) a(255,284)", "fitness": 0.0}
-{"generation": 5, "position": 63, "parents": "d(168) a(22,233) d(221) a(409,368) d(353)", "genome": "d(168) a(22,233) d(221) a(409,368) d(353) r(450,384)", "fitness": 0.0}
-{"generation": 5, "position": 64, "parents": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227)", "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41)", "fitness": 0.0}
-{"generation": 5, "position": 65, "parents": "d(161) a(450,462) a(23,34) a(421,390) r(349,350)", "genome": "d(161) a(450,462) a(23,34) a(421,390) r(349,350) d(360)", "fitness": 0.0}
-{"generation": 5, "position": 66, "parents": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390) r(349,350)", "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390) r(349,350) a(111,444)", "fitness": 0.0}
-{"generation": 6, "position": 0, "parents": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390) r(349,350) a(255,284)", "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390) r(349,350) a(255,284) r(425,28)", "fitness": 0.0}
-{"generation": 6, "position": 1, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430)", "fitness": 0.0}
-{"generation": 6, "position": 2, "parents": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(111,276)", "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(111,276) d(414)", "fitness": 0.0}
-{"generation": 6, "position": 3, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197)", "fitness": 0.0}
-{"generation": 6, "position": 4, "parents": "d(168) a(401,139)", "genome": "d(168) a(401,139) d(146)", "fitness": 0.0}
-{"generation": 6, "position": 5, "parents": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) a(450,462) a(280,384) d(212) a(294,272)", "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) a(450,462) a(280,384) d(212) a(294,272) r(280,444)", "fitness": 0.0}
-{"generation": 6, "position": 6, "parents": "d(168) a(401,139) a(450,462) a(280,384) d(212) a(294,272)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) a(294,272) d(400)", "fitness": 0.0}
-{"generation": 6, "position": 7, "parents": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19)", "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250)", "fitness": 0.0}
-{"generation": 6, "position": 8, "parents": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357)", "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(347)", "fitness": 0.0}
-{"generation": 6, "position": 9, "parents": "d(417) r(325,355) a(430,355) a(351,361) d(181) d(210)", "genome": "d(417) r(325,355) a(430,355) a(351,361) d(181) d(210) r(110,185)", "fitness": 0.0}
-{"generation": 6, "position": 10, "parents": "a(452,2) r(3,14) r(294,277) d(124)", "genome": "a(452,2) r(3,14) r(294,277) d(124) a(212,204)", "fitness": 0.0}
-{"generation": 6, "position": 11, "parents": "d(168) a(401,139) a(450,462) a(280,384) d(212) r(240,297) a(351,361) d(132) a(146,415)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) r(240,297) a(351,361) d(132) a(146,415) a(430,445)", "fitness": 0.0}
-{"generation": 6, "position": 12, "parents": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415)", "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) d(380)", "fitness": 0.0}
-{"generation": 6, "position": 13, "parents": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323)", "fitness": 0.0}
-{"generation": 6, "position": 14, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(253,275) r(143,337)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414)", "fitness": 0.0}
-{"generation": 6, "position": 15, "parents": "d(168) a(189,120) d(132) r(412,402) a(293,415)", "genome": "d(168) a(189,120) d(132) r(412,402) a(293,415) a(394,202)", "fitness": 0.0}
-{"generation": 6, "position": 16, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(136,281)", "fitness": 0.0}
-{"generation": 6, "position": 17, "parents": "d(168) a(189,120) d(132) r(412,402) a(293,415) a(253,275) r(143,337)", "genome": "d(168) a(189,120) d(132) r(412,402) a(293,415) a(253,275) r(143,337) a(25,22)", "fitness": 0.0}
-{"generation": 6, "position": 18, "parents": "d(161) a(189,120) r(181,374) d(433) a(215,400) a(334,360)", "genome": "d(161) a(189,120) r(181,374) d(433) a(215,400) a(334,360) a(291,447)", "fitness": 0.0}
-{"generation": 6, "position": 19, "parents": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415)", "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397)", "fitness": 0.0}
-{"generation": 6, "position": 20, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) r(120,121)", "fitness": 0.0}
-{"generation": 6, "position": 21, "parents": "d(417) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19)", "genome": "d(417) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19) d(328)", "fitness": 0.0}
-{"generation": 6, "position": 22, "parents": "d(417) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19)", "genome": "d(417) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19) d(413)", "fitness": 0.0}
-{"generation": 6, "position": 23, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) d(358)", "fitness": 0.0}
-{"generation": 6, "position": 24, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400)", "fitness": 0.0}
-{"generation": 6, "position": 25, "parents": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357)", "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) r(370,391)", "fitness": 0.0}
-{"generation": 6, "position": 26, "parents": "d(117)", "genome": "d(117) d(398)", "fitness": 0.0}
-{"generation": 6, "position": 27, "parents": "d(117) r(240,297) r(275,197) d(460) a(330,287) r(240,297) r(275,197) d(460) a(330,287)", "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287) r(240,297) r(275,197) d(460) a(330,287) a(19,34)", "fitness": 0.0}
-{"generation": 6, "position": 28, "parents": "d(117) r(240,297) r(275,197) d(460) a(330,287)", "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287) a(447,337)", "fitness": 0.0}
-{"generation": 6, "position": 29, "parents": "d(117) r(240,297) r(275,197) d(460) a(330,287)", "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287) r(341,374)", "fitness": 0.0}
-{"generation": 6, "position": 30, "parents": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41)", "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116)", "fitness": 0.0}
-{"generation": 6, "position": 31, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1)", "fitness": 0.0}
-{"generation": 6, "position": 32, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197)", "fitness": 0.0}
-{"generation": 6, "position": 33, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(419,22)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(419,22) a(121,178)", "fitness": 0.0}
-{"generation": 6, "position": 34, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) r(181,13)", "fitness": 0.0}
-{"generation": 6, "position": 35, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) r(173,182)", "fitness": 0.0}
-{"generation": 6, "position": 36, "parents": "d(168) d(409) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411)", "genome": "d(168) d(409) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) d(219)", "fitness": 0.0}
-{"generation": 6, "position": 37, "parents": "d(168) r(201,272) r(440,214) d(435)", "genome": "d(168) r(201,272) r(440,214) d(435) r(325,37)", "fitness": 0.0}
-{"generation": 6, "position": 38, "parents": "d(168) d(409) r(201,272) r(440,214) d(435)", "genome": "d(168) d(409) r(201,272) r(440,214) d(435) d(403)", "fitness": 0.0}
-{"generation": 6, "position": 39, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) a(454,449)", "fitness": 0.0}
-{"generation": 6, "position": 40, "parents": "d(168) a(219,228) d(173) d(213) a(440,341) a(450,462) d(139) a(332,327) r(292,448)", "genome": "d(168) a(219,228) d(173) d(213) a(440,341) a(450,462) d(139) a(332,327) r(292,448) a(425,9)", "fitness": 0.0}
-{"generation": 6, "position": 41, "parents": "r(158,152)", "genome": "r(158,152) d(184)", "fitness": 0.0}
-{"generation": 6, "position": 42, "parents": "d(168) a(219,228)", "genome": "d(168) a(219,228) r(122,357)", "fitness": 0.0}
-{"generation": 6, "position": 43, "parents": "r(158,152) d(173) d(213) a(440,341) a(450,462) d(139) a(332,327) r(292,448)", "genome": "r(158,152) d(173) d(213) a(440,341) a(450,462) d(139) a(332,327) r(292,448) a(162,358)", "fitness": 0.0}
-{"generation": 6, "position": 44, "parents": "d(417) r(325,355) a(430,355) a(351,361) a(23,34) d(248) d(385) a(212,158)", "genome": "d(417) r(325,355) a(430,355) a(351,361) a(23,34) d(248) d(385) a(212,158) a(328,258)", "fitness": 0.0}
-{"generation": 6, "position": 45, "parents": "d(117) r(240,297) r(275,197) r(440,214) a(441,19)", "genome": "d(117) r(240,297) r(275,197) r(440,214) a(441,19) r(236,210)", "fitness": 0.0}
-{"generation": 6, "position": 46, "parents": "d(417) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19)", "genome": "d(417) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19) d(367)", "fitness": 0.0}
-{"generation": 6, "position": 47, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158) d(346)", "fitness": 0.0}
-{"generation": 6, "position": 48, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) d(214)", "fitness": 0.0}
-{"generation": 6, "position": 49, "parents": "d(403) d(387) r(172,439) a(424,226) a(333,337)", "genome": "d(403) d(387) r(172,439) a(424,226) a(333,337) d(290)", "fitness": 0.0}
-{"generation": 6, "position": 50, "parents": "d(455) r(146,1) a(340,330) d(441) a(357,278) d(394)", "genome": "d(455) r(146,1) a(340,330) d(441) a(357,278) d(394) r(201,161)", "fitness": 0.0}
-{"generation": 6, "position": 51, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176)", "fitness": 0.0}
-{"generation": 6, "position": 52, "parents": "d(403) d(387) d(132) r(412,402) d(462)", "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167)", "fitness": 0.0}
-{"generation": 6, "position": 53, "parents": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) a(293,415) a(253,275) a(413,406)", "genome": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) a(293,415) a(253,275) a(413,406) d(402)", "fitness": 0.0}
-{"generation": 6, "position": 54, "parents": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275) a(413,406)", "genome": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275) a(413,406) r(245,173)", "fitness": 0.0}
-{"generation": 6, "position": 55, "parents": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) d(462)", "genome": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) d(462) a(409,422)", "fitness": 0.0}
-{"generation": 6, "position": 56, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13) r(416,162)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13) r(416,162) d(475)", "fitness": 0.0}
-{"generation": 6, "position": 57, "parents": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357)", "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(153)", "fitness": 0.0}
-{"generation": 6, "position": 58, "parents": "d(161) a(189,120) r(181,374) d(433) a(215,400) a(334,360)", "genome": "d(161) a(189,120) r(181,374) d(433) a(215,400) a(334,360) r(429,41)", "fitness": 0.0}
-{"generation": 7, "position": 0, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(136,281)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(136,281) r(200,180)", "fitness": 0.0}
-{"generation": 7, "position": 1, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) d(358)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) d(358) d(464)", "fitness": 0.0}
-{"generation": 7, "position": 2, "parents": "d(117) r(240,297) r(275,197) d(460) a(330,287) r(240,297) r(275,197) d(460) a(330,287) a(19,34)", "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287) r(240,297) r(275,197) d(460) a(330,287) a(19,34) d(178)", "fitness": 0.0}
-{"generation": 7, "position": 3, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) r(197,2)", "fitness": 0.0}
-{"generation": 7, "position": 4, "parents": "r(243,256) d(405) a(434,436)", "genome": "r(243,256) d(405) a(434,436) r(423,330)", "fitness": 0.0}
-{"generation": 7, "position": 5, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(370,433)", "fitness": 0.0}
-{"generation": 7, "position": 6, "parents": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116)", "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(188,151)", "fitness": 0.0}
-{"generation": 7, "position": 7, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) r(399,398)", "fitness": 0.0}
-{"generation": 7, "position": 8, "parents": "a(452,2) r(3,14) r(294,277) d(124) a(212,204) a(117,197)", "genome": "a(452,2) r(3,14) r(294,277) d(124) a(212,204) a(117,197) a(346,448)", "fitness": 0.0}
-{"generation": 7, "position": 9, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(427,445)", "fitness": 0.0}
-{"generation": 7, "position": 10, "parents": "a(452,2) r(3,14) r(294,277) d(124) a(212,204)", "genome": "a(452,2) r(3,14) r(294,277) d(124) a(212,204) r(161,385)", "fitness": 0.0}
-{"generation": 7, "position": 11, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(204,208)", "fitness": 0.0}
-{"generation": 7, "position": 12, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13) r(416,162) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13) r(416,162) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(387,9)", "fitness": 0.0}
-{"generation": 7, "position": 13, "parents": "r(243,256) d(475)", "genome": "r(243,256) d(475) a(159,226)", "fitness": 0.0}
-{"generation": 7, "position": 14, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13) r(416,162) d(475)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13) r(416,162) d(475) a(388,52)", "fitness": 0.0}
-{"generation": 7, "position": 15, "parents": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116)", "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) r(400,399)", "fitness": 0.0}
-{"generation": 7, "position": 16, "parents": "d(455) r(146,1) a(340,330) d(441) a(357,278) d(394) r(201,161)", "genome": "d(455) r(146,1) a(340,330) d(441) a(357,278) d(394) r(201,161) d(469)", "fitness": 0.0}
-{"generation": 7, "position": 17, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390)", "fitness": 0.0}
-{"generation": 7, "position": 18, "parents": "d(417) a(180,1) a(214,197)", "genome": "d(417) a(180,1) a(214,197) r(13,349)", "fitness": 0.0}
-{"generation": 7, "position": 19, "parents": "r(158,152) d(173) d(213) a(440,341) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19) d(328)", "genome": "r(158,152) d(173) d(213) a(440,341) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19) d(328) d(439)", "fitness": 0.0}
-{"generation": 7, "position": 20, "parents": "d(417) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19) d(328)", "genome": "d(417) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19) d(328) r(459,446)", "fitness": 10.0}
-{"generation": 7, "position": 21, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227)", "fitness": 0.0}
-{"generation": 7, "position": 22, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(397)", "fitness": 0.0}
-{"generation": 7, "position": 23, "parents": "d(455) r(146,1) a(340,330) d(441) a(357,278) d(394) r(201,161)", "genome": "d(455) r(146,1) a(340,330) d(441) a(357,278) d(394) r(201,161) a(24,33)", "fitness": 0.0}
-{"generation": 7, "position": 24, "parents": "r(158,152) d(173) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250)", "genome": "r(158,152) d(173) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) r(197,462)", "fitness": 0.0}
-{"generation": 7, "position": 25, "parents": "a(452,2) d(213) a(440,341) a(180,1) a(214,197)", "genome": "a(452,2) d(213) a(440,341) a(180,1) a(214,197) r(351,299)", "fitness": 2.0}
-{"generation": 7, "position": 26, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(392,428)", "fitness": 0.0}
-{"generation": 7, "position": 27, "parents": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250)", "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) a(224,202)", "fitness": 0.0}
-{"generation": 7, "position": 28, "parents": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275) a(413,406) r(245,173)", "genome": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275) a(413,406) r(245,173) a(251,341)", "fitness": 0.0}
-{"generation": 7, "position": 29, "parents": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397)", "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331)", "fitness": 0.0}
-{"generation": 7, "position": 30, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214)", "fitness": 0.0}
-{"generation": 7, "position": 31, "parents": "a(452,2) r(3,14) r(181,374)", "genome": "a(452,2) r(3,14) r(181,374) d(432)", "fitness": 0.0}
-{"generation": 7, "position": 32, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) r(212,406)", "fitness": 0.0}
-{"generation": 7, "position": 33, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) r(217,226)", "fitness": 0.0}
-{"generation": 7, "position": 34, "parents": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254)", "fitness": 0.0}
-{"generation": 7, "position": 35, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279)", "fitness": 0.0}
-{"generation": 7, "position": 36, "parents": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(347)", "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(347) r(412,439)", "fitness": 0.0}
-{"generation": 7, "position": 37, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) r(181,13)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) r(181,13) a(174,154)", "fitness": 0.0}
-{"generation": 7, "position": 38, "parents": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250)", "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) r(248,274)", "fitness": 0.0}
-{"generation": 7, "position": 39, "parents": "d(168) d(409) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) d(219)", "genome": "d(168) d(409) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) d(219) d(229)", "fitness": 0.0}
-{"generation": 7, "position": 40, "parents": "d(117)", "genome": "d(117) r(158,197)", "fitness": 0.0}
-{"generation": 7, "position": 41, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398) r(149,221)", "fitness": 0.0}
-{"generation": 7, "position": 42, "parents": "d(117) d(398)", "genome": "d(117) d(398) r(438,233)", "fitness": 0.0}
-{"generation": 7, "position": 43, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) a(257,276)", "fitness": 0.0}
-{"generation": 7, "position": 44, "parents": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(153)", "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(153) d(167)", "fitness": 0.0}
-{"generation": 7, "position": 45, "parents": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275) a(413,406) r(245,173)", "genome": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275) a(413,406) r(245,173) a(469,384)", "fitness": 0.0}
-{"generation": 7, "position": 46, "parents": "d(168) a(401,139) a(450,462) a(280,384) d(212) r(240,297) a(351,361) d(132) a(146,415) a(430,445)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) r(240,297) a(351,361) d(132) a(146,415) a(430,445) d(448)", "fitness": 0.0}
-{"generation": 7, "position": 47, "parents": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) a(293,415) a(253,275) a(413,406) d(402)", "genome": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) a(293,415) a(253,275) a(413,406) d(402) d(130)", "fitness": 0.0}
-{"generation": 7, "position": 48, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(136,281)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(136,281) r(213,390)", "fitness": 4.0}
-{"generation": 7, "position": 49, "parents": "d(403) d(387) d(132) r(412,402) d(462) r(213,167)", "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358)", "fitness": 0.0}
-{"generation": 7, "position": 50, "parents": "d(417) r(325,355) a(23,34) d(248) a(10,48) a(412,136) r(202,227) a(168,357) d(347)", "genome": "d(417) r(325,355) a(23,34) d(248) a(10,48) a(412,136) r(202,227) a(168,357) d(347) r(139,425)", "fitness": 0.0}
-{"generation": 7, "position": 51, "parents": "d(161) a(117,214) a(230,338) d(292) d(358)", "genome": "d(161) a(117,214) a(230,338) d(292) d(358) a(250,28)", "fitness": 0.0}
-{"generation": 7, "position": 52, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) d(358)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) d(358) r(387,362)", "fitness": 0.0}
-{"generation": 7, "position": 53, "parents": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(347)", "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(347) a(335,251)", "fitness": 0.0}
-{"generation": 7, "position": 54, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158) d(346)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158) d(346) r(448,475)", "fitness": 0.0}
-{"generation": 8, "position": 0, "parents": "r(158,152) r(181,13) a(174,154)", "genome": "r(158,152) r(181,13) a(174,154) r(164,28)", "fitness": 0.0}
-{"generation": 8, "position": 1, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) r(168,120)", "fitness": 0.0}
-{"generation": 8, "position": 2, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274)", "fitness": 0.0}
-{"generation": 8, "position": 3, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) r(181,13) a(174,154)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) r(181,13) a(174,154) a(230,300)", "fitness": 0.0}
-{"generation": 8, "position": 4, "parents": "d(117) r(240,297) r(275,197) d(460) a(330,287) a(180,1) a(214,197) r(13,349)", "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287) a(180,1) a(214,197) r(13,349) d(210)", "fitness": 0.0}
-{"generation": 8, "position": 5, "parents": "d(417) r(240,297) r(275,197) d(460) a(330,287) a(19,34) d(178)", "genome": "d(417) r(240,297) r(275,197) d(460) a(330,287) a(19,34) d(178) d(23)", "fitness": 0.0}
-{"generation": 8, "position": 6, "parents": "d(117) r(240,297) r(275,197) d(460) a(330,287) r(240,297) r(275,197) d(460) a(330,287) a(19,34) d(178)", "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287) r(240,297) r(275,197) d(460) a(330,287) a(19,34) d(178) d(374)", "fitness": 0.0}
-{"generation": 8, "position": 7, "parents": "d(417) a(180,1) a(214,197) r(13,349)", "genome": "d(417) a(180,1) a(214,197) r(13,349) d(2)", "fitness": 0.0}
-{"generation": 8, "position": 8, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(117)", "fitness": 0.0}
-{"generation": 8, "position": 9, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(117,197) a(204,208)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(117,197) a(204,208) a(425,362)", "fitness": 0.0}
-{"generation": 8, "position": 10, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(204,208)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(204,208) r(461,448)", "fitness": 0.0}
-{"generation": 8, "position": 11, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164)", "fitness": 0.0}
-{"generation": 8, "position": 12, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) r(399,398)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) r(399,398) r(133,303)", "fitness": 0.0}
-{"generation": 8, "position": 13, "parents": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331)", "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331) d(194)", "fitness": 0.0}
-{"generation": 8, "position": 14, "parents": "d(417) a(180,1) a(214,197) r(13,349)", "genome": "d(417) a(180,1) a(214,197) r(13,349) a(116,227)", "fitness": 0.0}
-{"generation": 8, "position": 15, "parents": "r(158,152) d(173) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) r(197,462)", "genome": "r(158,152) d(173) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) r(197,462) a(212,212)", "fitness": 0.0}
-{"generation": 8, "position": 16, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(204)", "fitness": 0.0}
-{"generation": 8, "position": 17, "parents": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275) a(413,406) r(245,173) a(469,384)", "genome": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275) a(413,406) r(245,173) a(469,384) a(411,428)", "fitness": 0.0}
-{"generation": 8, "position": 18, "parents": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) a(293,415) a(253,275) a(413,406) d(402) d(130) d(250) a(224,202)", "genome": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) a(293,415) a(253,275) a(413,406) d(402) d(130) d(250) a(224,202) d(455)", "fitness": 0.0}
-{"generation": 8, "position": 19, "parents": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19)", "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) a(440,444)", "fitness": 0.0}
-{"generation": 8, "position": 20, "parents": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) a(293,415) a(253,275) a(413,406) d(402) d(130)", "genome": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) a(293,415) a(253,275) a(413,406) d(402) d(130) d(210)", "fitness": 0.0}
-{"generation": 8, "position": 21, "parents": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) a(224,202)", "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) a(224,202) r(382,349)", "fitness": 0.0}
-{"generation": 8, "position": 22, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(427,445)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(427,445) d(177)", "fitness": 0.0}
-{"generation": 8, "position": 23, "parents": "d(417) r(325,355) a(23,34) d(248) a(10,48) a(412,136) r(202,227) a(168,357) d(347) r(139,425)", "genome": "d(417) r(325,355) a(23,34) d(248) a(10,48) a(412,136) r(202,227) a(168,357) d(347) r(139,425) d(272)", "fitness": 0.0}
-{"generation": 8, "position": 24, "parents": "a(452,2) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398) r(149,221)", "genome": "a(452,2) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398) r(149,221) d(213)", "fitness": 0.0}
-{"generation": 8, "position": 25, "parents": "a(452,2) r(3,14) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) r(197,2)", "genome": "a(452,2) r(3,14) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) r(197,2) a(362,393)", "fitness": 0.0}
-{"generation": 8, "position": 26, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) r(197,2)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) r(197,2) a(455,384)", "fitness": 0.0}
-{"generation": 8, "position": 27, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398) r(149,221)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398) r(149,221) d(141)", "fitness": 0.0}
-{"generation": 8, "position": 28, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158) d(346) r(448,475)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158) d(346) r(448,475) r(280,22)", "fitness": 0.0}
-{"generation": 8, "position": 29, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448)", "fitness": 0.0}
-{"generation": 8, "position": 30, "parents": "a(452,2) r(3,14) r(294,277) d(124) a(434,436) r(423,330)", "genome": "a(452,2) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458)", "fitness": 0.0}
-{"generation": 8, "position": 31, "parents": "r(243,256) d(405) a(212,204) r(161,385)", "genome": "r(243,256) d(405) a(212,204) r(161,385) d(212)", "fitness": 0.0}
-{"generation": 8, "position": 32, "parents": "a(452,2) r(3,14) r(294,277) d(124) a(212,204) r(161,385)", "genome": "a(452,2) r(3,14) r(294,277) d(124) a(212,204) r(161,385) a(290,444)", "fitness": 0.0}
-{"generation": 8, "position": 33, "parents": "r(243,256) d(405) a(434,436) r(423,330)", "genome": "r(243,256) d(405) a(434,436) r(423,330) a(233,446)", "fitness": 10.0}
-{"generation": 8, "position": 34, "parents": "d(117)", "genome": "d(117) a(374,432)", "fitness": 0.0}
-{"generation": 8, "position": 35, "parents": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(158,197)", "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(158,197) a(214,273)", "fitness": 0.0}
-{"generation": 8, "position": 36, "parents": "d(117) r(158,197)", "genome": "d(117) r(158,197) a(228,445)", "fitness": 0.0}
-{"generation": 8, "position": 37, "parents": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358)", "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(293,120)", "fitness": 0.0}
-{"generation": 8, "position": 38, "parents": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(347) a(335,251)", "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(347) a(335,251) r(337,357)", "fitness": 0.0}
-{"generation": 8, "position": 39, "parents": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) r(400,399)", "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) r(400,399) r(220,22)", "fitness": 0.0}
-{"generation": 8, "position": 40, "parents": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(404,415) r(210,176) d(279)", "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(404,415) r(210,176) d(279) a(414,276)", "fitness": 0.0}
-{"generation": 8, "position": 41, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(440,448)", "fitness": 0.0}
-{"generation": 8, "position": 42, "parents": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(188,151)", "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(188,151) d(378)", "fitness": 0.0}
-{"generation": 8, "position": 43, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(437,355)", "fitness": 0.0}
-{"generation": 8, "position": 44, "parents": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358)", "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) a(463,227)", "fitness": 0.0}
-{"generation": 8, "position": 45, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(370,433)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(370,433) d(421)", "fitness": 0.0}
-{"generation": 8, "position": 46, "parents": "d(168) a(401,139) a(450,462) a(280,384) d(460) r(253,334) r(419,430) r(212,406)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(460) r(253,334) r(419,430) r(212,406) d(335)", "fitness": 0.0}
-{"generation": 8, "position": 47, "parents": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254)", "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286)", "fitness": 0.0}
-{"generation": 8, "position": 48, "parents": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207)", "fitness": 0.0}
-{"generation": 8, "position": 49, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) r(212,406)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) r(212,406) r(132,475)", "fitness": 0.0}
-{"generation": 8, "position": 50, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(370,433)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(370,433) d(350)", "fitness": 0.0}
-{"generation": 8, "position": 51, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(392,428)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(392,428) a(340,462)", "fitness": 0.0}
-{"generation": 8, "position": 52, "parents": "d(417) d(250) a(224,202)", "genome": "d(417) d(250) a(224,202) d(362)", "fitness": 0.0}
-{"generation": 8, "position": 53, "parents": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390)", "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390) d(115)", "fitness": 0.0}
-{"generation": 8, "position": 54, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390) r(227,202)", "fitness": 0.0}
-{"generation": 8, "position": 55, "parents": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) a(224,202)", "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) a(224,202) d(141)", "fitness": 0.0}
-{"generation": 8, "position": 56, "parents": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) r(400,399)", "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) r(400,399) r(435,434)", "fitness": 0.0}
-{"generation": 8, "position": 57, "parents": "d(455) r(146,1) a(340,330) d(441) a(357,278) d(394) r(201,161) d(469)", "genome": "d(455) r(146,1) a(340,330) d(441) a(357,278) d(394) r(201,161) d(469) d(213)", "fitness": 0.0}
-{"generation": 8, "position": 58, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(455)", "fitness": 0.0}
-{"generation": 8, "position": 59, "parents": "d(117) r(240,297) a(462,400) a(257,276)", "genome": "d(117) r(240,297) a(462,400) a(257,276) d(334)", "fitness": 0.0}
-{"generation": 8, "position": 60, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) a(257,276)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) a(257,276) a(240,9)", "fitness": 0.0}
-{"generation": 9, "position": 0, "parents": "d(168) a(401,139) a(450,462) a(280,384) d(460) r(253,334) r(419,430) r(212,406) d(335)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(460) r(253,334) r(419,430) r(212,406) d(335) a(160,166)", "fitness": 0.0}
-{"generation": 9, "position": 1, "parents": "a(452,2) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398) r(149,221) d(213)", "genome": "a(452,2) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398) r(149,221) d(213) r(113,130)", "fitness": 0.0}
-{"generation": 9, "position": 2, "parents": "d(168) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331) d(194)", "genome": "d(168) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331) d(194) a(213,273)", "fitness": 0.0}
-{"generation": 9, "position": 3, "parents": "a(452,2) r(3,14) a(401,139) a(450,462) a(280,384) d(460) r(253,334) r(419,430) r(212,406) d(335)", "genome": "a(452,2) r(3,14) a(401,139) a(450,462) a(280,384) d(460) r(253,334) r(419,430) r(212,406) d(335) r(139,173)", "fitness": 0.0}
-{"generation": 9, "position": 4, "parents": "d(168) a(401,139) a(450,462) a(280,384) d(460) r(253,334) r(419,430) r(212,406) d(335)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(460) r(253,334) r(419,430) r(212,406) d(335) r(232,299)", "fitness": 0.0}
-{"generation": 9, "position": 5, "parents": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331) d(194)", "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331) d(194) r(421,419)", "fitness": 0.0}
-{"generation": 9, "position": 6, "parents": "a(452,2) r(3,14) r(181,374) d(433)", "genome": "a(452,2) r(3,14) r(181,374) d(433) d(237)", "fitness": 0.0}
-{"generation": 9, "position": 7, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164) a(275,13) a(258,286) a(462,400) a(257,276) a(240,9)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164) a(275,13) a(258,286) a(462,400) a(257,276) a(240,9) a(435,414)", "fitness": 0.0}
-{"generation": 9, "position": 8, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) a(257,276) a(240,9)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) a(257,276) a(240,9) a(23,113)", "fitness": 0.0}
-{"generation": 9, "position": 9, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164) d(173)", "fitness": 0.0}
-{"generation": 9, "position": 10, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164) d(14)", "fitness": 0.0}
-{"generation": 9, "position": 11, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(204,208) r(461,448)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(204,208) r(461,448) a(232,297)", "fitness": 0.0}
-{"generation": 9, "position": 12, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(392,428) a(340,462)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(392,428) a(340,462) r(396,430)", "fitness": 0.0}
-{"generation": 9, "position": 13, "parents": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(158,197) a(214,273)", "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(158,197) a(214,273) a(115,2)", "fitness": 0.0}
-{"generation": 9, "position": 14, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) a(228,445)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) a(228,445) a(475,341)", "fitness": 0.0}
-{"generation": 9, "position": 15, "parents": "d(117) r(158,197) d(117)", "genome": "d(117) r(158,197) d(117) a(432,420)", "fitness": 0.0}
-{"generation": 9, "position": 16, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(117)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(117) r(213,147)", "fitness": 0.0}
-{"generation": 9, "position": 17, "parents": "d(117) r(158,197) a(228,445)", "genome": "d(117) r(158,197) a(228,445) a(422,303)", "fitness": 0.0}
-{"generation": 9, "position": 18, "parents": "r(158,152) r(181,13) a(174,154) r(440,448)", "genome": "r(158,152) r(181,13) a(174,154) r(440,448) d(2)", "fitness": 0.0}
-{"generation": 9, "position": 19, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(164,28)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(164,28) d(346)", "fitness": 0.0}
-{"generation": 9, "position": 20, "parents": "r(158,152) r(181,13) a(174,154) r(164,28)", "genome": "r(158,152) r(181,13) a(174,154) r(164,28) r(215,384)", "fitness": 0.0}
-{"generation": 9, "position": 21, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(440,448)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(440,448) a(19,45)", "fitness": 0.0}
-{"generation": 9, "position": 22, "parents": "a(452,2) a(257,276) d(334)", "genome": "a(452,2) a(257,276) d(334) r(130,124)", "fitness": 0.0}
-{"generation": 9, "position": 23, "parents": "d(117) r(240,297) a(462,400) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458)", "genome": "d(117) r(240,297) a(462,400) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458) d(343)", "fitness": 0.0}
-{"generation": 9, "position": 24, "parents": "a(452,2) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458)", "genome": "a(452,2) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458) a(193,154)", "fitness": 0.0}
-{"generation": 9, "position": 25, "parents": "d(117) r(240,297) a(462,400) a(257,276) d(334)", "genome": "d(117) r(240,297) a(462,400) a(257,276) d(334) r(421,289)", "fitness": 0.0}
-{"generation": 9, "position": 26, "parents": "d(417) a(180,1) a(214,197) r(13,349) a(116,227)", "genome": "d(417) a(180,1) a(214,197) r(13,349) a(116,227) r(181,31)", "fitness": 0.0}
-{"generation": 9, "position": 27, "parents": "a(452,2) r(3,14) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) r(197,2) a(362,393)", "genome": "a(452,2) r(3,14) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) r(197,2) a(362,393) r(400,227)", "fitness": 0.0}
-{"generation": 9, "position": 28, "parents": "r(158,152) d(173) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(204)", "genome": "r(158,152) d(173) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(204) a(245,385)", "fitness": 0.0}
-{"generation": 9, "position": 29, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(110,192)", "fitness": 0.0}
-{"generation": 9, "position": 30, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(411,382)", "fitness": 0.0}
-{"generation": 9, "position": 31, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(204)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(204) a(392,387)", "fitness": 0.0}
-{"generation": 9, "position": 32, "parents": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286)", "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197)", "fitness": 0.0}
-{"generation": 9, "position": 33, "parents": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(293,120)", "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(293,120) d(176)", "fitness": 0.0}
-{"generation": 9, "position": 34, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) r(168,120)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) r(168,120) a(360,434)", "fitness": 0.0}
-{"generation": 9, "position": 35, "parents": "a(452,2) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398) r(149,221) d(213)", "genome": "a(452,2) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398) r(149,221) d(213) r(416,357)", "fitness": 0.0}
-{"generation": 9, "position": 36, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) r(168,120)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) r(168,120) r(353,244)", "fitness": 0.0}
-{"generation": 9, "position": 37, "parents": "r(158,152) d(173) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) r(197,462) a(212,212)", "genome": "r(158,152) d(173) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) r(197,462) a(212,212) r(433,430)", "fitness": 0.0}
-{"generation": 9, "position": 38, "parents": "d(168) a(180,1) a(214,197) r(13,349) a(116,227)", "genome": "d(168) a(180,1) a(214,197) r(13,349) a(116,227) a(280,351)", "fitness": 0.0}
-{"generation": 9, "position": 39, "parents": "d(417) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207)", "genome": "d(417) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207) d(415)", "fitness": 0.0}
-{"generation": 9, "position": 40, "parents": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207) r(24,227)", "fitness": 0.0}
-{"generation": 9, "position": 41, "parents": "d(417) a(180,1) a(214,197) r(13,349) a(116,227)", "genome": "d(417) a(180,1) a(214,197) r(13,349) a(116,227) r(214,176)", "fitness": 0.0}
-{"generation": 9, "position": 42, "parents": "d(417) d(460) a(330,287) a(180,1) a(214,197) r(13,349) d(210)", "genome": "d(417) d(460) a(330,287) a(180,1) a(214,197) r(13,349) d(210) d(11)", "fitness": 0.0}
-{"generation": 9, "position": 43, "parents": "d(117) r(240,297) r(275,197) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390) r(227,202)", "genome": "d(117) r(240,297) r(275,197) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390) r(227,202) a(415,384)", "fitness": 10.0}
-{"generation": 9, "position": 44, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390) r(227,202)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390) r(227,202) r(450,275)", "fitness": 0.0}
-{"generation": 9, "position": 45, "parents": "d(117) r(240,297) r(275,197) d(460) a(330,287) a(180,1) a(214,197) r(13,349) d(210)", "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287) a(180,1) a(214,197) r(13,349) d(210) d(323)", "fitness": 0.0}
-{"generation": 9, "position": 46, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448) d(254)", "fitness": 0.0}
-{"generation": 9, "position": 47, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(371,294)", "fitness": 0.0}
-{"generation": 9, "position": 48, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(455)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(455) d(471)", "fitness": 0.0}
-{"generation": 9, "position": 49, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158) d(346) r(448,475) r(280,22)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158) d(346) r(448,475) r(280,22) d(274)", "fitness": 0.0}
-{"generation": 9, "position": 50, "parents": "d(417) r(240,297) r(275,197) d(460) a(330,287) a(19,34) d(178) d(23)", "genome": "d(417) r(240,297) r(275,197) d(460) a(330,287) a(19,34) d(178) d(23) a(411,378)", "fitness": 0.0}
-{"generation": 9, "position": 51, "parents": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) a(224,202) r(382,349)", "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) a(224,202) r(382,349) d(424)", "fitness": 0.0}
-{"generation": 9, "position": 52, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) a(299,41) d(116) a(370,433) d(350)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) a(299,41) d(116) a(370,433) d(350) d(441)", "fitness": 0.0}
-{"generation": 9, "position": 53, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) d(292) a(427,445) d(177)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) d(292) a(427,445) d(177) a(210,166)", "fitness": 0.0}
-{"generation": 9, "position": 54, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(427,445) d(177)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(427,445) d(177) r(376,412)", "fitness": 0.0}
-{"generation": 9, "position": 55, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(370,433) d(350)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(370,433) d(350) d(471)", "fitness": 0.0}
-{"generation": 9, "position": 56, "parents": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(293,120)", "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(293,120) a(385,13)", "fitness": 0.0}
-{"generation": 10, "position": 0, "parents": "r(158,152) d(173) a(117,197) a(132,390) r(227,202) r(450,275)", "genome": "r(158,152) d(173) a(117,197) a(132,390) r(227,202) r(450,275) r(160,178)", "fitness": 0.0}
-{"generation": 10, "position": 1, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) d(213) a(440,341) a(180,1) a(214,197) r(392,428) a(340,462) r(396,430)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) d(213) a(440,341) a(180,1) a(214,197) r(392,428) a(340,462) r(396,430) r(361,360)", "fitness": 0.0}
-{"generation": 10, "position": 2, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(392,428) a(340,462) r(396,430)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(392,428) a(340,462) r(396,430) r(440,37)", "fitness": 0.0}
-{"generation": 10, "position": 3, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390) r(227,202) r(450,275)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390) r(227,202) r(450,275) r(214,274)", "fitness": 0.0}
-{"generation": 10, "position": 4, "parents": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197)", "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197) r(159,192)", "fitness": 0.0}
-{"generation": 10, "position": 5, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(204) a(392,387)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(204) a(392,387) a(450,226)", "fitness": 0.0}
-{"generation": 10, "position": 6, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448) d(254) d(132) r(412,402) d(462) r(213,167) r(304,358) r(158,197) a(214,273) a(115,2)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448) d(254) d(132) r(412,402) d(462) r(213,167) r(304,358) r(158,197) a(214,273) a(115,2) a(448,441)", "fitness": 0.0}
-{"generation": 10, "position": 7, "parents": "d(403) d(387)", "genome": "d(403) d(387) r(304,325)", "fitness": 0.0}
-{"generation": 10, "position": 8, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448) d(254)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448) d(254) a(227,172)", "fitness": 0.0}
-{"generation": 10, "position": 9, "parents": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(158,197) a(214,273) a(115,2)", "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(158,197) a(214,273) a(115,2) a(447,162)", "fitness": 0.0}
-{"generation": 10, "position": 10, "parents": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197)", "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197) a(239,248)", "fitness": 0.0}
-{"generation": 10, "position": 11, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(411,382)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(411,382) d(371)", "fitness": 0.0}
-{"generation": 10, "position": 12, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(427,445) d(177) r(376,412)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(427,445) d(177) r(376,412) a(219,462)", "fitness": 0.0}
-{"generation": 10, "position": 13, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448) d(254)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448) d(254) a(131,115)", "fitness": 0.0}
-{"generation": 10, "position": 14, "parents": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207) r(24,227)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207) r(24,227) a(437,139)", "fitness": 0.0}
-{"generation": 10, "position": 15, "parents": "d(417) d(460) a(330,287) a(180,1) a(214,197) r(13,349) d(210) d(11)", "genome": "d(417) d(460) a(330,287) a(180,1) a(214,197) r(13,349) d(210) d(11) d(425)", "fitness": 0.0}
-{"generation": 10, "position": 16, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) a(257,276) a(280,384) d(212) d(124) r(466,323) d(254) d(207) d(415)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) a(257,276) a(280,384) d(212) d(124) r(466,323) d(254) d(207) d(415) a(159,172)", "fitness": 0.0}
-{"generation": 10, "position": 17, "parents": "d(417) a(401,139) a(450,462) a(240,9) a(23,113)", "genome": "d(417) a(401,139) a(450,462) a(240,9) a(23,113) r(159,158)", "fitness": 0.0}
-{"generation": 10, "position": 18, "parents": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) a(257,276) a(240,9) a(23,113)", "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) a(257,276) a(240,9) a(23,113) a(214,275)", "fitness": 0.0}
-{"generation": 10, "position": 19, "parents": "d(417) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207) d(415)", "genome": "d(417) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207) d(415) d(402)", "fitness": 0.0}
-{"generation": 10, "position": 20, "parents": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331) d(194) r(421,419)", "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331) d(194) r(421,419) r(327,251)", "fitness": 0.0}
-{"generation": 10, "position": 21, "parents": "a(452,2) r(3,14) r(181,374) d(433) d(237)", "genome": "a(452,2) r(3,14) r(181,374) d(433) d(237) a(434,423)", "fitness": 0.0}
-{"generation": 10, "position": 22, "parents": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(110,192)", "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(110,192) d(256)", "fitness": 0.0}
-{"generation": 10, "position": 23, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) d(197)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) d(197) d(465)", "fitness": 0.0}
-{"generation": 10, "position": 24, "parents": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197)", "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197) d(256)", "fitness": 0.0}
-{"generation": 10, "position": 25, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(110,192)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(110,192) d(250)", "fitness": 0.0}
-{"generation": 10, "position": 26, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(273,221)", "fitness": 0.0}
-{"generation": 10, "position": 27, "parents": "a(452,2) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458) a(193,154) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164) d(14)", "genome": "a(452,2) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458) a(193,154) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164) d(14) d(147)", "fitness": 0.0}
-{"generation": 10, "position": 28, "parents": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164) d(14)", "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164) d(14) d(434)", "fitness": 0.0}
-{"generation": 10, "position": 29, "parents": "a(452,2) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458) a(193,154)", "genome": "a(452,2) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458) a(193,154) r(251,444)", "fitness": 0.0}
-{"generation": 10, "position": 30, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) a(414,286) d(197)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) a(414,286) d(197) r(371,393)", "fitness": 0.0}
-{"generation": 10, "position": 31, "parents": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) r(143,337) d(414) d(214) a(228,445) a(475,341)", "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) r(143,337) d(414) d(214) a(228,445) a(475,341) r(201,385)", "fitness": 0.0}
-{"generation": 10, "position": 32, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) a(228,445) a(475,341)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) a(228,445) a(475,341) r(301,362)", "fitness": 0.0}
-{"generation": 10, "position": 33, "parents": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197)", "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197) d(248)", "fitness": 0.0}
-{"generation": 10, "position": 34, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) a(299,41) d(116) a(370,433) d(350) d(441)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) a(299,41) d(116) a(370,433) d(350) d(441) r(286,214)", "fitness": 0.0}
-{"generation": 10, "position": 35, "parents": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197)", "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197) r(438,162)", "fitness": 0.0}
-{"generation": 10, "position": 36, "parents": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197)", "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197) r(207,441)", "fitness": 0.0}
-{"generation": 10, "position": 37, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) a(228,445) a(475,341)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) a(228,445) a(475,341) r(361,343)", "fitness": 0.0}
-{"generation": 10, "position": 38, "parents": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(204,208) r(461,448) a(232,297)", "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(204,208) r(461,448) a(232,297) r(304,359)", "fitness": 0.0}
-{"generation": 10, "position": 39, "parents": "d(168) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331) d(194) a(213,273)", "genome": "d(168) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331) d(194) a(213,273) r(138,303)", "fitness": 0.0}
-{"generation": 10, "position": 40, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158) d(346) r(448,475) r(280,22) d(274)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158) d(346) r(448,475) r(280,22) d(274) a(181,22)", "fitness": 0.0}
-{"generation": 10, "position": 41, "parents": "r(158,152) d(173) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(204) a(245,385)", "genome": "r(158,152) d(173) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(204) a(245,385) a(115,129)", "fitness": 0.0}
-{"generation": 10, "position": 42, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(440,448) a(19,45)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(440,448) a(19,45) a(412,414)", "fitness": 0.0}
-{"generation": 10, "position": 43, "parents": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(370,433) d(350) d(471)", "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(370,433) d(350) d(471) a(213,448)", "fitness": 0.0}
-{"generation": 10, "position": 44, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(371,294)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(371,294) d(417)", "fitness": 0.0}
-{"generation": 10, "position": 45, "parents": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(411,382)", "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(411,382) r(475,415)", "fitness": 0.0}
-{"generation": 10, "position": 46, "parents": "d(117) r(240,297) a(462,400) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458) d(343)", "genome": "d(117) r(240,297) a(462,400) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458) d(343) r(207,192)", "fitness": 0.0}
-{"generation": 10, "position": 47, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448) d(254)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448) d(254) a(462,202)", "fitness": 0.0}
-{"generation": 10, "position": 48, "parents": "d(117) r(158,197) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(164,28) d(346)", "genome": "d(117) r(158,197) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(164,28) d(346) r(226,273)", "fitness": 0.0}
-{"generation": 10, "position": 49, "parents": "d(117) r(240,297) r(275,197) a(23,34) a(228,445) a(422,303)", "genome": "d(117) r(240,297) r(275,197) a(23,34) a(228,445) a(422,303) a(213,205)", "fitness": 0.0}
-{"generation": 10, "position": 50, "parents": "d(117) r(158,197) a(228,445) a(422,303)", "genome": "d(117) r(158,197) a(228,445) a(422,303) r(212,273)", "fitness": 0.0}
-{"generation": 10, "position": 51, "parents": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(164,28) d(346)", "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(164,28) d(346) r(224,29)", "fitness": 0.0}
-{"generation": 10, "position": 52, "parents": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207) r(24,227)", "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207) r(24,227) d(406)", "fitness": 0.0}
+{"generation": 1, "position": 0, "parents": [27], "genome": "r(251,292) a(223,221)", "fitness": 5.0}
+{"generation": 1, "position": 1, "parents": [11], "genome": "r(417,390) a(182,171)", "fitness": 0.0}
+{"generation": 1, "position": 2, "parents": [28, 13], "genome": "d(357) a(231,273)", "fitness": 0.0}
+{"generation": 1, "position": 3, "parents": [28, 13], "genome": "d(439) r(465,20)", "fitness": 0.0}
+{"generation": 1, "position": 4, "parents": [28], "genome": "d(357) a(328,351)", "fitness": 0.0}
+{"generation": 1, "position": 5, "parents": [13], "genome": "d(439) a(210,475)", "fitness": 0.0}
+{"generation": 1, "position": 6, "parents": [29], "genome": "a(212,425) a(333,343)", "fitness": 5.0}
+{"generation": 1, "position": 7, "parents": [23], "genome": "d(213) d(214)", "fitness": 5.0}
+{"generation": 1, "position": 8, "parents": [38], "genome": "r(246,274) d(440)", "fitness": 0.0}
+{"generation": 1, "position": 9, "parents": [2], "genome": "d(213) d(453)", "fitness": 5.0}
+{"generation": 1, "position": 10, "parents": [18], "genome": "r(287,413) d(417)", "fitness": 0.0}
+{"generation": 1, "position": 11, "parents": [37], "genome": "r(158,152) d(173)", "fitness": 0.0}
+{"generation": 1, "position": 12, "parents": [32, 32], "genome": "d(168) r(323,338)", "fitness": 0.0}
+{"generation": 1, "position": 13, "parents": [32, 32], "genome": "d(168) d(255)", "fitness": 0.0}
+{"generation": 1, "position": 14, "parents": [32], "genome": "d(168) d(409)", "fitness": 0.0}
+{"generation": 1, "position": 15, "parents": [32], "genome": "d(168) a(22,233)", "fitness": 0.0}
+{"generation": 1, "position": 16, "parents": [37], "genome": "r(158,152) d(188)", "fitness": 0.0}
+{"generation": 1, "position": 17, "parents": [26], "genome": "d(403) d(121)", "fitness": 0.0}
+{"generation": 1, "position": 18, "parents": [25], "genome": "r(243,256) d(405)", "fitness": 0.0}
+{"generation": 1, "position": 19, "parents": [24], "genome": "r(396,423) a(162,413)", "fitness": 0.0}
+{"generation": 1, "position": 20, "parents": [19], "genome": "d(161) a(117,214)", "fitness": 0.0}
+{"generation": 1, "position": 21, "parents": [0], "genome": "d(455) a(202,425)", "fitness": 5.0}
+{"generation": 1, "position": 22, "parents": [30], "genome": "r(180,113) d(215)", "fitness": 0.0}
+{"generation": 1, "position": 23, "parents": [38], "genome": "r(246,274) a(227,20)", "fitness": 0.0}
+{"generation": 1, "position": 24, "parents": [11], "genome": "r(417,390) r(294,277)", "fitness": 0.0}
+{"generation": 1, "position": 25, "parents": [30], "genome": "r(180,113) r(451,139)", "fitness": 0.0}
+{"generation": 1, "position": 26, "parents": [38], "genome": "r(246,274) r(368,379)", "fitness": 0.0}
+{"generation": 1, "position": 27, "parents": [33], "genome": "a(452,2) r(3,14)", "fitness": 5.0}
+{"generation": 1, "position": 28, "parents": [9, 25], "genome": "d(376) a(450,228)", "fitness": 0.0}
+{"generation": 1, "position": 29, "parents": [9, 25], "genome": "r(243,256) d(239)", "fitness": 0.0}
+{"generation": 1, "position": 30, "parents": [9], "genome": "d(376) a(473,192)", "fitness": 0.0}
+{"generation": 1, "position": 31, "parents": [25], "genome": "r(243,256) a(237,381)", "fitness": 0.0}
+{"generation": 1, "position": 32, "parents": [0, 37], "genome": "d(455) r(146,1)", "fitness": 0.0}
+{"generation": 1, "position": 33, "parents": [0, 37], "genome": "r(158,152) r(467,420)", "fitness": 0.0}
+{"generation": 1, "position": 34, "parents": [0], "genome": "d(455) d(214)", "fitness": 5.0}
+{"generation": 1, "position": 35, "parents": [37], "genome": "r(158,152) a(256,362)", "fitness": 0.0}
+{"generation": 1, "position": 36, "parents": [32, 13], "genome": "d(168) a(189,120)", "fitness": 0.0}
+{"generation": 1, "position": 37, "parents": [32, 13], "genome": "d(439) a(411,399)", "fitness": 0.0}
+{"generation": 1, "position": 38, "parents": [32], "genome": "d(168) a(401,139)", "fitness": 0.0}
+{"generation": 1, "position": 39, "parents": [13], "genome": "d(439) a(139,28)", "fitness": 0.0}
+{"generation": 1, "position": 40, "parents": [1], "genome": "a(212,381) a(213,41)", "fitness": 5.0}
+{"generation": 1, "position": 41, "parents": [5], "genome": "d(417) r(325,355)", "fitness": 0.0}
+{"generation": 1, "position": 42, "parents": [26, 10], "genome": "d(403) d(212)", "fitness": 5.0}
+{"generation": 1, "position": 43, "parents": [26, 10], "genome": "d(11) a(218,447)", "fitness": 5.0}
+{"generation": 1, "position": 44, "parents": [26], "genome": "d(403) d(387)", "fitness": 0.0}
+{"generation": 1, "position": 45, "parents": [10], "genome": "d(11) d(338)", "fitness": 5.0}
+{"generation": 1, "position": 46, "parents": [11], "genome": "r(417,390) r(160,176)", "fitness": 0.0}
+{"generation": 1, "position": 47, "parents": [20], "genome": "d(11) d(150)", "fitness": 2.0}
+{"generation": 1, "position": 48, "parents": [18], "genome": "r(287,413) r(174,384)", "fitness": 0.0}
+{"generation": 1, "position": 49, "parents": [24], "genome": "r(396,423) d(216)", "fitness": 0.0}
+{"generation": 1, "position": 50, "parents": [4, 18], "genome": "d(117) a(362,240)", "fitness": 0.0}
+{"generation": 1, "position": 51, "parents": [4, 18], "genome": "r(287,413) d(121)", "fitness": 0.0}
+{"generation": 1, "position": 52, "parents": [4], "genome": "d(117) d(132)", "fitness": 0.0}
+{"generation": 2, "position": 0, "parents": [13], "genome": "d(168) d(255) a(355,346)", "fitness": 0.0}
+{"generation": 2, "position": 1, "parents": [11], "genome": "r(158,152) d(173) r(224,20)", "fitness": 0.0}
+{"generation": 2, "position": 2, "parents": [36, 29], "genome": "d(168) a(189,120) d(239) d(182)", "fitness": 0.0}
+{"generation": 2, "position": 3, "parents": [36, 29], "genome": "r(243,256) d(213)", "fitness": 5.0}
+{"generation": 2, "position": 4, "parents": [36], "genome": "d(168) a(189,120) a(415,471)", "fitness": 0.0}
+{"generation": 2, "position": 5, "parents": [29], "genome": "r(243,256) d(239) r(194,157)", "fitness": 0.0}
+{"generation": 2, "position": 6, "parents": [48, 20], "genome": "r(287,413) r(174,384) a(117,214) r(213,113)", "fitness": 0.0}
+{"generation": 2, "position": 7, "parents": [48, 20], "genome": "d(161) r(212,160)", "fitness": 0.0}
+{"generation": 2, "position": 8, "parents": [48], "genome": "r(287,413) r(174,384) a(181,467)", "fitness": 0.0}
+{"generation": 2, "position": 9, "parents": [20], "genome": "d(161) a(117,214) d(299)", "fitness": 0.0}
+{"generation": 2, "position": 10, "parents": [44], "genome": "d(403) d(387) r(141,214)", "fitness": 10.0}
+{"generation": 2, "position": 11, "parents": [32], "genome": "d(455) r(146,1) d(213)", "fitness": 0.0}
+{"generation": 2, "position": 12, "parents": [18], "genome": "r(243,256) d(405) a(434,436)", "fitness": 0.0}
+{"generation": 2, "position": 13, "parents": [14], "genome": "d(168) d(409) r(461,20)", "fitness": 0.0}
+{"generation": 2, "position": 14, "parents": [36, 52], "genome": "d(168) a(189,120) d(132) r(412,402)", "fitness": 0.0}
+{"generation": 2, "position": 15, "parents": [36, 52], "genome": "d(117) r(240,297)", "fitness": 0.0}
+{"generation": 2, "position": 16, "parents": [36], "genome": "d(168) a(189,120) r(339,251)", "fitness": 0.0}
+{"generation": 2, "position": 17, "parents": [52], "genome": "d(117) d(132) d(145)", "fitness": 0.0}
+{"generation": 2, "position": 18, "parents": [15, 51], "genome": "d(168) a(22,233) d(121) r(177,233)", "fitness": 0.0}
+{"generation": 2, "position": 19, "parents": [15, 51], "genome": "r(287,413) a(214,171)", "fitness": 0.0}
+{"generation": 2, "position": 20, "parents": [15], "genome": "d(168) a(22,233) r(362,241)", "fitness": 0.0}
+{"generation": 2, "position": 21, "parents": [51], "genome": "r(287,413) d(121) r(213,2)", "fitness": 0.0}
+{"generation": 2, "position": 22, "parents": [4], "genome": "d(357) a(328,351) r(9,171)", "fitness": 0.0}
+{"generation": 2, "position": 23, "parents": [19], "genome": "r(396,423) a(162,413) a(327,475)", "fitness": 0.0}
+{"generation": 2, "position": 24, "parents": [27, 44], "genome": "a(452,2) r(3,14) r(359,300)", "fitness": 0.0}
+{"generation": 2, "position": 25, "parents": [27, 44], "genome": "d(403) d(387) r(172,439)", "fitness": 0.0}
+{"generation": 2, "position": 26, "parents": [27], "genome": "a(452,2) r(3,14) r(213,147)", "fitness": 5.0}
+{"generation": 2, "position": 27, "parents": [44], "genome": "d(403) d(387) d(460)", "fitness": 0.0}
+{"generation": 2, "position": 28, "parents": [32, 1], "genome": "d(455) a(182,171) a(279,400)", "fitness": 5.0}
+{"generation": 2, "position": 29, "parents": [32, 1], "genome": "r(417,390) r(146,1) a(353,325)", "fitness": 0.0}
+{"generation": 2, "position": 30, "parents": [32], "genome": "d(455) r(146,1) r(215,173)", "fitness": 0.0}
+{"generation": 2, "position": 31, "parents": [1], "genome": "r(417,390) a(182,171) d(214)", "fitness": 0.0}
+{"generation": 2, "position": 32, "parents": [41], "genome": "d(417) r(325,355) a(23,34)", "fitness": 0.0}
+{"generation": 2, "position": 33, "parents": [18], "genome": "r(243,256) d(405) r(453,362)", "fitness": 0.0}
+{"generation": 2, "position": 34, "parents": [20, 36], "genome": "d(161) a(189,120) r(181,374)", "fitness": 0.0}
+{"generation": 2, "position": 35, "parents": [20, 36], "genome": "d(168) a(117,214) r(210,160)", "fitness": 0.0}
+{"generation": 2, "position": 36, "parents": [20], "genome": "d(161) a(117,214) a(208,174)", "fitness": 0.0}
+{"generation": 2, "position": 37, "parents": [36], "genome": "d(168) a(189,120) r(197,212)", "fitness": 0.0}
+{"generation": 2, "position": 38, "parents": [2, 29], "genome": "d(357) a(231,273) d(239) d(280)", "fitness": 0.0}
+{"generation": 2, "position": 39, "parents": [2, 29], "genome": "r(243,256) d(411)", "fitness": 0.0}
+{"generation": 2, "position": 40, "parents": [2], "genome": "d(357) a(231,273) r(210,181)", "fitness": 0.0}
+{"generation": 2, "position": 41, "parents": [29], "genome": "r(243,256) d(239) d(109)", "fitness": 0.0}
+{"generation": 2, "position": 42, "parents": [24, 27], "genome": "r(417,390) d(227)", "fitness": 0.0}
+{"generation": 2, "position": 43, "parents": [24, 27], "genome": "a(452,2) r(3,14) r(294,277) a(128,228)", "fitness": 0.0}
+{"generation": 2, "position": 44, "parents": [24], "genome": "r(417,390) r(294,277) a(323,274)", "fitness": 0.0}
+{"generation": 2, "position": 45, "parents": [27], "genome": "a(452,2) r(3,14) a(384,37)", "fitness": 5.0}
+{"generation": 2, "position": 46, "parents": [7], "genome": "d(213) d(214) d(468)", "fitness": 0.0}
+{"generation": 2, "position": 47, "parents": [41], "genome": "d(417) r(325,355) a(167,1)", "fitness": 0.0}
+{"generation": 2, "position": 48, "parents": [32], "genome": "d(455) r(146,1) a(340,330)", "fitness": 0.0}
+{"generation": 2, "position": 49, "parents": [4], "genome": "d(357) a(328,351) a(256,400)", "fitness": 0.0}
+{"generation": 2, "position": 50, "parents": [15, 2], "genome": "d(168) a(22,233) d(221)", "fitness": 0.0}
+{"generation": 2, "position": 51, "parents": [15, 2], "genome": "d(357) a(231,273) d(136)", "fitness": 0.0}
+{"generation": 2, "position": 52, "parents": [15], "genome": "d(168) a(22,233) r(157,145)", "fitness": 0.0}
+{"generation": 2, "position": 53, "parents": [2], "genome": "d(357) a(231,273) a(202,175)", "fitness": 0.0}
+{"generation": 2, "position": 54, "parents": [4], "genome": "d(357) a(328,351) a(210,198)", "fitness": 0.0}
+{"generation": 2, "position": 55, "parents": [13], "genome": "d(168) d(255) d(432)", "fitness": 0.0}
+{"generation": 2, "position": 56, "parents": [32, 38], "genome": "d(455) a(401,139) r(227,214)", "fitness": 0.0}
+{"generation": 2, "position": 57, "parents": [32, 38], "genome": "d(168) r(146,1) a(464,451)", "fitness": 0.0}
+{"generation": 2, "position": 58, "parents": [32], "genome": "d(455) r(146,1) r(210,164)", "fitness": 0.0}
+{"generation": 2, "position": 59, "parents": [38], "genome": "d(168) a(401,139) a(450,462)", "fitness": 0.0}
+{"generation": 2, "position": 60, "parents": [8, 20], "genome": "r(246,274) d(440) d(182)", "fitness": 0.0}
+{"generation": 2, "position": 61, "parents": [8, 20], "genome": "d(161) a(117,214) d(185)", "fitness": 0.0}
+{"generation": 2, "position": 62, "parents": [8], "genome": "r(246,274) d(440) r(454,466)", "fitness": 0.0}
+{"generation": 3, "position": 0, "parents": [49, 48], "genome": "d(357) a(340,330) a(135,471)", "fitness": 5.0}
+{"generation": 3, "position": 1, "parents": [49, 48], "genome": "d(455) r(146,1) a(328,351) a(256,400) r(370,154)", "fitness": 0.0}
+{"generation": 3, "position": 2, "parents": [49], "genome": "d(357) a(328,351) a(256,400) r(214,113)", "fitness": 0.0}
+{"generation": 3, "position": 3, "parents": [48], "genome": "d(455) r(146,1) a(340,330) d(441)", "fitness": 0.0}
+{"generation": 3, "position": 4, "parents": [15, 43], "genome": "d(117) a(128,228) r(213,357)", "fitness": 0.0}
+{"generation": 3, "position": 5, "parents": [15, 43], "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361)", "fitness": 0.0}
+{"generation": 3, "position": 6, "parents": [15], "genome": "d(117) r(240,297) r(275,197)", "fitness": 0.0}
+{"generation": 3, "position": 7, "parents": [43], "genome": "a(452,2) r(3,14) r(294,277) a(128,228) d(344)", "fitness": 0.0}
+{"generation": 3, "position": 8, "parents": [59, 34], "genome": "d(168) a(401,139) a(450,462) d(139)", "fitness": 0.0}
+{"generation": 3, "position": 9, "parents": [59, 34], "genome": "d(161) a(189,120) r(181,374) d(294)", "fitness": 0.0}
+{"generation": 3, "position": 10, "parents": [59], "genome": "d(168) a(401,139) a(450,462) d(298)", "fitness": 0.0}
+{"generation": 3, "position": 11, "parents": [34], "genome": "d(161) a(189,120) r(181,374) d(435)", "fitness": 0.0}
+{"generation": 3, "position": 12, "parents": [2, 24], "genome": "d(168) r(359,300) r(199,226)", "fitness": 0.0}
+{"generation": 3, "position": 13, "parents": [2, 24], "genome": "a(452,2) r(3,14) a(189,120) d(239) d(182) a(10,362)", "fitness": 0.0}
+{"generation": 3, "position": 14, "parents": [2], "genome": "d(168) a(189,120) d(239) d(182) a(2,10)", "fitness": 0.0}
+{"generation": 3, "position": 15, "parents": [24], "genome": "a(452,2) r(3,14) r(359,300) d(422)", "fitness": 0.0}
+{"generation": 3, "position": 16, "parents": [18], "genome": "d(168) a(22,233) d(121) r(177,233) r(340,136)", "fitness": 0.0}
+{"generation": 3, "position": 17, "parents": [8], "genome": "r(287,413) r(174,384) a(181,467) d(136)", "fitness": 0.0}
+{"generation": 3, "position": 18, "parents": [12, 21], "genome": "r(243,256) d(121) r(213,2) a(212,384)", "fitness": 0.0}
+{"generation": 3, "position": 19, "parents": [12, 21], "genome": "r(287,413) d(405) a(434,436) r(231,338)", "fitness": 0.0}
+{"generation": 3, "position": 20, "parents": [12], "genome": "r(243,256) d(405) a(434,436) d(214)", "fitness": 0.0}
+{"generation": 3, "position": 21, "parents": [21], "genome": "r(287,413) d(121) r(213,2) d(454)", "fitness": 0.0}
+{"generation": 3, "position": 22, "parents": [34], "genome": "d(161) a(189,120) r(181,374) d(433)", "fitness": 0.0}
+{"generation": 3, "position": 23, "parents": [33], "genome": "r(243,256) d(405) r(453,362) a(214,330)", "fitness": 0.0}
+{"generation": 3, "position": 24, "parents": [32, 59], "genome": "d(417) r(325,355) a(430,355)", "fitness": 0.0}
+{"generation": 3, "position": 25, "parents": [32, 59], "genome": "d(168) a(401,139) a(450,462) a(23,34) a(421,390)", "fitness": 0.0}
+{"generation": 3, "position": 26, "parents": [32], "genome": "d(417) r(325,355) a(23,34) d(424)", "fitness": 0.0}
+{"generation": 3, "position": 27, "parents": [59], "genome": "d(168) a(401,139) a(450,462) d(235)", "fitness": 0.0}
+{"generation": 3, "position": 28, "parents": [32, 37], "genome": "d(417) r(325,355) a(23,34) r(197,212) a(212,286)", "fitness": 0.0}
+{"generation": 3, "position": 29, "parents": [32, 37], "genome": "d(168) a(189,120) r(409,439)", "fitness": 0.0}
+{"generation": 3, "position": 30, "parents": [32], "genome": "d(417) r(325,355) a(23,34) a(385,391)", "fitness": 0.0}
+{"generation": 3, "position": 31, "parents": [37], "genome": "d(168) a(189,120) r(197,212) r(467,468)", "fitness": 0.0}
+{"generation": 3, "position": 32, "parents": [13, 58], "genome": "d(168) d(409) r(201,272)", "fitness": 0.0}
+{"generation": 3, "position": 33, "parents": [13, 58], "genome": "d(455) r(146,1) r(210,164) r(461,20) a(349,237)", "fitness": 0.0}
+{"generation": 3, "position": 34, "parents": [13], "genome": "d(168) d(409) r(461,20) a(240,273)", "fitness": 0.0}
+{"generation": 3, "position": 35, "parents": [58], "genome": "d(455) r(146,1) r(210,164) a(361,185)", "fitness": 0.0}
+{"generation": 3, "position": 36, "parents": [14, 49], "genome": "d(168) a(189,120) d(132) r(412,402) a(328,351) a(256,400) d(160)", "fitness": 0.0}
+{"generation": 3, "position": 37, "parents": [14, 49], "genome": "d(357) r(325,362)", "fitness": 0.0}
+{"generation": 3, "position": 38, "parents": [14], "genome": "d(168) a(189,120) d(132) r(412,402) a(293,415)", "fitness": 0.0}
+{"generation": 3, "position": 39, "parents": [49], "genome": "d(357) a(328,351) a(256,400) a(205,281)", "fitness": 0.0}
+{"generation": 3, "position": 40, "parents": [30], "genome": "d(455) r(146,1) r(215,173) r(117,113)", "fitness": 0.0}
+{"generation": 3, "position": 41, "parents": [38], "genome": "d(357) a(231,273) d(239) d(280) a(458,52)", "fitness": 0.0}
+{"generation": 3, "position": 42, "parents": [36, 36], "genome": "d(161) a(117,214) r(297,333)", "fitness": 0.0}
+{"generation": 3, "position": 43, "parents": [36, 36], "genome": "d(161) a(117,214) a(208,174) a(208,174) r(158,439)", "fitness": 0.0}
+{"generation": 3, "position": 44, "parents": [36], "genome": "d(161) a(117,214) a(208,174) a(399,396)", "fitness": 0.0}
+{"generation": 3, "position": 45, "parents": [36], "genome": "d(161) a(117,214) a(208,174) r(432,441)", "fitness": 0.0}
+{"generation": 3, "position": 46, "parents": [5, 52], "genome": "r(243,256) d(239) r(157,145) d(122)", "fitness": 0.0}
+{"generation": 3, "position": 47, "parents": [5, 52], "genome": "d(168) a(22,233) r(194,157) a(19,286)", "fitness": 0.0}
+{"generation": 3, "position": 48, "parents": [5], "genome": "r(243,256) d(239) r(194,157) d(216)", "fitness": 0.0}
+{"generation": 3, "position": 49, "parents": [52], "genome": "d(168) a(22,233) r(157,145) a(387,289)", "fitness": 0.0}
+{"generation": 3, "position": 50, "parents": [63], "genome": "d(161) a(117,214) a(10,48) a(412,136)", "fitness": 0.0}
+{"generation": 3, "position": 51, "parents": [37], "genome": "d(168) a(189,120) r(197,212) r(373,381)", "fitness": 0.0}
+{"generation": 3, "position": 52, "parents": [11, 1], "genome": "d(455) r(146,1) r(224,20) a(330,355)", "fitness": 0.0}
+{"generation": 3, "position": 53, "parents": [11, 1], "genome": "r(158,152) d(173) d(213) a(440,341)", "fitness": 0.0}
+{"generation": 3, "position": 54, "parents": [11], "genome": "d(455) r(146,1) d(213) a(214,275)", "fitness": 0.0}
+{"generation": 3, "position": 55, "parents": [1], "genome": "r(158,152) d(173) r(224,20) d(346)", "fitness": 0.0}
+{"generation": 3, "position": 56, "parents": [59], "genome": "d(168) a(401,139) a(450,462) a(280,384)", "fitness": 0.0}
+{"generation": 3, "position": 57, "parents": [15], "genome": "d(117) r(240,297) d(278)", "fitness": 0.0}
+{"generation": 3, "position": 58, "parents": [56, 50], "genome": "d(455) a(401,139) r(227,214) d(429)", "fitness": 0.0}
+{"generation": 3, "position": 59, "parents": [56, 50], "genome": "d(168) a(22,233) d(221) a(409,368)", "fitness": 0.0}
+{"generation": 3, "position": 60, "parents": [56], "genome": "d(455) a(401,139) r(227,214) r(14,445)", "fitness": 0.0}
+{"generation": 3, "position": 61, "parents": [50], "genome": "d(168) a(22,233) d(221) d(133)", "fitness": 0.0}
+{"generation": 3, "position": 62, "parents": [53], "genome": "d(357) a(231,273) a(202,175) a(219,415)", "fitness": 0.0}
+{"generation": 3, "position": 63, "parents": [25], "genome": "d(403) d(387) r(172,439) a(176,139)", "fitness": 0.0}
+{"generation": 3, "position": 64, "parents": [32], "genome": "d(417) r(325,355) a(23,34) d(248)", "fitness": 0.0}
+{"generation": 4, "position": 0, "parents": [35], "genome": "d(455) r(146,1) r(210,164) a(361,185) a(436,432)", "fitness": 0.0}
+{"generation": 4, "position": 1, "parents": [49], "genome": "d(168) a(22,233) r(157,145) a(387,289) r(332,420)", "fitness": 0.0}
+{"generation": 4, "position": 2, "parents": [52, 19], "genome": "d(455) a(347,325)", "fitness": 5.0}
+{"generation": 4, "position": 3, "parents": [52, 19], "genome": "r(287,413) d(405) a(434,436) r(231,338) r(146,1) r(224,20) a(330,355) d(210)", "fitness": 0.0}
+{"generation": 4, "position": 4, "parents": [52], "genome": "d(455) r(146,1) r(224,20) a(330,355) d(229)", "fitness": 0.0}
+{"generation": 4, "position": 5, "parents": [19], "genome": "r(287,413) d(405) a(434,436) r(231,338) r(460,374)", "fitness": 0.0}
+{"generation": 4, "position": 6, "parents": [59], "genome": "d(168) a(22,233) d(221) a(409,368) d(353)", "fitness": 0.0}
+{"generation": 4, "position": 7, "parents": [2], "genome": "d(357) a(328,351) a(256,400) r(214,113) r(141,471)", "fitness": 0.0}
+{"generation": 4, "position": 8, "parents": [15, 47], "genome": "a(452,2) r(3,14) r(359,300) a(19,286) r(373,434)", "fitness": 0.0}
+{"generation": 4, "position": 9, "parents": [15, 47], "genome": "d(168) a(22,233) r(194,157) d(422) d(225)", "fitness": 0.0}
+{"generation": 4, "position": 10, "parents": [15], "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28)", "fitness": 0.0}
+{"generation": 4, "position": 11, "parents": [47], "genome": "d(168) a(22,233) r(194,157) a(19,286) a(409,416)", "fitness": 0.0}
+{"generation": 4, "position": 12, "parents": [53], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1)", "fitness": 0.0}
+{"generation": 4, "position": 13, "parents": [17], "genome": "r(287,413) r(174,384) a(181,467) d(136) r(212,475)", "fitness": 0.0}
+{"generation": 4, "position": 14, "parents": [28], "genome": "d(417) r(325,355) a(23,34) r(197,212) a(212,286) r(220,31)", "fitness": 0.0}
+{"generation": 4, "position": 15, "parents": [53], "genome": "r(158,152) d(173) d(213) a(440,341) r(379,41)", "fitness": 0.0}
+{"generation": 4, "position": 16, "parents": [22], "genome": "d(161) a(189,120) r(181,374) d(433) a(215,400)", "fitness": 0.0}
+{"generation": 4, "position": 17, "parents": [50], "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227)", "fitness": 0.0}
+{"generation": 4, "position": 18, "parents": [5, 24], "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(119,116)", "fitness": 0.0}
+{"generation": 4, "position": 19, "parents": [5, 24], "genome": "d(417) r(325,355) a(430,355) a(351,361) d(181)", "fitness": 0.0}
+{"generation": 4, "position": 20, "parents": [5], "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132)", "fitness": 0.0}
+{"generation": 4, "position": 21, "parents": [24], "genome": "d(417) r(325,355) a(430,355) d(463)", "fitness": 0.0}
+{"generation": 4, "position": 22, "parents": [3], "genome": "d(455) r(146,1) a(340,330) d(441) a(357,278)", "fitness": 0.0}
+{"generation": 4, "position": 23, "parents": [12], "genome": "d(168) r(359,300) r(199,226) d(286)", "fitness": 0.0}
+{"generation": 4, "position": 24, "parents": [20, 25], "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390) r(349,350)", "fitness": 0.0}
+{"generation": 4, "position": 25, "parents": [20, 25], "genome": "d(168) a(475,210)", "fitness": 0.0}
+{"generation": 4, "position": 26, "parents": [20], "genome": "r(243,256) d(405) a(434,436) d(214) a(227,350)", "fitness": 0.0}
+{"generation": 4, "position": 27, "parents": [25], "genome": "d(168) a(401,139) a(450,462) a(23,34) a(421,390) a(9,350)", "fitness": 0.0}
+{"generation": 4, "position": 28, "parents": [22], "genome": "d(161) a(189,120) r(181,374) d(433) d(119)", "fitness": 0.0}
+{"generation": 4, "position": 29, "parents": [31], "genome": "d(168) a(189,120) r(197,212) r(467,468) r(454,446)", "fitness": 10.0}
+{"generation": 4, "position": 30, "parents": [8, 38], "genome": "d(168) a(401,139) r(412,402) a(293,415) a(333,45)", "fitness": 0.0}
+{"generation": 4, "position": 31, "parents": [8, 38], "genome": "d(168) a(189,120) d(132) a(450,462) d(139) a(301,41)", "fitness": 0.0}
+{"generation": 4, "position": 32, "parents": [8], "genome": "d(168) a(401,139) a(450,462) d(139) a(332,327)", "fitness": 0.0}
+{"generation": 4, "position": 33, "parents": [38], "genome": "d(168) a(189,120) d(132) r(412,402) a(293,415) a(253,275)", "fitness": 0.0}
+{"generation": 4, "position": 34, "parents": [32], "genome": "d(168) d(409) r(201,272) r(440,214)", "fitness": 0.0}
+{"generation": 4, "position": 35, "parents": [39], "genome": "d(357) a(328,351) a(256,400) a(205,281) d(137)", "fitness": 0.0}
+{"generation": 4, "position": 36, "parents": [12], "genome": "d(168) r(359,300) r(199,226) d(117)", "fitness": 0.0}
+{"generation": 4, "position": 37, "parents": [44], "genome": "d(161) a(117,214) a(208,174) a(399,396) a(281,286)", "fitness": 0.0}
+{"generation": 4, "position": 38, "parents": [34], "genome": "d(168) d(409) r(461,20) a(240,273) d(212)", "fitness": 0.0}
+{"generation": 4, "position": 39, "parents": [65], "genome": "r(287,413) r(174,384) a(117,214) r(213,113) r(253,331) r(291,274)", "fitness": 10.0}
+{"generation": 4, "position": 40, "parents": [60], "genome": "d(455) a(401,139) r(227,214) r(14,445) d(207)", "fitness": 0.0}
+{"generation": 4, "position": 41, "parents": [12], "genome": "d(168) r(359,300) r(199,226) d(470)", "fitness": 0.0}
+{"generation": 4, "position": 42, "parents": [18, 63], "genome": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150)", "fitness": 0.0}
+{"generation": 4, "position": 43, "parents": [18, 63], "genome": "d(403) d(387) r(172,439) a(424,226)", "fitness": 0.0}
+{"generation": 4, "position": 44, "parents": [18], "genome": "r(243,256) d(121) r(213,2) a(212,384) d(467)", "fitness": 0.0}
+{"generation": 4, "position": 45, "parents": [63], "genome": "d(403) d(387) r(172,439) a(176,139) r(471,210)", "fitness": 0.0}
+{"generation": 4, "position": 46, "parents": [56, 22], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13)", "fitness": 0.0}
+{"generation": 4, "position": 47, "parents": [56, 22], "genome": "d(161) a(189,120) a(280,384) a(437,390)", "fitness": 0.0}
+{"generation": 4, "position": 48, "parents": [56], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212)", "fitness": 0.0}
+{"generation": 4, "position": 49, "parents": [22], "genome": "d(161) a(189,120) r(181,374) d(433) a(14,154)", "fitness": 0.0}
+{"generation": 4, "position": 50, "parents": [64, 6], "genome": "d(417) r(325,355) a(15,274)", "fitness": 0.0}
+{"generation": 4, "position": 51, "parents": [64, 6], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385)", "fitness": 0.0}
+{"generation": 4, "position": 52, "parents": [64], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338)", "fitness": 0.0}
+{"generation": 4, "position": 53, "parents": [6], "genome": "d(117) r(240,297) r(275,197) d(460)", "fitness": 0.0}
+{"generation": 4, "position": 54, "parents": [14, 37], "genome": "d(168) a(189,120) d(239) d(182) a(2,10) d(380)", "fitness": 0.0}
+{"generation": 4, "position": 55, "parents": [14, 37], "genome": "d(357) r(325,362) a(210,446)", "fitness": 10.0}
+{"generation": 4, "position": 56, "parents": [14], "genome": "d(168) a(189,120) d(239) d(182) a(2,10) r(423,233)", "fitness": 0.0}
+{"generation": 5, "position": 0, "parents": [33, 43], "genome": "d(168) a(189,120) r(172,439) a(424,226) a(248,254)", "fitness": 0.0}
+{"generation": 5, "position": 1, "parents": [33, 43], "genome": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275) a(413,406)", "fitness": 0.0}
+{"generation": 5, "position": 2, "parents": [33], "genome": "d(168) a(189,120) d(132) r(412,402) a(293,415) a(253,275) r(143,337)", "fitness": 0.0}
+{"generation": 5, "position": 3, "parents": [43], "genome": "d(403) d(387) r(172,439) a(424,226) a(333,337)", "fitness": 0.0}
+{"generation": 5, "position": 4, "parents": [10, 46], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286)", "fitness": 0.0}
+{"generation": 5, "position": 5, "parents": [10, 46], "genome": "d(168) a(401,139) a(450,462) r(359,300) d(422) a(213,28) r(249,258)", "fitness": 0.0}
+{"generation": 5, "position": 6, "parents": [10], "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) d(344)", "fitness": 0.0}
+{"generation": 5, "position": 7, "parents": [46], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13) r(416,162)", "fitness": 0.0}
+{"generation": 5, "position": 8, "parents": [30, 25], "genome": "d(168) a(401,139) r(412,402) a(293,415) a(333,45) a(475,210) a(117,192)", "fitness": 0.0}
+{"generation": 5, "position": 9, "parents": [30, 25], "genome": "d(168) a(219,228)", "fitness": 0.0}
+{"generation": 5, "position": 10, "parents": [30], "genome": "d(168) a(401,139) r(412,402) a(293,415) a(333,45) d(460)", "fitness": 0.0}
+{"generation": 5, "position": 11, "parents": [25], "genome": "d(168) a(475,210) d(353)", "fitness": 0.0}
+{"generation": 5, "position": 12, "parents": [20], "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(340,233)", "fitness": 0.0}
+{"generation": 5, "position": 13, "parents": [42], "genome": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) d(462)", "fitness": 0.0}
+{"generation": 5, "position": 14, "parents": [52], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292)", "fitness": 0.0}
+{"generation": 5, "position": 15, "parents": [53], "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287)", "fitness": 0.0}
+{"generation": 5, "position": 16, "parents": [46, 32], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411)", "fitness": 0.0}
+{"generation": 5, "position": 17, "parents": [46, 32], "genome": "d(168) a(401,139) a(450,462) d(139) a(275,13) d(415)", "fitness": 0.0}
+{"generation": 5, "position": 18, "parents": [46], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13) r(243,299)", "fitness": 0.0}
+{"generation": 5, "position": 19, "parents": [32], "genome": "d(168) a(401,139) a(450,462) d(139) a(332,327) d(227)", "fitness": 0.0}
+{"generation": 5, "position": 20, "parents": [31, 10], "genome": "d(168) a(189,120) d(132) a(213,28) r(472,178)", "fitness": 0.0}
+{"generation": 5, "position": 21, "parents": [31, 10], "genome": "a(452,2) r(3,14) r(359,300) d(422) a(450,462) d(139) a(301,41) r(210,286)", "fitness": 0.0}
+{"generation": 5, "position": 22, "parents": [31], "genome": "d(168) a(189,120) d(132) a(450,462) d(139) a(301,41) d(202)", "fitness": 0.0}
+{"generation": 5, "position": 23, "parents": [10], "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) d(327)", "fitness": 0.0}
+{"generation": 5, "position": 24, "parents": [19, 34], "genome": "d(417) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19)", "fitness": 0.0}
+{"generation": 5, "position": 25, "parents": [19, 34], "genome": "d(168) d(409) r(201,272) d(181) r(405,475)", "fitness": 0.0}
+{"generation": 5, "position": 26, "parents": [19], "genome": "d(417) r(325,355) a(430,355) a(351,361) d(181) d(210)", "fitness": 0.0}
+{"generation": 5, "position": 27, "parents": [34], "genome": "d(168) d(409) r(201,272) r(440,214) r(465,136)", "fitness": 0.0}
+{"generation": 5, "position": 28, "parents": [34], "genome": "d(168) d(409) r(201,272) r(440,214) d(435)", "fitness": 0.0}
+{"generation": 5, "position": 29, "parents": [16], "genome": "d(161) a(189,120) r(181,374) d(433) a(215,400) a(334,360)", "fitness": 0.0}
+{"generation": 5, "position": 30, "parents": [14, 22], "genome": "d(417) r(325,355) a(340,330) d(441) a(357,278) a(233,120)", "fitness": 0.0}
+{"generation": 5, "position": 31, "parents": [14, 22], "genome": "d(455) r(146,1) a(23,34) r(197,212) a(212,286) r(220,31) a(404,136)", "fitness": 0.0}
+{"generation": 5, "position": 32, "parents": [14], "genome": "d(417) r(325,355) a(23,34) r(197,212) a(212,286) r(220,31) d(459)", "fitness": 0.0}
+{"generation": 5, "position": 33, "parents": [22], "genome": "d(455) r(146,1) a(340,330) d(441) a(357,278) d(394)", "fitness": 0.0}
+{"generation": 5, "position": 34, "parents": [22], "genome": "d(455) r(146,1) a(340,330) d(441) a(357,278) r(303,230)", "fitness": 0.0}
+{"generation": 5, "position": 35, "parents": [53], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334)", "fitness": 0.0}
+{"generation": 5, "position": 36, "parents": [23, 12], "genome": "d(168) r(359,300) r(199,226) d(286) a(440,341) a(180,1) d(210)", "fitness": 0.0}
+{"generation": 5, "position": 37, "parents": [23, 12], "genome": "r(158,152) d(173) d(213) d(424)", "fitness": 0.0}
+{"generation": 5, "position": 38, "parents": [23], "genome": "d(168) r(359,300) r(199,226) d(286) d(212)", "fitness": 0.0}
+{"generation": 5, "position": 39, "parents": [12], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) r(402,303)", "fitness": 0.0}
+{"generation": 5, "position": 40, "parents": [51, 48], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158)", "fitness": 0.0}
+{"generation": 5, "position": 41, "parents": [51, 48], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) a(294,272)", "fitness": 0.0}
+{"generation": 5, "position": 42, "parents": [51], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415)", "fitness": 0.0}
+{"generation": 5, "position": 43, "parents": [48], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124)", "fitness": 0.0}
+{"generation": 5, "position": 44, "parents": [17, 17], "genome": "d(161) a(117,214) a(10,48) a(412,136) a(412,136) r(202,227) a(247,327)", "fitness": 0.0}
+{"generation": 5, "position": 45, "parents": [17, 17], "genome": "d(161) a(117,214) a(10,48) r(202,227) r(213,445)", "fitness": 0.0}
+{"generation": 5, "position": 46, "parents": [17], "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(212,281)", "fitness": 0.0}
+{"generation": 5, "position": 47, "parents": [17], "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357)", "fitness": 0.0}
+{"generation": 5, "position": 48, "parents": [19], "genome": "d(417) r(325,355) a(430,355) a(351,361) d(181) r(438,276)", "fitness": 0.0}
+{"generation": 5, "position": 49, "parents": [10], "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19)", "fitness": 0.0}
+{"generation": 5, "position": 50, "parents": [12, 32], "genome": "r(158,152) d(173) d(213) a(440,341) a(450,462) d(139) a(332,327) r(292,448)", "fitness": 0.0}
+{"generation": 5, "position": 51, "parents": [12, 32], "genome": "d(168) a(401,139) a(180,1) r(399,444)", "fitness": 0.0}
+{"generation": 5, "position": 52, "parents": [12], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22)", "fitness": 0.0}
+{"generation": 5, "position": 53, "parents": [32], "genome": "d(168) a(401,139) a(450,462) d(139) a(332,327) d(212)", "fitness": 0.0}
+{"generation": 5, "position": 54, "parents": [20, 36], "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) d(117) d(182)", "fitness": 0.0}
+{"generation": 5, "position": 55, "parents": [20, 36], "genome": "d(168) r(359,300) r(199,226) a(214,136)", "fitness": 0.0}
+{"generation": 5, "position": 56, "parents": [20], "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415)", "fitness": 0.0}
+{"generation": 5, "position": 57, "parents": [36], "genome": "d(168) r(359,300) r(199,226) d(117) r(420,369)", "fitness": 0.0}
+{"generation": 5, "position": 58, "parents": [13], "genome": "r(287,413) r(174,384) a(181,467) d(136) r(212,475) r(387,411)", "fitness": 0.0}
+{"generation": 5, "position": 59, "parents": [49], "genome": "d(161) a(189,120) r(181,374) d(433) a(14,154) d(298)", "fitness": 0.0}
+{"generation": 5, "position": 60, "parents": [24, 6], "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390) r(349,350) a(409,368) d(353) d(277)", "fitness": 0.0}
+{"generation": 5, "position": 61, "parents": [24, 6], "genome": "d(168) a(22,233) d(221) d(213)", "fitness": 0.0}
+{"generation": 5, "position": 62, "parents": [24], "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390) r(349,350) a(255,284)", "fitness": 0.0}
+{"generation": 5, "position": 63, "parents": [6], "genome": "d(168) a(22,233) d(221) a(409,368) d(353) r(450,384)", "fitness": 0.0}
+{"generation": 5, "position": 64, "parents": [24, 17], "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41)", "fitness": 0.0}
+{"generation": 5, "position": 65, "parents": [24, 17], "genome": "d(161) a(450,462) a(23,34) a(421,390) r(349,350) d(360)", "fitness": 0.0}
+{"generation": 5, "position": 66, "parents": [24], "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390) r(349,350) a(111,444)", "fitness": 0.0}
+{"generation": 6, "position": 0, "parents": [62], "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(450,462) a(23,34) a(421,390) r(349,350) a(255,284) r(425,28)", "fitness": 0.0}
+{"generation": 6, "position": 1, "parents": [35], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430)", "fitness": 0.0}
+{"generation": 6, "position": 2, "parents": [67], "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(111,276) d(414)", "fitness": 0.0}
+{"generation": 6, "position": 3, "parents": [14], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197)", "fitness": 0.0}
+{"generation": 6, "position": 4, "parents": [41, 49], "genome": "d(168) a(401,139) d(146)", "fitness": 0.0}
+{"generation": 6, "position": 5, "parents": [41, 49], "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) a(450,462) a(280,384) d(212) a(294,272) r(280,444)", "fitness": 0.0}
+{"generation": 6, "position": 6, "parents": [41], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) a(294,272) d(400)", "fitness": 0.0}
+{"generation": 6, "position": 7, "parents": [49], "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250)", "fitness": 0.0}
+{"generation": 6, "position": 8, "parents": [47], "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(347)", "fitness": 0.0}
+{"generation": 6, "position": 9, "parents": [26], "genome": "d(417) r(325,355) a(430,355) a(351,361) d(181) d(210) r(110,185)", "fitness": 0.0}
+{"generation": 6, "position": 10, "parents": [56, 43], "genome": "a(452,2) r(3,14) r(294,277) d(124) a(212,204)", "fitness": 0.0}
+{"generation": 6, "position": 11, "parents": [56, 43], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) r(240,297) a(351,361) d(132) a(146,415) a(430,445)", "fitness": 0.0}
+{"generation": 6, "position": 12, "parents": [56], "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) d(380)", "fitness": 0.0}
+{"generation": 6, "position": 13, "parents": [43], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323)", "fitness": 0.0}
+{"generation": 6, "position": 14, "parents": [4, 2], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414)", "fitness": 0.0}
+{"generation": 6, "position": 15, "parents": [4, 2], "genome": "d(168) a(189,120) d(132) r(412,402) a(293,415) a(394,202)", "fitness": 0.0}
+{"generation": 6, "position": 16, "parents": [4], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(136,281)", "fitness": 0.0}
+{"generation": 6, "position": 17, "parents": [2], "genome": "d(168) a(189,120) d(132) r(412,402) a(293,415) a(253,275) r(143,337) a(25,22)", "fitness": 0.0}
+{"generation": 6, "position": 18, "parents": [29], "genome": "d(161) a(189,120) r(181,374) d(433) a(215,400) a(334,360) a(291,447)", "fitness": 0.0}
+{"generation": 6, "position": 19, "parents": [56], "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397)", "fitness": 0.0}
+{"generation": 6, "position": 20, "parents": [24, 14], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) r(120,121)", "fitness": 0.0}
+{"generation": 6, "position": 21, "parents": [24, 14], "genome": "d(417) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19) d(328)", "fitness": 0.0}
+{"generation": 6, "position": 22, "parents": [24], "genome": "d(417) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19) d(413)", "fitness": 0.0}
+{"generation": 6, "position": 23, "parents": [14], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) d(358)", "fitness": 0.0}
+{"generation": 6, "position": 24, "parents": [4], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400)", "fitness": 0.0}
+{"generation": 6, "position": 25, "parents": [47], "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) r(370,391)", "fitness": 0.0}
+{"generation": 6, "position": 26, "parents": [15, 15], "genome": "d(117) d(398)", "fitness": 0.0}
+{"generation": 6, "position": 27, "parents": [15, 15], "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287) r(240,297) r(275,197) d(460) a(330,287) a(19,34)", "fitness": 0.0}
+{"generation": 6, "position": 28, "parents": [15], "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287) a(447,337)", "fitness": 0.0}
+{"generation": 6, "position": 29, "parents": [15], "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287) r(341,374)", "fitness": 0.0}
+{"generation": 6, "position": 30, "parents": [64], "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116)", "fitness": 0.0}
+{"generation": 6, "position": 31, "parents": [16], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1)", "fitness": 0.0}
+{"generation": 6, "position": 32, "parents": [52, 4], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197)", "fitness": 0.0}
+{"generation": 6, "position": 33, "parents": [52, 4], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(419,22) a(121,178)", "fitness": 0.0}
+{"generation": 6, "position": 34, "parents": [52], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) r(181,13)", "fitness": 0.0}
+{"generation": 6, "position": 35, "parents": [4], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) r(173,182)", "fitness": 0.0}
+{"generation": 6, "position": 36, "parents": [28, 16], "genome": "d(168) d(409) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) d(219)", "fitness": 0.0}
+{"generation": 6, "position": 37, "parents": [28, 16], "genome": "d(168) r(201,272) r(440,214) d(435) r(325,37)", "fitness": 0.0}
+{"generation": 6, "position": 38, "parents": [28], "genome": "d(168) d(409) r(201,272) r(440,214) d(435) d(403)", "fitness": 0.0}
+{"generation": 6, "position": 39, "parents": [16], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) a(454,449)", "fitness": 0.0}
+{"generation": 6, "position": 40, "parents": [9, 50], "genome": "d(168) a(219,228) d(173) d(213) a(440,341) a(450,462) d(139) a(332,327) r(292,448) a(425,9)", "fitness": 0.0}
+{"generation": 6, "position": 41, "parents": [9, 50], "genome": "r(158,152) d(184)", "fitness": 0.0}
+{"generation": 6, "position": 42, "parents": [9], "genome": "d(168) a(219,228) r(122,357)", "fitness": 0.0}
+{"generation": 6, "position": 43, "parents": [50], "genome": "r(158,152) d(173) d(213) a(440,341) a(450,462) d(139) a(332,327) r(292,448) a(162,358)", "fitness": 0.0}
+{"generation": 6, "position": 44, "parents": [24, 40], "genome": "d(417) r(325,355) a(430,355) a(351,361) a(23,34) d(248) d(385) a(212,158) a(328,258)", "fitness": 0.0}
+{"generation": 6, "position": 45, "parents": [24, 40], "genome": "d(117) r(240,297) r(275,197) r(440,214) a(441,19) r(236,210)", "fitness": 0.0}
+{"generation": 6, "position": 46, "parents": [24], "genome": "d(417) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19) d(367)", "fitness": 0.0}
+{"generation": 6, "position": 47, "parents": [40], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158) d(346)", "fitness": 0.0}
+{"generation": 6, "position": 48, "parents": [42], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) d(214)", "fitness": 0.0}
+{"generation": 6, "position": 49, "parents": [3], "genome": "d(403) d(387) r(172,439) a(424,226) a(333,337) d(290)", "fitness": 0.0}
+{"generation": 6, "position": 50, "parents": [33], "genome": "d(455) r(146,1) a(340,330) d(441) a(357,278) d(394) r(201,161)", "fitness": 0.0}
+{"generation": 6, "position": 51, "parents": [42], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176)", "fitness": 0.0}
+{"generation": 6, "position": 52, "parents": [1, 13], "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167)", "fitness": 0.0}
+{"generation": 6, "position": 53, "parents": [1, 13], "genome": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) a(293,415) a(253,275) a(413,406) d(402)", "fitness": 0.0}
+{"generation": 6, "position": 54, "parents": [1], "genome": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275) a(413,406) r(245,173)", "fitness": 0.0}
+{"generation": 6, "position": 55, "parents": [13], "genome": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) d(462) a(409,422)", "fitness": 0.0}
+{"generation": 6, "position": 56, "parents": [7], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13) r(416,162) d(475)", "fitness": 0.0}
+{"generation": 6, "position": 57, "parents": [47], "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(153)", "fitness": 0.0}
+{"generation": 6, "position": 58, "parents": [29], "genome": "d(161) a(189,120) r(181,374) d(433) a(215,400) a(334,360) r(429,41)", "fitness": 0.0}
+{"generation": 7, "position": 0, "parents": [16], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(136,281) r(200,180)", "fitness": 0.0}
+{"generation": 7, "position": 1, "parents": [23], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) d(358) d(464)", "fitness": 0.0}
+{"generation": 7, "position": 2, "parents": [27], "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287) r(240,297) r(275,197) d(460) a(330,287) a(19,34) d(178)", "fitness": 0.0}
+{"generation": 7, "position": 3, "parents": [24], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) r(197,2)", "fitness": 0.0}
+{"generation": 7, "position": 4, "parents": [30, 31], "genome": "r(243,256) d(405) a(434,436) r(423,330)", "fitness": 0.0}
+{"generation": 7, "position": 5, "parents": [30, 31], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(370,433)", "fitness": 0.0}
+{"generation": 7, "position": 6, "parents": [30], "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(188,151)", "fitness": 0.0}
+{"generation": 7, "position": 7, "parents": [31], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) r(399,398)", "fitness": 0.0}
+{"generation": 7, "position": 8, "parents": [10, 3], "genome": "a(452,2) r(3,14) r(294,277) d(124) a(212,204) a(117,197) a(346,448)", "fitness": 0.0}
+{"generation": 7, "position": 9, "parents": [10, 3], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(427,445)", "fitness": 0.0}
+{"generation": 7, "position": 10, "parents": [10], "genome": "a(452,2) r(3,14) r(294,277) d(124) a(212,204) r(161,385)", "fitness": 0.0}
+{"generation": 7, "position": 11, "parents": [3], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(204,208)", "fitness": 0.0}
+{"generation": 7, "position": 12, "parents": [56, 30], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13) r(416,162) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(387,9)", "fitness": 0.0}
+{"generation": 7, "position": 13, "parents": [56, 30], "genome": "r(243,256) d(475) a(159,226)", "fitness": 0.0}
+{"generation": 7, "position": 14, "parents": [56], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(275,13) r(416,162) d(475) a(388,52)", "fitness": 0.0}
+{"generation": 7, "position": 15, "parents": [30], "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) r(400,399)", "fitness": 0.0}
+{"generation": 7, "position": 16, "parents": [50], "genome": "d(455) r(146,1) a(340,330) d(441) a(357,278) d(394) r(201,161) d(469)", "fitness": 0.0}
+{"generation": 7, "position": 17, "parents": [3], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390)", "fitness": 0.0}
+{"generation": 7, "position": 18, "parents": [21, 32], "genome": "d(417) a(180,1) a(214,197) r(13,349)", "fitness": 0.0}
+{"generation": 7, "position": 19, "parents": [21, 32], "genome": "r(158,152) d(173) d(213) a(440,341) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19) d(328) d(439)", "fitness": 0.0}
+{"generation": 7, "position": 20, "parents": [21], "genome": "d(417) r(325,355) a(430,355) a(351,361) r(440,214) a(441,19) d(328) r(459,446)", "fitness": 10.0}
+{"generation": 7, "position": 21, "parents": [32], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227)", "fitness": 0.0}
+{"generation": 7, "position": 22, "parents": [31], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(397)", "fitness": 0.0}
+{"generation": 7, "position": 23, "parents": [50], "genome": "d(455) r(146,1) a(340,330) d(441) a(357,278) d(394) r(201,161) a(24,33)", "fitness": 0.0}
+{"generation": 7, "position": 24, "parents": [32, 7], "genome": "r(158,152) d(173) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) r(197,462)", "fitness": 0.0}
+{"generation": 7, "position": 25, "parents": [32, 7], "genome": "a(452,2) d(213) a(440,341) a(180,1) a(214,197) r(351,299)", "fitness": 2.0}
+{"generation": 7, "position": 26, "parents": [32], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(392,428)", "fitness": 0.0}
+{"generation": 7, "position": 27, "parents": [7], "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) a(224,202)", "fitness": 0.0}
+{"generation": 7, "position": 28, "parents": [54], "genome": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275) a(413,406) r(245,173) a(251,341)", "fitness": 0.0}
+{"generation": 7, "position": 29, "parents": [19], "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331)", "fitness": 0.0}
+{"generation": 7, "position": 30, "parents": [1, 14], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214)", "fitness": 0.0}
+{"generation": 7, "position": 31, "parents": [1, 14], "genome": "a(452,2) r(3,14) r(181,374) d(432)", "fitness": 0.0}
+{"generation": 7, "position": 32, "parents": [1], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) r(212,406)", "fitness": 0.0}
+{"generation": 7, "position": 33, "parents": [14], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) r(217,226)", "fitness": 0.0}
+{"generation": 7, "position": 34, "parents": [13], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254)", "fitness": 0.0}
+{"generation": 7, "position": 35, "parents": [51], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279)", "fitness": 0.0}
+{"generation": 7, "position": 36, "parents": [8], "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(347) r(412,439)", "fitness": 0.0}
+{"generation": 7, "position": 37, "parents": [34], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) r(181,13) a(174,154)", "fitness": 0.0}
+{"generation": 7, "position": 38, "parents": [7], "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) r(248,274)", "fitness": 0.0}
+{"generation": 7, "position": 39, "parents": [36], "genome": "d(168) d(409) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) d(219) d(229)", "fitness": 0.0}
+{"generation": 7, "position": 40, "parents": [26, 24], "genome": "d(117) r(158,197)", "fitness": 0.0}
+{"generation": 7, "position": 41, "parents": [26, 24], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398) r(149,221)", "fitness": 0.0}
+{"generation": 7, "position": 42, "parents": [26], "genome": "d(117) d(398) r(438,233)", "fitness": 0.0}
+{"generation": 7, "position": 43, "parents": [24], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) a(257,276)", "fitness": 0.0}
+{"generation": 7, "position": 44, "parents": [57], "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(153) d(167)", "fitness": 0.0}
+{"generation": 7, "position": 45, "parents": [54], "genome": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275) a(413,406) r(245,173) a(469,384)", "fitness": 0.0}
+{"generation": 7, "position": 46, "parents": [11], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) r(240,297) a(351,361) d(132) a(146,415) a(430,445) d(448)", "fitness": 0.0}
+{"generation": 7, "position": 47, "parents": [53], "genome": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) a(293,415) a(253,275) a(413,406) d(402) d(130)", "fitness": 0.0}
+{"generation": 7, "position": 48, "parents": [16], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(136,281) r(213,390)", "fitness": 4.0}
+{"generation": 7, "position": 49, "parents": [52], "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358)", "fitness": 0.0}
+{"generation": 7, "position": 50, "parents": [23, 8], "genome": "d(417) r(325,355) a(23,34) d(248) a(10,48) a(412,136) r(202,227) a(168,357) d(347) r(139,425)", "fitness": 0.0}
+{"generation": 7, "position": 51, "parents": [23, 8], "genome": "d(161) a(117,214) a(230,338) d(292) d(358) a(250,28)", "fitness": 0.0}
+{"generation": 7, "position": 52, "parents": [23], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) d(358) r(387,362)", "fitness": 0.0}
+{"generation": 7, "position": 53, "parents": [8], "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(347) a(335,251)", "fitness": 0.0}
+{"generation": 7, "position": 54, "parents": [47], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158) d(346) r(448,475)", "fitness": 0.0}
+{"generation": 8, "position": 0, "parents": [21, 37], "genome": "r(158,152) r(181,13) a(174,154) r(164,28)", "fitness": 0.0}
+{"generation": 8, "position": 1, "parents": [21, 37], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) r(168,120)", "fitness": 0.0}
+{"generation": 8, "position": 2, "parents": [21], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274)", "fitness": 0.0}
+{"generation": 8, "position": 3, "parents": [37], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) r(181,13) a(174,154) a(230,300)", "fitness": 0.0}
+{"generation": 8, "position": 4, "parents": [2, 18], "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287) a(180,1) a(214,197) r(13,349) d(210)", "fitness": 0.0}
+{"generation": 8, "position": 5, "parents": [2, 18], "genome": "d(417) r(240,297) r(275,197) d(460) a(330,287) a(19,34) d(178) d(23)", "fitness": 0.0}
+{"generation": 8, "position": 6, "parents": [2], "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287) r(240,297) r(275,197) d(460) a(330,287) a(19,34) d(178) d(374)", "fitness": 0.0}
+{"generation": 8, "position": 7, "parents": [18], "genome": "d(417) a(180,1) a(214,197) r(13,349) d(2)", "fitness": 0.0}
+{"generation": 8, "position": 8, "parents": [11, 30], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(117)", "fitness": 0.0}
+{"generation": 8, "position": 9, "parents": [11, 30], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(117,197) a(204,208) a(425,362)", "fitness": 0.0}
+{"generation": 8, "position": 10, "parents": [11], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(204,208) r(461,448)", "fitness": 0.0}
+{"generation": 8, "position": 11, "parents": [30], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164)", "fitness": 0.0}
+{"generation": 8, "position": 12, "parents": [7], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) r(399,398) r(133,303)", "fitness": 0.0}
+{"generation": 8, "position": 13, "parents": [29], "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331) d(194)", "fitness": 0.0}
+{"generation": 8, "position": 14, "parents": [18], "genome": "d(417) a(180,1) a(214,197) r(13,349) a(116,227)", "fitness": 0.0}
+{"generation": 8, "position": 15, "parents": [24], "genome": "r(158,152) d(173) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) r(197,462) a(212,212)", "fitness": 0.0}
+{"generation": 8, "position": 16, "parents": [30], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(204)", "fitness": 0.0}
+{"generation": 8, "position": 17, "parents": [45], "genome": "d(403) d(387) d(132) r(412,402) a(293,415) a(253,275) a(413,406) r(245,173) a(469,384) a(411,428)", "fitness": 0.0}
+{"generation": 8, "position": 18, "parents": [47, 27], "genome": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) a(293,415) a(253,275) a(413,406) d(402) d(130) d(250) a(224,202) d(455)", "fitness": 0.0}
+{"generation": 8, "position": 19, "parents": [47, 27], "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) a(440,444)", "fitness": 0.0}
+{"generation": 8, "position": 20, "parents": [47], "genome": "r(243,256) d(121) r(213,2) a(212,384) a(176,139) a(189,150) a(293,415) a(253,275) a(413,406) d(402) d(130) d(210)", "fitness": 0.0}
+{"generation": 8, "position": 21, "parents": [27], "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) a(224,202) r(382,349)", "fitness": 0.0}
+{"generation": 8, "position": 22, "parents": [9], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(427,445) d(177)", "fitness": 0.0}
+{"generation": 8, "position": 23, "parents": [50], "genome": "d(417) r(325,355) a(23,34) d(248) a(10,48) a(412,136) r(202,227) a(168,357) d(347) r(139,425) d(272)", "fitness": 0.0}
+{"generation": 8, "position": 24, "parents": [3, 41], "genome": "a(452,2) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398) r(149,221) d(213)", "fitness": 0.0}
+{"generation": 8, "position": 25, "parents": [3, 41], "genome": "a(452,2) r(3,14) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) r(197,2) a(362,393)", "fitness": 0.0}
+{"generation": 8, "position": 26, "parents": [3], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) r(197,2) a(455,384)", "fitness": 0.0}
+{"generation": 8, "position": 27, "parents": [41], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398) r(149,221) d(141)", "fitness": 0.0}
+{"generation": 8, "position": 28, "parents": [54], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158) d(346) r(448,475) r(280,22)", "fitness": 0.0}
+{"generation": 8, "position": 29, "parents": [35], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448)", "fitness": 0.0}
+{"generation": 8, "position": 30, "parents": [10, 4], "genome": "a(452,2) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458)", "fitness": 0.0}
+{"generation": 8, "position": 31, "parents": [10, 4], "genome": "r(243,256) d(405) a(212,204) r(161,385) d(212)", "fitness": 0.0}
+{"generation": 8, "position": 32, "parents": [10], "genome": "a(452,2) r(3,14) r(294,277) d(124) a(212,204) r(161,385) a(290,444)", "fitness": 0.0}
+{"generation": 8, "position": 33, "parents": [4], "genome": "r(243,256) d(405) a(434,436) r(423,330) a(233,446)", "fitness": 10.0}
+{"generation": 8, "position": 34, "parents": [40, 49], "genome": "d(117) a(374,432)", "fitness": 0.0}
+{"generation": 8, "position": 35, "parents": [40, 49], "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(158,197) a(214,273)", "fitness": 0.0}
+{"generation": 8, "position": 36, "parents": [40], "genome": "d(117) r(158,197) a(228,445)", "fitness": 0.0}
+{"generation": 8, "position": 37, "parents": [49], "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(293,120)", "fitness": 0.0}
+{"generation": 8, "position": 38, "parents": [53], "genome": "d(161) a(117,214) a(10,48) a(412,136) r(202,227) a(168,357) d(347) a(335,251) r(337,357)", "fitness": 0.0}
+{"generation": 8, "position": 39, "parents": [15], "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) r(400,399) r(220,22)", "fitness": 0.0}
+{"generation": 8, "position": 40, "parents": [6, 35], "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(404,415) r(210,176) d(279) a(414,276)", "fitness": 0.0}
+{"generation": 8, "position": 41, "parents": [6, 35], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(440,448)", "fitness": 0.0}
+{"generation": 8, "position": 42, "parents": [6], "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(188,151) d(378)", "fitness": 0.0}
+{"generation": 8, "position": 43, "parents": [35], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(437,355)", "fitness": 0.0}
+{"generation": 8, "position": 44, "parents": [49], "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) a(463,227)", "fitness": 0.0}
+{"generation": 8, "position": 45, "parents": [5], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(370,433) d(421)", "fitness": 0.0}
+{"generation": 8, "position": 46, "parents": [34, 32], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(460) r(253,334) r(419,430) r(212,406) d(335)", "fitness": 0.0}
+{"generation": 8, "position": 47, "parents": [34, 32], "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286)", "fitness": 0.0}
+{"generation": 8, "position": 48, "parents": [34], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207)", "fitness": 0.0}
+{"generation": 8, "position": 49, "parents": [32], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) r(212,406) r(132,475)", "fitness": 0.0}
+{"generation": 8, "position": 50, "parents": [5], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(370,433) d(350)", "fitness": 0.0}
+{"generation": 8, "position": 51, "parents": [26], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(392,428) a(340,462)", "fitness": 0.0}
+{"generation": 8, "position": 52, "parents": [17, 27], "genome": "d(417) d(250) a(224,202) d(362)", "fitness": 0.0}
+{"generation": 8, "position": 53, "parents": [17, 27], "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390) d(115)", "fitness": 0.0}
+{"generation": 8, "position": 54, "parents": [17], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390) r(227,202)", "fitness": 0.0}
+{"generation": 8, "position": 55, "parents": [27], "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) a(224,202) d(141)", "fitness": 0.0}
+{"generation": 8, "position": 56, "parents": [15], "genome": "r(243,256) d(405) a(434,436) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) r(400,399) r(435,434)", "fitness": 0.0}
+{"generation": 8, "position": 57, "parents": [16], "genome": "d(455) r(146,1) a(340,330) d(441) a(357,278) d(394) r(201,161) d(469) d(213)", "fitness": 0.0}
+{"generation": 8, "position": 58, "parents": [43, 30], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(455)", "fitness": 0.0}
+{"generation": 8, "position": 59, "parents": [43, 30], "genome": "d(117) r(240,297) a(462,400) a(257,276) d(334)", "fitness": 0.0}
+{"generation": 8, "position": 60, "parents": [43], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) a(257,276) a(240,9)", "fitness": 0.0}
+{"generation": 9, "position": 0, "parents": [46], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(460) r(253,334) r(419,430) r(212,406) d(335) a(160,166)", "fitness": 0.0}
+{"generation": 9, "position": 1, "parents": [24], "genome": "a(452,2) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398) r(149,221) d(213) r(113,130)", "fitness": 0.0}
+{"generation": 9, "position": 2, "parents": [46, 13], "genome": "d(168) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331) d(194) a(213,273)", "fitness": 0.0}
+{"generation": 9, "position": 3, "parents": [46, 13], "genome": "a(452,2) r(3,14) a(401,139) a(450,462) a(280,384) d(460) r(253,334) r(419,430) r(212,406) d(335) r(139,173)", "fitness": 0.0}
+{"generation": 9, "position": 4, "parents": [46], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(460) r(253,334) r(419,430) r(212,406) d(335) r(232,299)", "fitness": 0.0}
+{"generation": 9, "position": 5, "parents": [13], "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331) d(194) r(421,419)", "fitness": 0.0}
+{"generation": 9, "position": 6, "parents": [60, 11], "genome": "a(452,2) r(3,14) r(181,374) d(433) d(237)", "fitness": 0.0}
+{"generation": 9, "position": 7, "parents": [60, 11], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164) a(275,13) a(258,286) a(462,400) a(257,276) a(240,9) a(435,414)", "fitness": 0.0}
+{"generation": 9, "position": 8, "parents": [60], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) a(257,276) a(240,9) a(23,113)", "fitness": 0.0}
+{"generation": 9, "position": 9, "parents": [11], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164) d(173)", "fitness": 0.0}
+{"generation": 9, "position": 10, "parents": [11], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164) d(14)", "fitness": 0.0}
+{"generation": 9, "position": 11, "parents": [10], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(204,208) r(461,448) a(232,297)", "fitness": 0.0}
+{"generation": 9, "position": 12, "parents": [51], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(392,428) a(340,462) r(396,430)", "fitness": 0.0}
+{"generation": 9, "position": 13, "parents": [35], "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(158,197) a(214,273) a(115,2)", "fitness": 0.0}
+{"generation": 9, "position": 14, "parents": [8, 36], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) a(228,445) a(475,341)", "fitness": 0.0}
+{"generation": 9, "position": 15, "parents": [8, 36], "genome": "d(117) r(158,197) d(117) a(432,420)", "fitness": 0.0}
+{"generation": 9, "position": 16, "parents": [8], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(117) r(213,147)", "fitness": 0.0}
+{"generation": 9, "position": 17, "parents": [36], "genome": "d(117) r(158,197) a(228,445) a(422,303)", "fitness": 0.0}
+{"generation": 9, "position": 18, "parents": [0, 41], "genome": "r(158,152) r(181,13) a(174,154) r(440,448) d(2)", "fitness": 0.0}
+{"generation": 9, "position": 19, "parents": [0, 41], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(164,28) d(346)", "fitness": 0.0}
+{"generation": 9, "position": 20, "parents": [0], "genome": "r(158,152) r(181,13) a(174,154) r(164,28) r(215,384)", "fitness": 0.0}
+{"generation": 9, "position": 21, "parents": [41], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(440,448) a(19,45)", "fitness": 0.0}
+{"generation": 9, "position": 22, "parents": [30, 59], "genome": "a(452,2) a(257,276) d(334) r(130,124)", "fitness": 0.0}
+{"generation": 9, "position": 23, "parents": [30, 59], "genome": "d(117) r(240,297) a(462,400) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458) d(343)", "fitness": 0.0}
+{"generation": 9, "position": 24, "parents": [30], "genome": "a(452,2) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458) a(193,154)", "fitness": 0.0}
+{"generation": 9, "position": 25, "parents": [59], "genome": "d(117) r(240,297) a(462,400) a(257,276) d(334) r(421,289)", "fitness": 0.0}
+{"generation": 9, "position": 26, "parents": [14], "genome": "d(417) a(180,1) a(214,197) r(13,349) a(116,227) r(181,31)", "fitness": 0.0}
+{"generation": 9, "position": 27, "parents": [25], "genome": "a(452,2) r(3,14) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) r(197,2) a(362,393) r(400,227)", "fitness": 0.0}
+{"generation": 9, "position": 28, "parents": [2, 16], "genome": "r(158,152) d(173) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(204) a(245,385)", "fitness": 0.0}
+{"generation": 9, "position": 29, "parents": [2, 16], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(110,192)", "fitness": 0.0}
+{"generation": 9, "position": 30, "parents": [2], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(411,382)", "fitness": 0.0}
+{"generation": 9, "position": 31, "parents": [16], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(204) a(392,387)", "fitness": 0.0}
+{"generation": 9, "position": 32, "parents": [47], "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197)", "fitness": 0.0}
+{"generation": 9, "position": 33, "parents": [37], "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(293,120) d(176)", "fitness": 0.0}
+{"generation": 9, "position": 34, "parents": [1], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) r(168,120) a(360,434)", "fitness": 0.0}
+{"generation": 9, "position": 35, "parents": [24], "genome": "a(452,2) r(181,374) d(433) a(275,13) a(258,286) a(462,400) d(398) r(149,221) d(213) r(416,357)", "fitness": 0.0}
+{"generation": 9, "position": 36, "parents": [1], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(419,22) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) r(168,120) r(353,244)", "fitness": 0.0}
+{"generation": 9, "position": 37, "parents": [15], "genome": "r(158,152) d(173) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) r(197,462) a(212,212) r(433,430)", "fitness": 0.0}
+{"generation": 9, "position": 38, "parents": [48, 14], "genome": "d(168) a(180,1) a(214,197) r(13,349) a(116,227) a(280,351)", "fitness": 0.0}
+{"generation": 9, "position": 39, "parents": [48, 14], "genome": "d(417) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207) d(415)", "fitness": 0.0}
+{"generation": 9, "position": 40, "parents": [48], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207) r(24,227)", "fitness": 0.0}
+{"generation": 9, "position": 41, "parents": [14], "genome": "d(417) a(180,1) a(214,197) r(13,349) a(116,227) r(214,176)", "fitness": 0.0}
+{"generation": 9, "position": 42, "parents": [54, 4], "genome": "d(417) d(460) a(330,287) a(180,1) a(214,197) r(13,349) d(210) d(11)", "fitness": 0.0}
+{"generation": 9, "position": 43, "parents": [54, 4], "genome": "d(117) r(240,297) r(275,197) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390) r(227,202) a(415,384)", "fitness": 10.0}
+{"generation": 9, "position": 44, "parents": [54], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390) r(227,202) r(450,275)", "fitness": 0.0}
+{"generation": 9, "position": 45, "parents": [4], "genome": "d(117) r(240,297) r(275,197) d(460) a(330,287) a(180,1) a(214,197) r(13,349) d(210) d(323)", "fitness": 0.0}
+{"generation": 9, "position": 46, "parents": [29], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448) d(254)", "fitness": 0.0}
+{"generation": 9, "position": 47, "parents": [2], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(371,294)", "fitness": 0.0}
+{"generation": 9, "position": 48, "parents": [58], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(455) d(471)", "fitness": 0.0}
+{"generation": 9, "position": 49, "parents": [28], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158) d(346) r(448,475) r(280,22) d(274)", "fitness": 0.0}
+{"generation": 9, "position": 50, "parents": [5], "genome": "d(417) r(240,297) r(275,197) d(460) a(330,287) a(19,34) d(178) d(23) a(411,378)", "fitness": 0.0}
+{"generation": 9, "position": 51, "parents": [21], "genome": "a(452,2) r(3,14) r(359,300) d(422) a(213,28) a(449,19) d(250) a(224,202) r(382,349) d(424)", "fitness": 0.0}
+{"generation": 9, "position": 52, "parents": [22, 50], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) a(299,41) d(116) a(370,433) d(350) d(441)", "fitness": 0.0}
+{"generation": 9, "position": 53, "parents": [22, 50], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) d(292) a(427,445) d(177) a(210,166)", "fitness": 0.0}
+{"generation": 9, "position": 54, "parents": [22], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(427,445) d(177) r(376,412)", "fitness": 0.0}
+{"generation": 9, "position": 55, "parents": [50], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(370,433) d(350) d(471)", "fitness": 0.0}
+{"generation": 9, "position": 56, "parents": [37], "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(293,120) a(385,13)", "fitness": 0.0}
+{"generation": 10, "position": 0, "parents": [12, 44], "genome": "r(158,152) d(173) a(117,197) a(132,390) r(227,202) r(450,275) r(160,178)", "fitness": 0.0}
+{"generation": 10, "position": 1, "parents": [12, 44], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) d(213) a(440,341) a(180,1) a(214,197) r(392,428) a(340,462) r(396,430) r(361,360)", "fitness": 0.0}
+{"generation": 10, "position": 2, "parents": [12], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(392,428) a(340,462) r(396,430) r(440,37)", "fitness": 0.0}
+{"generation": 10, "position": 3, "parents": [44], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(132,390) r(227,202) r(450,275) r(214,274)", "fitness": 0.0}
+{"generation": 10, "position": 4, "parents": [32], "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197) r(159,192)", "fitness": 0.0}
+{"generation": 10, "position": 5, "parents": [31], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(204) a(392,387) a(450,226)", "fitness": 0.0}
+{"generation": 10, "position": 6, "parents": [46, 13], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448) d(254) d(132) r(412,402) d(462) r(213,167) r(304,358) r(158,197) a(214,273) a(115,2) a(448,441)", "fitness": 0.0}
+{"generation": 10, "position": 7, "parents": [46, 13], "genome": "d(403) d(387) r(304,325)", "fitness": 0.0}
+{"generation": 10, "position": 8, "parents": [46], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448) d(254) a(227,172)", "fitness": 0.0}
+{"generation": 10, "position": 9, "parents": [13], "genome": "d(403) d(387) d(132) r(412,402) d(462) r(213,167) r(304,358) r(158,197) a(214,273) a(115,2) a(447,162)", "fitness": 0.0}
+{"generation": 10, "position": 10, "parents": [32], "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197) a(239,248)", "fitness": 0.0}
+{"generation": 10, "position": 11, "parents": [30], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(411,382) d(371)", "fitness": 0.0}
+{"generation": 10, "position": 12, "parents": [54], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(427,445) d(177) r(376,412) a(219,462)", "fitness": 0.0}
+{"generation": 10, "position": 13, "parents": [46], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448) d(254) a(131,115)", "fitness": 0.0}
+{"generation": 10, "position": 14, "parents": [40], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207) r(24,227) a(437,139)", "fitness": 0.0}
+{"generation": 10, "position": 15, "parents": [42], "genome": "d(417) d(460) a(330,287) a(180,1) a(214,197) r(13,349) d(210) d(11) d(425)", "fitness": 0.0}
+{"generation": 10, "position": 16, "parents": [8, 39], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) a(257,276) a(280,384) d(212) d(124) r(466,323) d(254) d(207) d(415) a(159,172)", "fitness": 0.0}
+{"generation": 10, "position": 17, "parents": [8, 39], "genome": "d(417) a(401,139) a(450,462) a(240,9) a(23,113) r(159,158)", "fitness": 0.0}
+{"generation": 10, "position": 18, "parents": [8], "genome": "a(452,2) r(3,14) r(181,374) d(433) a(275,13) a(258,286) a(462,400) a(257,276) a(240,9) a(23,113) a(214,275)", "fitness": 0.0}
+{"generation": 10, "position": 19, "parents": [39], "genome": "d(417) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207) d(415) d(402)", "fitness": 0.0}
+{"generation": 10, "position": 20, "parents": [5], "genome": "a(452,2) r(3,14) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331) d(194) r(421,419) r(327,251)", "fitness": 0.0}
+{"generation": 10, "position": 21, "parents": [6], "genome": "a(452,2) r(3,14) r(181,374) d(433) d(237) a(434,423)", "fitness": 0.0}
+{"generation": 10, "position": 22, "parents": [32, 29], "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(110,192) d(256)", "fitness": 0.0}
+{"generation": 10, "position": 23, "parents": [32, 29], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) d(197) d(465)", "fitness": 0.0}
+{"generation": 10, "position": 24, "parents": [32], "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197) d(256)", "fitness": 0.0}
+{"generation": 10, "position": 25, "parents": [29], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(110,192) d(250)", "fitness": 0.0}
+{"generation": 10, "position": 26, "parents": [10, 24], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(273,221)", "fitness": 0.0}
+{"generation": 10, "position": 27, "parents": [10, 24], "genome": "a(452,2) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458) a(193,154) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164) d(14) d(147)", "fitness": 0.0}
+{"generation": 10, "position": 28, "parents": [10], "genome": "d(117) r(240,297) r(275,197) d(460) r(253,334) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(164) d(14) d(434)", "fitness": 0.0}
+{"generation": 10, "position": 29, "parents": [24], "genome": "a(452,2) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458) a(193,154) r(251,444)", "fitness": 0.0}
+{"generation": 10, "position": 30, "parents": [14, 32], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) a(414,286) d(197) r(371,393)", "fitness": 0.0}
+{"generation": 10, "position": 31, "parents": [14, 32], "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) r(143,337) d(414) d(214) a(228,445) a(475,341) r(201,385)", "fitness": 0.0}
+{"generation": 10, "position": 32, "parents": [14], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) a(228,445) a(475,341) r(301,362)", "fitness": 0.0}
+{"generation": 10, "position": 33, "parents": [32], "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197) d(248)", "fitness": 0.0}
+{"generation": 10, "position": 34, "parents": [52], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) a(299,41) d(116) a(370,433) d(350) d(441) r(286,214)", "fitness": 0.0}
+{"generation": 10, "position": 35, "parents": [32], "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197) r(438,162)", "fitness": 0.0}
+{"generation": 10, "position": 36, "parents": [32], "genome": "d(117) r(240,297) r(275,197) d(212) d(124) r(466,323) d(254) a(414,286) d(197) r(207,441)", "fitness": 0.0}
+{"generation": 10, "position": 37, "parents": [14], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) a(228,445) a(475,341) r(361,343)", "fitness": 0.0}
+{"generation": 10, "position": 38, "parents": [11], "genome": "d(417) r(325,355) a(23,34) d(248) a(230,338) d(292) a(117,197) a(204,208) r(461,448) a(232,297) r(304,359)", "fitness": 0.0}
+{"generation": 10, "position": 39, "parents": [2], "genome": "d(168) r(294,277) r(240,297) a(351,361) d(132) a(146,415) r(414,397) r(229,331) d(194) a(213,273) r(138,303)", "fitness": 0.0}
+{"generation": 10, "position": 40, "parents": [49], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) a(212,158) d(346) r(448,475) r(280,22) d(274) a(181,22)", "fitness": 0.0}
+{"generation": 10, "position": 41, "parents": [28], "genome": "r(158,152) d(173) r(419,430) d(433) a(275,13) a(258,286) a(253,275) r(143,337) d(414) d(214) d(204) a(245,385) a(115,129)", "fitness": 0.0}
+{"generation": 10, "position": 42, "parents": [21], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(440,448) a(19,45) a(412,414)", "fitness": 0.0}
+{"generation": 10, "position": 43, "parents": [55], "genome": "d(168) a(401,139) a(450,462) r(181,374) d(433) a(332,327) d(411) r(127,1) d(214) a(401,139) a(117,214) a(10,48) a(412,136) r(202,227) a(299,41) d(116) a(370,433) d(350) d(471) a(213,448)", "fitness": 0.0}
+{"generation": 10, "position": 44, "parents": [47], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(371,294) d(417)", "fitness": 0.0}
+{"generation": 10, "position": 45, "parents": [30], "genome": "r(158,152) d(173) d(213) a(440,341) a(180,1) a(214,197) r(214,227) d(274) a(411,382) r(475,415)", "fitness": 0.0}
+{"generation": 10, "position": 46, "parents": [23], "genome": "d(117) r(240,297) a(462,400) r(3,14) r(294,277) d(124) a(434,436) r(423,330) d(458) d(343) r(207,192)", "fitness": 0.0}
+{"generation": 10, "position": 47, "parents": [46], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(404,415) r(210,176) d(279) r(139,448) d(254) a(462,202)", "fitness": 0.0}
+{"generation": 10, "position": 48, "parents": [17, 19], "genome": "d(117) r(158,197) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(164,28) d(346) r(226,273)", "fitness": 0.0}
+{"generation": 10, "position": 49, "parents": [17, 19], "genome": "d(117) r(240,297) r(275,197) a(23,34) a(228,445) a(422,303) a(213,205)", "fitness": 0.0}
+{"generation": 10, "position": 50, "parents": [17], "genome": "d(117) r(158,197) a(228,445) a(422,303) r(212,273)", "fitness": 0.0}
+{"generation": 10, "position": 51, "parents": [19], "genome": "d(117) r(240,297) r(275,197) a(23,34) d(248) d(385) r(202,227) a(299,41) d(116) a(188,151) r(164,28) d(346) r(224,29)", "fitness": 0.0}
+{"generation": 10, "position": 52, "parents": [40], "genome": "d(168) a(401,139) a(450,462) a(280,384) d(212) d(124) r(466,323) d(254) d(207) r(24,227) d(406)", "fitness": 0.0}
