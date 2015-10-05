@@ -59,7 +59,7 @@ def convert(fn, target, problem_name):
                          'position': i,
                          'fitness': f,
                          'genome': mut[i][1],
-                         'parents': crs[i][2]})
+                         'parents': crs[i][1]})
 
     # Build the meta information.
     # Get the seed from the file name.
