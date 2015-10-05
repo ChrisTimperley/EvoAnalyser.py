@@ -29,7 +29,7 @@ class LogFile:
             #row['lines'] = row['canonical'].to_lines(meta['problem'])
             #row['distance_to_origin'] = distance.levenshtein(row['lines'], meta['problem'].lines)
             # RELATIVE DISTANCE TO ORIGIN
-            # IDEAL
+            row['ideal'] = problem.is_ideal_fitness(row['fitness'])
             row['program'] = meta['program']
             row['seed'] = meta['seed']
             row['problem'] = meta['problem'].name()

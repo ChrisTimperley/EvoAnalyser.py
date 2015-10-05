@@ -11,16 +11,16 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Read the log file for multiple benchmarks.
-logs = map(LogFile.read, glob('../examples/gcd/*.log'))
-logs += map(LogFile.read, glob('../examples/flex/*.log'))
+#logs = map(LogFile.read, glob('../examples/gcd/*.log'))
+logs = map(LogFile.read, glob('../examples/flex/*.log'))
 logs = map(lambda l: l.data, logs)
 logs = pd.concat(logs)
 
 # How many unique patches are there?
-#num = len(logs)
-#unique = len(pd.unique(logs['canonical'].values.ravel()))
-#ratio = float(unique) / num
-#print ratio
+num = len(logs)
+unique = len(pd.unique(logs['canonical'].values.ravel()))
+ratio = float(unique) / num
+print ratio
 
-#visualise("mean_distance_to_origin_vs_generation", logs)
-#plt.show()
+visualise("mean_fitness_vs_generation", logs)
+plt.show()

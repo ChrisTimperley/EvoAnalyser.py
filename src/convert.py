@@ -3,7 +3,7 @@ import sys
 import os.path
 
 # Converts log files from the old file format into the new format.
-def convert(fn, target, problem_name):
+def convert(fn, target, problem_name, ideal_fitness):
     with open(fn, 'r') as f:
         sections = f.read().split('=' * 80)[1:]
 
@@ -75,7 +75,8 @@ def convert(fn, target, problem_name):
         'problem': {
             'type': 'repair',
             'name': problem_name,
-            'enclosure': enclosure
+            'enclosure': enclosure,
+            'ideal_fitness': ideal_fitness
         }
     }
 
@@ -87,4 +88,4 @@ def convert(fn, target, problem_name):
     with open(target, 'w') as f:
         f.write(meta + data)
 
-convert(sys.argv[1], sys.argv[2], sys.argv[3])
+convert(sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4])

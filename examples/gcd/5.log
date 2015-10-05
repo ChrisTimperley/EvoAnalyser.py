@@ -1,5 +1,5 @@
 [meta]
-{"program": "genprog-3.0", "problem": {"type": "repair", "name": "gcd", "enclosure": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 5, "7": 5, "8": 0, "9": 8, "10": 9, "12": 8, "13": 12, "14": 12, "15": 0, "16": 0}}, "version": "0.0.2", "seed": 5, "algorithm": {"representation": "patch", "type": "genetic", "name": "ALGORITHM-NAME"}}
+{"program": "genprog-3.0", "problem": {"ideal_fitness": "20", "type": "repair", "name": "gcd", "enclosure": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 0, "6": 5, "7": 5, "8": 0, "9": 8, "10": 9, "12": 8, "13": 12, "14": 12, "15": 0, "16": 0}}, "version": "0.0.2", "seed": 5, "algorithm": {"representation": "patch", "type": "genetic", "name": "ALGORITHM-NAME"}}
 
 [data]
 {"generation": 0, "position": 0, "parents": [], "genome": "d(6)", "fitness": 10.0}

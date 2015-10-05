@@ -11,13 +11,10 @@ class Repair(Problem):
     def class_name():
         return "repair"
 
-    @staticmethod
-    def load(definition):
-       return Repair(definition['enclosure'])
-
     # Constructs a repair problem.
     def __init__(self, definition):
         super(Repair, self).__init__(definition['name'])
+        self.ideal_fitness = definition['ideal_fitness']
         self.enclosure = definition['enclosure'].iteritems()
         self.enclosure = dict(map(lambda (k, p): (int(k), p), self.enclosure))
         self.sids = self.enclosure.keys()
@@ -28,6 +25,10 @@ class Repair(Problem):
         self.lines = reduce(lambda lines, sid: lines + self.lines_within(sid),
                             self.top_level_statements(),
                             [])
+
+    # Determines whether some given fitness value is ideal for this problem.
+    def is_ideal_fitness(self, fitness):
+        return fitness >= self.ideal_fitness
 
     # Determines whether a statement with a given SID is a top-level
     # statement (i.e. it has no parent).
