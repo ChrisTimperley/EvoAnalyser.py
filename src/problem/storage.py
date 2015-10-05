@@ -6,7 +6,7 @@ def register(cls):
     name = cls.class_name()
     print "- registering problem class: %s" % (name)
     if __problems.has_key(name):
-        raise Exception("Failed to register problem class: key already defined (%s)" % (name))
+        print "Warning: problem already defined (%s)" % (name)
     __problems[name] = cls
 
 # Retrives a problem class with a given name.

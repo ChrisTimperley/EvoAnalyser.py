@@ -14,7 +14,7 @@ class Repair(Problem):
     # Constructs a repair problem.
     def __init__(self, definition):
         super(Repair, self).__init__(definition['name'])
-        self.ideal_fitness = definition['ideal_fitness']
+        self.ideal_fitness = float(definition['ideal_fitness'])
         self.enclosure = definition['enclosure'].iteritems()
         self.enclosure = dict(map(lambda (k, p): (int(k), p), self.enclosure))
         self.sids = self.enclosure.keys()

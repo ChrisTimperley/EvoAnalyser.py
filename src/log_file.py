@@ -18,6 +18,7 @@ class LogFile:
     # Parses the data section of a log file.
     @staticmethod
     def __parse_data(meta, s):
+        problem = meta['problem'] # for now
         rows = map(lambda p: json.loads(p), s[7:].split('\n'))
 
         # This is quite inefficient, but for now, it's not so bad.
@@ -25,7 +26,7 @@ class LogFile:
         # on the fly?
         for row in rows:
             row['genome'] = representation.Patch.load(row['genome'])
-            row['canonical'] = row['genome'].normalise(meta['problem'])
+            #row['canonical'] = row['genome'].normalise(problem) # better to make this a lazy column.
             #row['lines'] = row['canonical'].to_lines(meta['problem'])
             #row['distance_to_origin'] = distance.levenshtein(row['lines'], meta['problem'].lines)
             # RELATIVE DISTANCE TO ORIGIN

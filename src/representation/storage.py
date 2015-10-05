@@ -5,7 +5,7 @@ __representations = {}
 def register(name, cls):
     print "- registering representation: %s" % (name)
     if __representations.has_key(name):
-        raise Exception("Failed to register representation: key already defined (%s)" % (name))
+        print "Warning: representation already defined (%s)" % (name)
     __representations[name] = cls
 
 # Retrives a representation with a given name.
