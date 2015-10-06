@@ -2,16 +2,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def __distance_to_origin_vs_generation(data, fun, options = {}):
-    problems = data.groupby('problem')
-    n = len(problems)
 
     # Create a sub-plot for each problem.
+    problems = data.groupby('problem')
     fig, axes = plt.subplots(nrows=int(np.ceil(len(problems)/3.0)),
                              ncols=3,
                              figsize=(16,8))
-
-    # Create a sub-plot for each problem.
-    #fig, axes = plt.subplots(nrows=int(np.ceil(len(problems)/3.0)), ncols=3)
     for i, (name, sub) in enumerate(problems):
         sx, sy = i / 3, i % 3
         sub = sub.groupby('generation')

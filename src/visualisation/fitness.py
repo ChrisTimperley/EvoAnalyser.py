@@ -1,15 +1,28 @@
 import numpy as np
+import matplotlib.pyplot as plt
 
 def __fitness_vs_generation(data, fun, options = {}):
-    data = data.groupby('generation')
-    data = data.apply(lambda g: g.groupby('seed')['fitness'].aggregate(fun))
 
-    # Plot the data.
-    plot = data.plot(kind='line', legend=False)
-    plot.set_ylabel(options['y'])
-    plot.set_xlabel(options.get('x', 'Generation'))
-    plot.set_title(options['title'])
-    return plot
+    # Create a sub-plot for each problem.
+    problems = data.groupby('problem')
+    fig, axes = plt.subplots(nrows=int(np.ceil(len(problems)/3.0)),
+                             ncols=3,
+                             figsize=(16,8))
+    for i, (name, sub) in enumerate(problems):
+        sx, sy = i / 3, i % 3
+        sub = sub.groupby('generation')
+        sub = sub.apply(lambda g: g.groupby('seed')['fitness'].aggregate(fun))
+        sp = sub.plot(kind='line', legend=False, ax=axes[sx, sy])
+        sp.set_xlabel('Generation')
+        sp.set_ylabel('Fitness (score)')
+        axes[sx, sy].set_title(name)
+
+    # Minimise overlap and add space for the super-title.
+    plt.suptitle(options['title'], fontsize=20)
+    plt.tight_layout()
+    plt.subplots_adjust(top=0.85)
+
+    return fig
 
 """
 Constructs a line graph showing the best fitness amongst the individuals within
@@ -47,14 +60,26 @@ during the search against the current generation. Each seed for the problem is
 given its own line.
 """
 def best_fitness_vs_generation(data, options = {}):
-    data = data.groupby('seed')
-    data = data.apply(lambda g: g.groupby('generation')['fitness'].max().cummax())
-    data = data.transpose()
 
-    # Plot the data.
-    plot = data.plot(kind='line', legend=True)
-    plot.set_ylabel(options.get('y', 'Fitness of Best Solution'))
-    plot.set_xlabel(options.get('x', 'Generation'))
-    plot.set_title(options.get('title', 'Fitness of Best Solution vs. Generation'))
+    # Create a sub-plot for each problem.
+    problems = data.groupby('problem')
+    fig, axes = plt.subplots(nrows=int(np.ceil(len(problems)/3.0)),
+                             ncols=3,
+                             figsize=(16,8))
+    for i, (name, sub) in enumerate(problems):
+        sx, sy = i / 3, i % 3
+        sub = sub.groupby('seed')
+        sub = sub.apply(lambda g: g.groupby('generation')['fitness'].max().cummax())
+        sub = sub.transpose()
+        sp = sub.plot(kind='line', legend=False, ax=axes[sx, sy])
+        sp.set_xlabel('Generation')
+        sp.set_ylabel('Fitness (score)')
+        axes[sx, sy].set_title(name)
 
-    return plot
+    # Minimise overlap and add space for the super-title.
+    plt.suptitle(options.get('title', 'Fitness of best solution at each generation'),
+                 fontsize=20)
+    plt.tight_layout()
+    plt.subplots_adjust(top=0.85)
+
+    return fig
