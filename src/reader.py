@@ -15,6 +15,7 @@ def load_data():
     logs += map(LogFile.read, glob('../examples/flex/*.log'))
     logs += map(LogFile.read, glob('../examples/uniq/*.log'))
     logs += map(LogFile.read, glob('../examples/units/*.log'))
+    logs += map(LogFile.read, glob('../examples/zune/*.log'))
     logs = map(lambda l: l.data, logs)
     return pd.concat(logs)
 
