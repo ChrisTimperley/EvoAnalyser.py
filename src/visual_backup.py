@@ -31,49 +31,6 @@ def plot_probability_of_solution_after_n_failed_generations(benchmarks, **kwds):
 
     plt.show()
 
-def plot_success_rate_vs_generation(runs, **kwds):
-    fig, ax = plt.subplots()
-    plt.plot(range(runs.generations() + 1), runs.success_rate_vs_generation(), label='GCD')
-    plt.title('No. Generations to Success')
-    plt.xlabel('Generation')
-    plt.ylabel('Success Rate')
-    plt.axis([0, runs.generations(), 0.0, 1.0])
-    plt.grid(True)
-
-    # Legend
-    box = ax.get_position()
-    ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
-
-    # Put a legend to the right of the current axis
-    ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
-
-    plt.show()
-
-def plot_probability_of_solution_vs_generation(benchmarks):
-    if not isinstance(benchmarks, list):
-        benchmarks = [benchmarks]
-    
-    # Assume the same number of generations across all benchmarks.
-    generations = range(benchmarks[0].generations() + 1)
-
-    fig, ax = plt.subplots()
-
-    for benchmark in benchmarks:
-        plt.plot(generations,
-                 benchmark.probability_of_solution_vs_generation(),
-                 label=benchmark.name)
-
-    # Legend
-    box = ax.get_position()
-    ax.set_position([box.x0, box.y0, box.width * 0.8, box.height])
-    ax.legend(loc='center left', bbox_to_anchor=(1, 0.5))
-
-    plt.axis([0, benchmarks[0].generations(), 0.0, 1.0])
-    plt.xlabel('Generation')
-    plt.ylabel('Probability of solution')
-    plt.grid(True)
-    plt.show()
-
 def plot_probability_of_solution_after_n_generations(benchmarks):
     if not isinstance(benchmarks, list):
         benchmarks = [benchmarks]
