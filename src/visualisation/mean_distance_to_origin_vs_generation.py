@@ -1,9 +1,7 @@
 import numpy as np
-import storage
 from visualisation import Visualisation
 
 class MeanDistanceToOriginVsGeneration(Visualisation):
-
     def draw(self, data, options = {}):
         data = data.groupby('generation')
         data = data.apply(lambda g: g.groupby('seed').aggregate(np.mean)['distance_to_origin'])
@@ -12,7 +10,3 @@ class MeanDistanceToOriginVsGeneration(Visualisation):
         plot.set_xlabel(options.get('x', 'Generation'))
         plot.set_title(options.get('title', 'Mean Distance to Origin vs. Generation'))
         return plot
-
-# Register this visualisation.
-storage.register("mean_distance_to_origin_vs_generation",
-                 MeanDistanceToOriginVsGeneration)

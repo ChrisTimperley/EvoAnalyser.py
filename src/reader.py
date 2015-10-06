@@ -1,5 +1,4 @@
 from log_file import *
-from visualise import visualise
 from glob import glob
 
 import problem
@@ -19,8 +18,6 @@ def load_data():
     logs = map(lambda l: l.data, logs)
     return pd.concat(logs)
 
-#logs.groupby('problem')
-
 # How many solutions did we find across all runs?
 #num_solutions = np.count_nonzero(logs['ideal'])
 
@@ -29,6 +26,3 @@ def load_data():
 #unique = len(pd.unique(logs['canonical'].values.ravel()))
 #ratio = float(unique) / num
 #print ratio
-
-#visualise("mean_fitness_vs_generation", logs)
-#plt.show()
