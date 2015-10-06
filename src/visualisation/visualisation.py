@@ -1,2 +1,0 @@
-class Visualisation(object):
-    pass
