@@ -21,6 +21,25 @@ class Repair(Problem):
         self.max_sid = self.sids[-1]
         self.size = len(self.sids)
 
+        # Compute the list of immediate children for each statement.
+        self.__immediate_children = dict({sid: [] for sid in self.sids})
+        for sid in self.sids:
+            pid = self.enclosure[sid]
+            if pid > 0:
+                self.__immediate_children[pid].append(sid)
+
+        # Compute the list of all children for each statement.
+        self.__children = dict({sid: [] for sid in self.sids})
+        for sid in self.sids:
+            q = self.__immediate_children[sid][:]
+            while q:
+                nxt = q.pop(0)
+                q += self.__immediate_children[nxt]
+                self.__children[sid].append(nxt)
+
+        # Compute the size of each statement.
+        self.__size_of = dict({sid: len(children) + 1 for (sid, children) in self.__children.iteritems()})
+
         # Generate the lines for the problem.
         self.lines = reduce(lambda lines, sid: lines + self.lines_within(sid),
                             self.top_level_statements(),
@@ -57,16 +76,19 @@ class Repair(Problem):
     # If that statement has no parent, 0 is returned.
     def parent(self, sid):
         return self.enclosure[sid]
-  
+
+    # Returns the "size" of a statement at a given SID.
+    def size_of(self, sid):
+        return self.__size_of[sid]
+
     # Returns a list of the immediate children of a statement at a given SID.
     def immediate_children(self, sid):
-        return filter(lambda pid: self.enclosure[pid] == sid, self.sids)
+        return self.__immediate_children[sid]
 
     # Returns a list of all the children of a statement at a given SID,
     # recursively.
     def children(self, sid):
-        c = self.immediate_children(sid)
-        return reduce(lambda c, sid: c + self.children(sid), c, c) 
+        return self.__children[sid]
 
 # Register this problem class.
 storage.register(Repair)

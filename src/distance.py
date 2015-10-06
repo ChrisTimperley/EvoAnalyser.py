@@ -47,9 +47,17 @@ def levenshtein(s1, s2):
         previous_row = current_row
     return previous_row[-1]
 
-#
-def distance_from_origin(problem, patch):
-    return levenshtein(problem.lines(), patch.to_lines(problem))
 
-def distances_from_origin(problem, patches):
-    return map(lambda p: distance_from_origin(problem, p), patches)
+# Measures the distance between the program produced by a candidate patch and
+# the original program.
+def distance_to_origin(problem, patch):
+    dist = 0
+    for fix in patch.normalise(problem).fixes:
+        if fix.is_deletion():
+            dist += problem.size_of(fix.location)
+        elif fix.is_replacement():
+            dist += max(problem.size_of(fix.location),
+                        problem.size_of(fix.surrogate))
+        else:
+            dist += problem.size_of(fix.surrogate)
+    return dist

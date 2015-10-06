@@ -14,10 +14,6 @@ class Patch(Representation):
         else:
             return Patch(map(Fix.load, definition.split(" ")))
 
-    # Constructs a new patch from a sequence of edits.
-    def __init__(self, edits):
-        self.edits = edits
-
     # Converts this patch to a human-readable string.
     def to_s(self):
         return self.to_string()
@@ -52,8 +48,9 @@ class Patch(Representation):
         return Patch(fixes)
 
     # Constructs a patch from a sequence of atomic fixes.
-    def __init__(self, fixes):
+    def __init__(self, fixes, canonical=False):
         self.fixes = fixes
+        self.__is_canonical = canonical
 
     # Computes and returns the length of this patch.
     def length(self):
@@ -85,6 +82,10 @@ class Patch(Representation):
 
     # Computes the normal form of this patch.
     def normalise(self, problem):
+
+        # Check if the patch has already been normalised.
+        if self.__is_canonical:
+            return self
         
         # Group the fixes by the SIDs on which they operate.
         # Also record their position in the patch.
@@ -126,6 +127,6 @@ class Patch(Representation):
         # Form a canonical patch by adding each group from left to right.
         fixes = reduce(lambda p, sid: p + map(lambda (i, f): f, groups[sid]),
                        sids, [])
-        return Patch(fixes)
+        return Patch(fixes, True)
     
 storage.register("patch", Patch)
