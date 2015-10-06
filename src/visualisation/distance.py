@@ -10,9 +10,6 @@ def __distance_to_origin_vs_generation(data, fun, options = {}):
                              ncols=3,
                              figsize=(16,8))
 
-    # Add a title to the plot.
-    plt.suptitle(options['title'])
-
     # Create a sub-plot for each problem.
     #fig, axes = plt.subplots(nrows=int(np.ceil(len(problems)/3.0)), ncols=3)
     for i, (name, sub) in enumerate(problems):
@@ -23,6 +20,11 @@ def __distance_to_origin_vs_generation(data, fun, options = {}):
         sp.set_xlabel('Generation')
         sp.set_ylabel('Distance (num. statements changed)')
         axes[sx, sy].set_title(name)
+
+    # Minimise overlap and add space for the super-title.
+    plt.suptitle(options['title'], fontsize=20)
+    plt.tight_layout()
+    plt.subplots_adjust(top=0.85)
 
     return fig
 
