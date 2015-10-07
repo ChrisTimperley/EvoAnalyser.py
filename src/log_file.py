@@ -19,6 +19,7 @@ class LogFile:
     @staticmethod
     def __parse_data(meta, s):
         problem = meta['problem'] # for now
+        max_fitness = float(problem.ideal_fitness())
         rows = map(lambda p: json.loads(p), s[7:].split('\n'))
 
         # This is quite inefficient, but for now, it's not so bad.
@@ -33,6 +34,7 @@ class LogFile:
             row['program'] = meta['program']
             row['seed'] = meta['seed']
             row['problem'] = meta['problem'].name()
+            row['normalised_fitness'] = row['fitness'] / max_fitness
 
         return pd.DataFrame(rows)
 
@@ -49,17 +51,17 @@ class LogFile:
     # object.
     @staticmethod
     def read(fn):
-        print "Opening log file: %s" % (fn)
+        print "Loading log file: %s" % fn
 
         # Open the log file and read each of its sections to separate strings.
         with open(fn, "r") as f:
-            print "Opened log file: %s" % (fn)
             meta, data = LogFile.__split_into_sections(f.read())
-            print "Split log file into sections."
 
         # Parse each of the sections of the file and merge them into an object.
         meta = LogFile.__parse_meta(meta)
-        return LogFile(meta, LogFile.__parse_data(meta, data))
+        log = LogFile(meta, LogFile.__parse_data(meta, data))
+        print "Loaded log file:  %s" % fn
+        return log
 
     # Constructs a new log file from the parsed contents of its two sections.
     def __init__(self, meta, data):

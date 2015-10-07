@@ -54,3 +54,12 @@ def prob_solution_vs_generation(data, options = {}):
     ax.grid(True)
     ax.set_ylim([0.0, 1.0])
     return fig
+
+def num_unique_solutions_vs_problem(data, options = {}):
+    data = data.groupby('problem')
+    data = data.apply(lambda g: len(g[g['ideal']]['canonical'].unique()))
+    plot = data.plot(kind='bar')
+    plot.set_xlabel(options.get('x', 'Problem'))
+    plot.set_ylabel(options.get('y', 'No. Unique Solutions Found'))
+    plot.set_title(options.get('title', 'Number of unique solutions found for each problem across all runs'))
+    return plot
