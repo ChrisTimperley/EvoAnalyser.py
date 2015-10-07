@@ -1,5 +1,5 @@
 [meta]
-{"program": "genprog-3.0", "problem": {"ideal_fitness": "58", "type": "repair", "name": "zune", "enclosure": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 4, "6": 5, "8": 4, "9": 4, "10": 9, "11": 10, "12": 10, "13": 10, "14": 9, "15": 9, "16": 0, "17": 0}}, "version": "0.0.2", "seed": 31, "algorithm": {"representation": "patch", "type": "genetic", "name": "ALGORITHM-NAME"}}
+{"program": "genprog-3.0", "problem": {"ideal_fitness": "54", "type": "repair", "name": "zune", "enclosure": {"1": 0, "2": 0, "3": 0, "4": 0, "5": 4, "6": 5, "8": 4, "9": 4, "10": 9, "11": 10, "12": 10, "13": 10, "14": 9, "15": 9, "16": 0, "17": 0}}, "version": "0.0.2", "seed": 31, "algorithm": {"representation": "patch", "type": "genetic", "name": "ALGORITHM-NAME"}}
 
 [data]
 {"generation": 0, "position": 0, "parents": [], "genome": "d(6)", "fitness": 18.0}
